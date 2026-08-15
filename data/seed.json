@@ -1,0 +1,308 @@
+{
+  "generated_at": "2026-08-15T19:11:51.296Z",
+  "snapshots": [
+    {
+      "asset_id": "bitcoin",
+      "price": 63025,
+      "volume": 11483589813,
+      "chg_24h": 0.1,
+      "chg_7d": -3.2,
+      "fetched_at": "2026-08-15T19:11:24.477Z"
+    },
+    {
+      "asset_id": "ethereum",
+      "price": 1881.29,
+      "volume": 3035428256,
+      "chg_24h": 0.3,
+      "chg_7d": -2.1,
+      "fetched_at": "2026-08-15T19:11:24.477Z"
+    },
+    {
+      "asset_id": "solana",
+      "price": 75.47,
+      "volume": 732793167,
+      "chg_24h": 0.5,
+      "chg_7d": -1,
+      "fetched_at": "2026-08-15T19:11:24.477Z"
+    },
+    {
+      "asset_id": "binancecoin",
+      "price": 609.61,
+      "volume": 430301915,
+      "chg_24h": 0.7,
+      "chg_7d": 0.9,
+      "fetched_at": "2026-08-15T19:11:24.477Z"
+    },
+    {
+      "asset_id": "ripple",
+      "price": 1.002,
+      "volume": 640438466,
+      "chg_24h": 0.2,
+      "chg_7d": -4.1,
+      "fetched_at": "2026-08-15T19:11:24.477Z"
+    },
+    {
+      "asset_id": "dogecoin",
+      "price": 0.069777,
+      "volume": 159934150,
+      "chg_24h": -0.1,
+      "chg_7d": -2,
+      "fetched_at": "2026-08-15T19:11:24.477Z"
+    },
+    {
+      "asset_id": "cardano",
+      "price": 0.177548,
+      "volume": 132116534,
+      "chg_24h": -1.2,
+      "chg_7d": -11.2,
+      "fetched_at": "2026-08-15T19:11:24.477Z"
+    },
+    {
+      "asset_id": "avalanche-2",
+      "price": 6.49,
+      "volume": 223291094,
+      "chg_24h": 0.9,
+      "chg_7d": -0.7,
+      "fetched_at": "2026-08-15T19:11:24.477Z"
+    }
+  ],
+  "news": [
+    {
+      "guid": "https://cointelegraph.com/magazine/bitcoin-1m-by-2030-is-mathematically-impossible-markus-thielen",
+      "source": "Cointelegraph",
+      "title": "Bitcoin to $1M by 2030 is ‘mathematically impossible’ says Markus Thielen",
+      "url": "https://cointelegraph.com/magazine/bitcoin-1m-by-2030-is-mathematically-impossible-markus-thielen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-15T13:30:00.000Z",
+      "fetched_at": "2026-08-15T19:11:16.510Z",
+      "score": 0,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://cointelegraph.com/markets/bitcoin-bottom-october-altcoins-basically-dead-swan-ceo",
+      "source": "Cointelegraph",
+      "title": "Bitcoin could bottom in October, altcoins are ‘basically dead,’ Swan CEO says",
+      "url": "https://cointelegraph.com/markets/bitcoin-bottom-october-altcoins-basically-dead-swan-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-15T12:57:58.000Z",
+      "fetched_at": "2026-08-15T19:11:17.196Z",
+      "score": 0,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://cointelegraph.com/news/israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading",
+      "source": "Cointelegraph",
+      "title": "Israel’s largest bank taps Galaxy to offer Bitcoin, Ether, Solana trading",
+      "url": "https://cointelegraph.com/news/israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T15:41:49.000Z",
+      "fetched_at": "2026-08-15T19:11:17.422Z",
+      "score": 0.8,
+      "method": "llm",
+      "assets": [
+        "bitcoin",
+        "ethereum",
+        "solana"
+      ]
+    },
+    {
+      "guid": "https://cointelegraph.com/news/crypto-biz-bitcoin-self-custody-etf-inflows-strategy-riot-ai",
+      "source": "Cointelegraph",
+      "title": "Crypto Biz: Bitcoin’s $116M self-custody wake-up call",
+      "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-self-custody-etf-inflows-strategy-riot-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T15:29:13.000Z",
+      "fetched_at": "2026-08-15T19:11:17.977Z",
+      "score": 0,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://cointelegraph.com/markets/bitcoin-price-drops-trader-warns-weekly-close-may-spark-more-losses",
+      "source": "Cointelegraph",
+      "title": "Bitcoin price drops to $62.5K as trader warns weekly close may spark more losses",
+      "url": "https://cointelegraph.com/markets/bitcoin-price-drops-trader-warns-weekly-close-may-spark-more-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T14:38:27.000Z",
+      "fetched_at": "2026-08-15T19:11:18.196Z",
+      "score": -1,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://cointelegraph.com/news/morgan-stanley-buys-blackrock-bitcoin-etf-q2",
+      "source": "Cointelegraph",
+      "title": "Morgan Stanley’s BlackRock Bitcoin ETF holdings rise 23% in Q2",
+      "url": "https://cointelegraph.com/news/morgan-stanley-buys-blackrock-bitcoin-etf-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T14:22:57.000Z",
+      "fetched_at": "2026-08-15T19:11:18.410Z",
+      "score": 0.8,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://cointelegraph.com/markets/jpmorgan-crypto-etf-moves-risk-not-bullish-bet-analyst",
+      "source": "Cointelegraph",
+      "title": "JPMorgan boosts Bitcoin, Ether ETF positions in Q2 filing",
+      "url": "https://cointelegraph.com/markets/jpmorgan-crypto-etf-moves-risk-not-bullish-bet-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T14:14:06.000Z",
+      "fetched_at": "2026-08-15T19:11:18.627Z",
+      "score": 0.8,
+      "method": "llm",
+      "assets": [
+        "bitcoin",
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "https://cointelegraph.com/magazine/solana-wants-its-biggest-resource-hogs-to-pay-more",
+      "source": "Cointelegraph",
+      "title": "Solana’s fee overhaul increases burn and makes resource hogs pay",
+      "url": "https://cointelegraph.com/magazine/solana-wants-its-biggest-resource-hogs-to-pay-more?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T13:30:00.000Z",
+      "fetched_at": "2026-08-15T19:11:19.023Z",
+      "score": 0.7,
+      "method": "llm",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "https://cointelegraph.com/markets/bitcoin-liquidation-cleanout-open-interest-falls-btc",
+      "source": "Cointelegraph",
+      "title": "Bitcoin eyes new August lows as Binance longs face ‘cleanout’",
+      "url": "https://cointelegraph.com/markets/bitcoin-liquidation-cleanout-open-interest-falls-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "published_at": "2026-08-14T10:43:57.000Z",
+      "fetched_at": "2026-08-15T19:11:19.906Z",
+      "score": -0.8,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://decrypt.co/?p=375715",
+      "source": "Decrypt",
+      "title": "France Tax Data Leak Could Fuel Scams, Attacks Targeting Bitcoin Holders",
+      "url": "https://decrypt.co/375715/france-tax-data-leak-wrench-attacks-bitcoin",
+      "published_at": "2026-08-14T21:03:35.000Z",
+      "fetched_at": "2026-08-15T19:11:21.291Z",
+      "score": -0.8,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://decrypt.co/?p=375672",
+      "source": "Decrypt",
+      "title": "SharpLink Will Stake $200M of Ethereum Through Lido's wstETH",
+      "url": "https://decrypt.co/375672/sharplink-stake-200m-ethereum-lido-wsteth",
+      "published_at": "2026-08-14T19:01:05.000Z",
+      "fetched_at": "2026-08-15T19:11:21.754Z",
+      "score": 0.8,
+      "method": "llm",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "https://decrypt.co/?p=375656",
+      "source": "Decrypt",
+      "title": "Coldcard Bitcoin Thefts Slow, But Losses Could Top $150 Million: Galaxy",
+      "url": "https://decrypt.co/375656/coldcard-bitcoin-thefts-slow-losses-top-150-million",
+      "published_at": "2026-08-14T17:46:06.000Z",
+      "fetched_at": "2026-08-15T19:11:22.058Z",
+      "score": -0.8,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://decrypt.co/?p=375665",
+      "source": "Decrypt",
+      "title": "Israel’s Largest Bank Will Give Bitcoin Trading Another Try",
+      "url": "https://decrypt.co/375665/israel-largest-bank-leumi-bitcoin-trading",
+      "published_at": "2026-08-14T17:14:02.000Z",
+      "fetched_at": "2026-08-15T19:11:22.281Z",
+      "score": 0.8,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://decrypt.co/?p=375655",
+      "source": "Decrypt",
+      "title": "Another Bitcoin Miner Sells Off BTC to Fund AI Data Center Pivot",
+      "url": "https://decrypt.co/375655/bitcoin-miner-sells-btc-ai-pivot-hyperscale",
+      "published_at": "2026-08-14T16:23:20.000Z",
+      "fetched_at": "2026-08-15T19:11:22.483Z",
+      "score": 0,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://decrypt.co/?p=375609",
+      "source": "Decrypt",
+      "title": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws",
+      "url": "https://decrypt.co/375609/bitcoin-burning-red-team-chinese-ai-kimi",
+      "published_at": "2026-08-13T22:36:07.000Z",
+      "fetched_at": "2026-08-15T19:11:22.721Z",
+      "score": 0,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://decrypt.co/?p=375605",
+      "source": "Decrypt",
+      "title": "Solana Can Be the 'Everything Chain' as Crypto Apps Go Mainstream: 6th Man Ventures Co-Founder",
+      "url": "https://decrypt.co/375605/solana-everything-chain-crypto-apps-mainstream",
+      "published_at": "2026-08-13T21:16:05.000Z",
+      "fetched_at": "2026-08-15T19:11:23.033Z",
+      "score": 1,
+      "method": "llm",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "https://decrypt.co/?p=375564",
+      "source": "Decrypt",
+      "title": "Bitcoin Companies Want Help From AI Labs to Guard Against Hackers",
+      "url": "https://decrypt.co/375564/bitcoin-firms-want-ai-hacking-tools",
+      "published_at": "2026-08-13T17:11:04.000Z",
+      "fetched_at": "2026-08-15T19:11:23.242Z",
+      "score": 0,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "https://decrypt.co/?p=375562",
+      "source": "Decrypt",
+      "title": "Metaplanet Denies Selling $320M in Bitcoin as Firm Launches BitBonds",
+      "url": "https://decrypt.co/375562/metaplanet-denies-bitcoin-sale-launches-bitbonds",
+      "published_at": "2026-08-13T16:40:49.000Z",
+      "fetched_at": "2026-08-15T19:11:23.561Z",
+      "score": 0.2,
+      "method": "llm",
+      "assets": [
+        "bitcoin"
+      ]
+    }
+  ]
+}
