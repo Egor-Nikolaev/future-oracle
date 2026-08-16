@@ -1,17 +1,19 @@
 import "./globals.css";
-import { JetBrains_Mono, Orbitron } from "next/font/google";
+import localFont from "next/font/local";
 
-// JetBrains Mono — данные/текст (табличные цифры, кириллица). Orbitron — только
-// латинский вордмарк «Future Oracle» (HUD-подача; кириллицу Orbitron не покрывает).
-const mono = JetBrains_Mono({
-  subsets: ["latin", "cyrillic"],
-  weight: ["400", "500", "600", "700"],
+// Шрифты самохостятся (файлы в app/fonts), чтобы сборка не зависела от сети —
+// next/font/google иногда не может скачать шрифт на билде Vercel и валит деплой.
+// JetBrains Mono — данные/текст (табличные цифры, кириллица). Orbitron — латинский
+// вордмарк «Future Oracle» (HUD-подача; кириллицу Orbitron не покрывает).
+const mono = localFont({
+  src: "./fonts/JetBrainsMono.ttf",
+  weight: "400 700",
   variable: "--font-mono",
   display: "swap",
 });
-const orbitron = Orbitron({
-  subsets: ["latin"],
-  weight: ["700", "900"],
+const orbitron = localFont({
+  src: "./fonts/Orbitron.ttf",
+  weight: "700 900",
   variable: "--font-display",
   display: "swap",
 });
