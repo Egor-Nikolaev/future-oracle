@@ -3,7 +3,7 @@
 // Запуск: npm run eval   (LLM/сеть не нужны, тестируется детерминированное ядро)
 import {
   momentumSignal, combineScore, directionOf, confidenceOf,
-  buildPrediction, actualDirection, DIR_THRESHOLD, volumeTrendOf,
+  buildPrediction, actualDirection, DIR_THRESHOLD, volumeTrendOf, fundingSignal,
 } from "../lib/predict.js";
 import { matchAssets } from "../lib/assets.js";
 
@@ -23,9 +23,11 @@ ok("рост цены → положительный моментум", momentum
 ok("падение цены → отрицательный моментум", momentumSignal(-4, -10) < 0);
 ok("24ч весит больше 7д", momentumSignal(6, 0) > momentumSignal(0, 6));
 
-// combine: с новостями и без
-ok("без сентимента балл = 0.8·моментум", approx(combineScore(0.5, null), 0.4));
-ok("с сентиментом балл = взвешенная сумма", approx(combineScore(1, -1), round2(0.55 - 0.45)));
+// combine: взвешенное среднее по присутствующим сигналам (нормируется)
+ok("только моментум → балл = моментум", approx(combineScore({ momentum: 0.5 }), 0.5));
+ok("моментум+сентимент → нормированное среднее", approx(combineScore({ momentum: 1, sentiment: -1 }), round2((0.45 - 0.35) / 0.8)));
+ok("три сигнала согласны → балл того же знака", combineScore({ momentum: 0.6, sentiment: 0.6, funding: 0.6 }) > 0.5);
+ok("funding против цены тянет балл вниз", combineScore({ momentum: 0.6, sentiment: null, funding: -0.6 }) < 0.6);
 
 // direction по порогу
 ok("выше порога → up", directionOf(DIR_THRESHOLD) === "up");
@@ -52,8 +54,8 @@ const snap = { chg_24h: 5, chg_7d: 12, price: 60000 };
 const p1 = buildPrediction({ snapshot: snap, sentiments: [0.4, 0.6, 0.2] });
 const p2 = buildPrediction({ snapshot: snap, sentiments: [0.4, 0.6, 0.2] });
 ok("прогноз детерминирован (одинаковый вход → одинаковый выход)", JSON.stringify(p1) === JSON.stringify(p2));
-ok("балл пересчитывается из моментума и сентимента",
-  approx(p1.score, combineScore(p1.momentum, p1.sentiment)));
+ok("балл пересчитывается из сигналов (funding здесь нет)",
+  approx(p1.score, combineScore({ momentum: p1.momentum, sentiment: p1.sentiment, funding: p1.funding })));
 ok("направление согласовано с баллом", p1.direction === directionOf(p1.score));
 ok("без новостей сентимент = null, риск про отсутствие новостей",
   buildPrediction({ snapshot: snap, sentiments: [] }).sentiment === null &&
@@ -83,6 +85,17 @@ ok("растущий объём подтверждает направление 
 const pv = buildPrediction({ snapshot: { chg_24h: 5, chg_7d: 12, price: 1, volume: 80 }, prevSnapshot: { volume: 100 }, sentiments: [0.5] });
 ok("движение на падающем объёме помечено риском", pv.risks.some((r) => r.includes("падающем объёме")));
 ok("объём попадает в 'что повлияло'", pv.drivers.some((d) => d.startsWith("Объём за 24ч")));
+
+// funding как сигнал позиционирования
+ok("funding null → сигнал null", fundingSignal(null) === null);
+ok("положительный funding → бычий сигнал", fundingSignal(0.0003) > 0);
+ok("отрицательный funding → медвежий сигнал", fundingSignal(-0.0003) < 0);
+ok("funding нормируется в [-1..1]", fundingSignal(0.01) === 1 && fundingSignal(-0.01) === -1);
+const fUp = buildPrediction({ snapshot: { chg_24h: 4, chg_7d: 8, price: 1, funding: 0.0004 }, sentiments: [] });
+const fDn = buildPrediction({ snapshot: { chg_24h: 4, chg_7d: 8, price: 1, funding: -0.0004 }, sentiments: [] });
+ok("funding по движению даёт больше уверенности, чем против", fUp.confidence > fDn.confidence);
+ok("funding попадает в 'что повлияло'", fUp.drivers.some((d) => d.startsWith("Funding")));
+ok("funding против цены помечен риском", fDn.risks.some((r) => r.includes("Плечо")));
 
 function round2(x) { return Number(x.toFixed(3)); }
 

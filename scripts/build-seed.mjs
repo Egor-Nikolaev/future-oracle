@@ -12,8 +12,8 @@ const db = getDb();
 const snapshots = [];
 for (const a of ASSETS) {
   const rows = db
-    .prepare(`SELECT asset_id, price, volume, chg_24h, chg_7d, fetched_at FROM price_snapshots
-              WHERE asset_id = ? ORDER BY datetime(fetched_at) DESC, id DESC LIMIT 2`)
+    .prepare(`SELECT asset_id, price, volume, chg_24h, chg_7d, funding, open_interest, fetched_at
+              FROM price_snapshots WHERE asset_id = ? ORDER BY datetime(fetched_at) DESC, id DESC LIMIT 2`)
     .all(a.id);
   // вставляем в хронологическом порядке (старый раньше), чтобы история читалась верно
   for (const s of rows.reverse()) snapshots.push(s);
@@ -53,7 +53,17 @@ const history = db
             FROM predictions WHERE hit IS NOT NULL ORDER BY id`)
   .all();
 
-const seed = { generated_at: new Date().toISOString(), snapshots, news, history };
+// результат walk-forward бэктеста (из meta)
+const btRow = db.prepare(`SELECT value FROM meta WHERE key = 'backtest'`).get();
+const backtest = btRow ? JSON.parse(btRow.value) : null;
+
+// предохранитель: не затираем рабочий seed пустым (напр. если база не собралась из-за лимита API)
+if (snapshots.length === 0 || news.length === 0) {
+  console.error(`ОТКАЗ: база пустая (снимков ${snapshots.length}, новостей ${news.length}) — seed НЕ перезаписан.`);
+  process.exit(1);
+}
+
+const seed = { generated_at: new Date().toISOString(), snapshots, news, history, backtest };
 const dest = path.join(process.cwd(), "data", "seed.json");
 writeFileSync(dest, JSON.stringify(seed, null, 2));
-console.log(`seed.json: ${snapshots.length} снимков, ${news.length} новостей, ${history.length} сверённых прогнозов → ${dest}`);
+console.log(`seed.json: ${snapshots.length} снимков, ${news.length} новостей, ${history.length} сверённых прогнозов, бэктест ${backtest ? Math.round(backtest.accuracy*100)+"%" : "нет"} → ${dest}`);

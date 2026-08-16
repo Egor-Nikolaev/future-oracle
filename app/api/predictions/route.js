@@ -1,6 +1,6 @@
 import { ensureSeeded } from "../../../lib/ingest.js";
 import { ASSETS } from "../../../lib/assets.js";
-import { latestPrediction, latestSnapshot, assetNews, accuracy } from "../../../lib/db.js";
+import { latestPrediction, latestSnapshot, assetNews, accuracy, getMeta } from "../../../lib/db.js";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60; // параллельный сбор 8 коинов (RSS + батч-LLM)
@@ -20,6 +20,8 @@ export async function GET() {
       chg_24h: snap?.chg_24h ?? null,
       chg_7d: snap?.chg_7d ?? null,
       volume: snap?.volume ?? null,
+      funding: snap?.funding ?? null,
+      open_interest: snap?.open_interest ?? null,
       prediction: {
         direction: pred.direction,
         score: pred.score,
@@ -40,7 +42,8 @@ export async function GET() {
 
   return Response.json({
     generated_at: new Date().toISOString(),
-    accuracy: accuracy(), // { resolved, hits, rate } — сверка прогнозов постфактум
+    accuracy: accuracy(), // сверка прогнозов постфактум (live)
+    backtest: getMeta("backtest"), // walk-forward бэктест ценового сигнала vs бейзлайн
     count: items.length,
     items,
   });

@@ -32,6 +32,10 @@ function fmtVol(x) {
   if (x >= 1e6) return "$" + (x / 1e6).toFixed(0) + "M";
   return "$" + Math.round(x);
 }
+function fmtFunding(x) {
+  if (x == null) return null;
+  return (x > 0 ? "+" : "") + (x * 100).toFixed(3) + "%";
+}
 function pctCls(x) {
   if (x == null) return "flat";
   return x > 0 ? "up" : x < 0 ? "down" : "flat";
@@ -80,7 +84,7 @@ export default function Page() {
     }
   }
 
-  const acc = data?.accuracy;
+  const bt = data?.backtest;
 
   return (
     <div className="wrap">
@@ -98,10 +102,13 @@ export default function Page() {
           <span className={"dot" + (refreshing ? " spin" : "")} />
           {refreshing ? "Обновляю…" : "Обновить данные"}
         </button>
-        {acc && (
-          <span className="acc-pill" title="Прогнозы сверяются с фактической ценой на следующем обновлении">
-            Точность:{" "}
-            {acc.resolved ? <>&nbsp;<b>{Math.round(acc.rate * 100)}%</b>&nbsp;({acc.hits}/{acc.resolved} сверено)</> : <>&nbsp;<b>копится</b></>}
+        {bt && (
+          <span
+            className={"acc-pill" + (bt.accuracy >= bt.baseline ? " ok" : " warn")}
+            title={`Walk-forward бэктест ценового сигнала на ${bt.days}д (${bt.n} прогнозов). Сравнение с наивным бейзлайном «всегда самый частый класс».`}
+          >
+            Бэктест сигнала:&nbsp;<b>{Math.round(bt.accuracy * 100)}%</b>&nbsp;vs бейзлайн {Math.round(bt.baseline * 100)}%
+            {bt.accuracy < bt.baseline ? " (edge нет)" : " (edge +" + Math.round(bt.edge * 100) + "%)"}
           </span>
         )}
         {data?.generated_at && <span className="meta">обновлено {fmtTime(data.generated_at)}</span>}
@@ -154,6 +161,7 @@ export default function Page() {
                   <span className="s">моментум <b>{it.prediction.momentum > 0 ? "+" : ""}{it.prediction.momentum}</b></span>
                   <span className="s">сентимент <b>{it.prediction.sentiment == null ? "—" : (it.prediction.sentiment > 0 ? "+" : "") + it.prediction.sentiment}</b></span>
                   <span className="s">объём <b>{fmtVol(it.volume)}</b></span>
+                  {it.funding != null && <span className="s">funding <b className={it.funding > 0 ? "up" : it.funding < 0 ? "down" : ""}>{fmtFunding(it.funding)}</b></span>}
                 </div>
               </div>
             );
@@ -221,10 +229,12 @@ function Modal({ it, onClose }) {
         )}
 
         <div className="how">
-          Прогноз детерминированно считается из сохранённых данных: моментум (цена 24ч/7д) + сентимент
-          новостей + подтверждение объёмом, взвешенная сумма → направление. Уверенность растёт при согласии
-          сигналов и растущем объёме, падает при их споре, высокой волатильности или отсутствии новостей.
-          Каждый прогноз сверяется с фактической ценой на следующем обновлении (точность вверху).
+          Прогноз детерминированно считается из сохранённых данных: моментум (цена 24ч/7д), сентимент
+          новостей (взвешен по свежести), funding (позиционирование плечей) и подтверждение объёмом —
+          взвешенное среднее → направление. Честно: walk-forward бэктест ценового сигнала (вверху) на
+          истории <b>не бьёт наивный бейзлайн</b> — краткосрочное направление близко к случайному.
+          Ценность здесь в прозрачности и проверяемости метода, а не в «высокой точности»; поэтому
+          доходность не обещается.
         </div>
       </div>
     </div>
