@@ -1,10 +1,18 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { JetBrains_Mono, Orbitron } from "next/font/google";
 
-const inter = Inter({
+// JetBrains Mono — данные/текст (табличные цифры, кириллица). Orbitron — только
+// латинский вордмарк «Future Oracle» (HUD-подача; кириллицу Orbitron не покрывает).
+const mono = JetBrains_Mono({
   subsets: ["latin", "cyrillic"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-sans",
+  variable: "--font-mono",
+  display: "swap",
+});
+const orbitron = Orbitron({
+  subsets: ["latin"],
+  weight: ["700", "900"],
+  variable: "--font-display",
   display: "swap",
 });
 
@@ -17,7 +25,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="ru" className={inter.variable}>
+    <html lang="ru" className={`${mono.variable} ${orbitron.variable}`}>
       <body>{children}</body>
     </html>
   );

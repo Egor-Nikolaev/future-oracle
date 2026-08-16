@@ -8,14 +8,15 @@ import { ASSETS, matchAssets } from "../lib/assets.js";
 
 const db = getDb();
 
-// последний снимок по каждому активу
+// последние 2 снимка по каждому активу (нужны для тренда объёма на холодном старте)
 const snapshots = [];
 for (const a of ASSETS) {
-  const s = db
+  const rows = db
     .prepare(`SELECT asset_id, price, volume, chg_24h, chg_7d, fetched_at FROM price_snapshots
-              WHERE asset_id = ? ORDER BY datetime(fetched_at) DESC, id DESC LIMIT 1`)
-    .get(a.id);
-  if (s) snapshots.push(s);
+              WHERE asset_id = ? ORDER BY datetime(fetched_at) DESC, id DESC LIMIT 2`)
+    .all(a.id);
+  // вставляем в хронологическом порядке (старый раньше), чтобы история читалась верно
+  for (const s of rows.reverse()) snapshots.push(s);
 }
 
 // новости с сентиментом (уникальные), с привязкой к активам

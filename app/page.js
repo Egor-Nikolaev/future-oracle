@@ -3,10 +3,19 @@
 import { useEffect, useState, useCallback } from "react";
 
 const DIR = {
-  up: { label: "Рост", arrow: "↑", cls: "up" },
-  down: { label: "Падение", arrow: "↓", cls: "down" },
-  flat: { label: "Боковик", arrow: "→", cls: "flat" },
+  up: { label: "Рост", cls: "up" },
+  down: { label: "Падение", cls: "down" },
+  flat: { label: "Боковик", cls: "flat" },
 };
+
+// SVG-иконки направления (не emoji — по гайдлайну дизайн-системы)
+function DirIcon({ dir }) {
+  if (dir === "up")
+    return (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 15l7-7 7 7" /></svg>);
+  if (dir === "down")
+    return (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M5 9l7 7 7-7" /></svg>);
+  return (<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"><path d="M4 12h16" /></svg>);
+}
 
 function fmtPrice(p) {
   if (p == null) return "—";
@@ -16,6 +25,12 @@ function fmtPrice(p) {
 function fmtPct(x) {
   if (x == null) return "—";
   return (x > 0 ? "+" : "") + x.toFixed(2) + "%";
+}
+function fmtVol(x) {
+  if (x == null) return "—";
+  if (x >= 1e9) return "$" + (x / 1e9).toFixed(1) + "B";
+  if (x >= 1e6) return "$" + (x / 1e6).toFixed(0) + "M";
+  return "$" + Math.round(x);
 }
 function pctCls(x) {
   if (x == null) return "flat";
@@ -69,34 +84,30 @@ export default function Page() {
 
   return (
     <div className="wrap">
-      <div className="head">
-        <div>
-          <h1 className="title">Future <span className="o">Oracle</span></h1>
-          <p className="subtitle">
-            Краткосрочные крипто-прогнозы из реальных данных: цены (CoinGecko) + новости (RSS).
-            Прогноз считается из сохранённых чисел прозрачным scoring, а не выдаётся случайно.
-          </p>
-          <p className="disclaimer">
-            Не финансовый совет. Реальные деньги не подключены, доходность не гарантируется.
-          </p>
-        </div>
-      </div>
+      <header className="head">
+        <h1 className="title">Future <span className="o">Oracle</span></h1>
+        <p className="subtitle">
+          Краткосрочные крипто-прогнозы из реальных данных: цены и объёмы (CoinGecko) + новости (RSS).
+          Прогноз считается из сохранённых чисел прозрачным scoring, а не выдаётся случайно.
+        </p>
+        <p className="disclaimer">Не финансовый совет. Реальные деньги не подключены, доходность не гарантируется.</p>
+      </header>
 
       <div className="toolbar">
         <button className="btn" onClick={refresh} disabled={refreshing || loading}>
+          <span className={"dot" + (refreshing ? " spin" : "")} />
           {refreshing ? "Обновляю…" : "Обновить данные"}
         </button>
         {acc && (
           <span className="acc-pill" title="Прогнозы сверяются с фактической ценой на следующем обновлении">
-            Точность: {acc.resolved ? <>&nbsp;<b>{Math.round(acc.rate * 100)}%</b>&nbsp;({acc.hits}/{acc.resolved} сверено)</> : <>&nbsp;<b>копится</b>&nbsp;(нужно 2+ обновления)</>}
+            Точность:{" "}
+            {acc.resolved ? <>&nbsp;<b>{Math.round(acc.rate * 100)}%</b>&nbsp;({acc.hits}/{acc.resolved} сверено)</> : <>&nbsp;<b>копится</b></>}
           </span>
         )}
         {data?.generated_at && <span className="meta">обновлено {fmtTime(data.generated_at)}</span>}
       </div>
 
-      {loading && (
-        <div className="state"><div className="spinner" />Тяну свежие цены и новости…</div>
-      )}
+      {loading && <div className="state"><div className="spinner" />Тяну свежие цены и новости…</div>}
       {error && !loading && (
         <div className="state">Ошибка загрузки: {error}<br /><button className="btn" onClick={load} style={{ marginTop: 14 }}>Повторить</button></div>
       )}
@@ -106,7 +117,15 @@ export default function Page() {
           {data.items.map((it) => {
             const d = DIR[it.prediction.direction];
             return (
-              <div className="card" key={it.asset.id} onClick={() => setActive(it)}>
+              <div
+                className={"card " + d.cls}
+                key={it.asset.id}
+                role="button"
+                tabIndex={0}
+                aria-label={`${it.asset.name}: прогноз ${d.label}, уверенность ${it.prediction.confidence}%`}
+                onClick={() => setActive(it)}
+                onKeyDown={(e) => (e.key === "Enter" || e.key === " ") && (e.preventDefault(), setActive(it))}
+              >
                 <div className="card-top">
                   <div className="asset">
                     <span className="sym">{it.asset.symbol}</span>
@@ -119,25 +138,22 @@ export default function Page() {
                 </div>
 
                 <div className="pred">
-                  <div className={"arrow " + d.cls}>{d.arrow}</div>
+                  <div className={"arrow " + d.cls} aria-hidden="true"><DirIcon dir={it.prediction.direction} /></div>
                   <div className="pred-txt">
                     <div className={"pred-dir " + d.cls}>{d.label}</div>
-                    <div className="pred-sub">
-                      сигнал {it.prediction.score > 0 ? "+" : ""}{it.prediction.score} · {it.prediction.news_count} новостей
-                    </div>
+                    <div className="pred-sub">сигнал {it.prediction.score > 0 ? "+" : ""}{it.prediction.score} · {it.prediction.news_count} новостей</div>
                   </div>
                 </div>
 
                 <div className="conf">
                   <div className="bar"><span style={{ width: it.prediction.confidence + "%" }} /></div>
-                  <div className="conf-n">увер. {it.prediction.confidence}%</div>
+                  <div className="conf-n">увер. <b>{it.prediction.confidence}%</b></div>
                 </div>
 
                 <div className="signals">
-                  <span className="s">моментум {it.prediction.momentum > 0 ? "+" : ""}{it.prediction.momentum}</span>
-                  <span className="s">
-                    сентимент {it.prediction.sentiment == null ? "—" : (it.prediction.sentiment > 0 ? "+" : "") + it.prediction.sentiment}
-                  </span>
+                  <span className="s">моментум <b>{it.prediction.momentum > 0 ? "+" : ""}{it.prediction.momentum}</b></span>
+                  <span className="s">сентимент <b>{it.prediction.sentiment == null ? "—" : (it.prediction.sentiment > 0 ? "+" : "") + it.prediction.sentiment}</b></span>
+                  <span className="s">объём <b>{fmtVol(it.volume)}</b></span>
                 </div>
               </div>
             );
@@ -159,36 +175,30 @@ function Modal({ it, onClose }) {
   }, [onClose]);
 
   return (
-    <div className="overlay" onClick={onClose}>
+    <div className="overlay" onClick={onClose} role="dialog" aria-modal="true" aria-label={`Прогноз ${it.asset.name}`}>
       <div className="modal" onClick={(e) => e.stopPropagation()}>
         <button className="close" onClick={onClose} aria-label="Закрыть">×</button>
         <h2>{it.asset.symbol} · {it.asset.name}</h2>
         <div className="mprice">
-          {fmtPrice(it.price)} · <span className={pctCls(it.chg_24h)}>{fmtPct(it.chg_24h)} за 24ч</span> · <span className={pctCls(it.chg_7d)}>{fmtPct(it.chg_7d)} за 7д</span>
+          {fmtPrice(it.price)} · <span className={pctCls(it.chg_24h)}>{fmtPct(it.chg_24h)} 24ч</span> · <span className={pctCls(it.chg_7d)}>{fmtPct(it.chg_7d)} 7д</span> · объём {fmtVol(it.volume)}
         </div>
 
         <div className="verdict">
-          <div className={"arrow " + d.cls} style={{ width: 54, height: 54, fontSize: 26 }}>{d.arrow}</div>
+          <div className={"arrow " + d.cls} style={{ width: 52, height: 52 }} aria-hidden="true"><DirIcon dir={it.prediction.direction} /></div>
           <div>
             <div className={"big " + d.cls}>{d.label}</div>
-            <div className="pred-sub">
-              итоговый балл {it.prediction.score > 0 ? "+" : ""}{it.prediction.score} · уверенность {it.prediction.confidence}%
-            </div>
+            <div className="pred-sub">итоговый балл {it.prediction.score > 0 ? "+" : ""}{it.prediction.score} · уверенность {it.prediction.confidence}%</div>
           </div>
         </div>
 
         <div className="section">
           <h3>Что повлияло (цифры)</h3>
-          <ul className="list">
-            {it.prediction.drivers.map((x, i) => <li key={i}>{x}</li>)}
-          </ul>
+          <ul className="list">{it.prediction.drivers.map((x, i) => <li key={i}>{x}</li>)}</ul>
         </div>
 
         <div className="section">
           <h3>Риски / почему может не сработать</h3>
-          <ul className="list risks">
-            {it.prediction.risks.map((x, i) => <li key={i}>{x}</li>)}
-          </ul>
+          <ul className="list risks">{it.prediction.risks.map((x, i) => <li key={i}>{x}</li>)}</ul>
         </div>
 
         {it.news?.length > 0 && (
@@ -200,7 +210,7 @@ function Modal({ it, onClose }) {
                   {n.title}
                   <div className="nmeta">
                     <span>{n.source}</span>
-                    <span className={"tone " + (n.score > 0 ? "up" : n.score < 0 ? "down" : "flat")}>
+                    <span className={n.score > 0 ? "up" : n.score < 0 ? "down" : "flat"}>
                       тон {n.score > 0 ? "+" : ""}{Number(n.score).toFixed(2)} ({n.method})
                     </span>
                   </div>
@@ -211,10 +221,10 @@ function Modal({ it, onClose }) {
         )}
 
         <div className="how">
-          Прогноз детерминированно считается из сохранённых данных: моментум (динамика цены 24ч/7д) +
-          сентимент новостей, взвешенная сумма → направление. Уверенность растёт при согласии сигналов
-          и падает при их споре, высокой волатильности или отсутствии новостей. Каждый прогноз сверяется
-          с фактической ценой на следующем обновлении (точность вверху).
+          Прогноз детерминированно считается из сохранённых данных: моментум (цена 24ч/7д) + сентимент
+          новостей + подтверждение объёмом, взвешенная сумма → направление. Уверенность растёт при согласии
+          сигналов и растущем объёме, падает при их споре, высокой волатильности или отсутствии новостей.
+          Каждый прогноз сверяется с фактической ценой на следующем обновлении (точность вверху).
         </div>
       </div>
     </div>

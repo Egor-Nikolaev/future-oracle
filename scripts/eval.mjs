@@ -3,7 +3,7 @@
 // Запуск: npm run eval   (LLM/сеть не нужны, тестируется детерминированное ядро)
 import {
   momentumSignal, combineScore, directionOf, confidenceOf,
-  buildPrediction, actualDirection, DIR_THRESHOLD,
+  buildPrediction, actualDirection, DIR_THRESHOLD, volumeTrendOf,
 } from "../lib/predict.js";
 import { matchAssets } from "../lib/assets.js";
 
@@ -71,6 +71,18 @@ ok("несколько активов в заголовке", eq(matchAssets("Bi
 ok("тикер с $ ловится", eq(matchAssets("$BTC breaks 60k"), ["bitcoin"]));
 ok("ложная подстрока тикера НЕ ловится (Sol в Sol Ultrafast)", eq(matchAssets("GPT-5.6 Sol Ultrafast"), []));
 ok("имя человека 'Ada' НЕ ловится как ADA", eq(matchAssets("Ada Lovelace museum"), []));
+
+// объём: тренд из двух снимков и его влияние на прогноз
+ok("тренд объёма: рост", volumeTrendOf(120, 100).trend === "up");
+ok("тренд объёма: падение", volumeTrendOf(80, 100).trend === "down");
+ok("тренд объёма: мелкое колебание = стабилен", volumeTrendOf(105, 100).trend === "flat");
+ok("тренд объёма: нет истории → null", volumeTrendOf(100, null).trend === null);
+const volUp = confidenceOf({ score: 0.4, momentum: 0.4, sentiment: null, newsCount: 0, chg24h: 2, volumeTrend: "up" });
+const volDown = confidenceOf({ score: 0.4, momentum: 0.4, sentiment: null, newsCount: 0, chg24h: 2, volumeTrend: "down" });
+ok("растущий объём подтверждает направление (уверенность выше)", volUp > volDown);
+const pv = buildPrediction({ snapshot: { chg_24h: 5, chg_7d: 12, price: 1, volume: 80 }, prevSnapshot: { volume: 100 }, sentiments: [0.5] });
+ok("движение на падающем объёме помечено риском", pv.risks.some((r) => r.includes("падающем объёме")));
+ok("объём попадает в 'что повлияло'", pv.drivers.some((d) => d.startsWith("Объём за 24ч")));
 
 function round2(x) { return Number(x.toFixed(3)); }
 
