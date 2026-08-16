@@ -131,6 +131,15 @@ body::before {
 .conf-n { font-size: 11.5px; color: var(--muted); min-width: 74px; text-align: right; }
 .conf-n b { color: var(--fg); }
 
+.riskrow { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.risk-badge { font-size: 11px; padding: 4px 9px; border-radius: 7px; border: 1px solid var(--border-soft); background: var(--panel-2); color: var(--muted); }
+.risk-badge b { font-weight: 700; }
+.risk-badge.up b { color: var(--up); }
+.risk-badge.gold b { color: var(--gold); }
+.risk-badge.down b { color: var(--down); }
+.risk-note { font-size: 10.5px; color: var(--gold); }
+.gold { color: var(--gold); }
+
 .signals { display: flex; gap: 7px; flex-wrap: wrap; font-size: 10.5px; color: var(--muted); }
 .signals .s { background: var(--panel-2); border: 1px solid var(--border-soft); border-radius: 6px; padding: 3px 7px; }
 .signals .s b { color: var(--fg); font-weight: 600; }

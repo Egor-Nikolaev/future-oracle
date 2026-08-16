@@ -8,6 +8,7 @@ export const maxDuration = 60; // параллельный сбор 8 коино
 // Список объектов прогноза с карточками. На пустой базе триггерит досеивание.
 export async function GET() {
   await ensureSeeded();
+  const backtest = getMeta("backtest");
 
   const items = [];
   for (const a of ASSETS) {
@@ -22,6 +23,7 @@ export async function GET() {
       volume: snap?.volume ?? null,
       funding: snap?.funding ?? null,
       open_interest: snap?.open_interest ?? null,
+      risk: backtest?.per_asset?.[a.id] ?? null, // риск-режим волатильности (тут реальный edge)
       prediction: {
         direction: pred.direction,
         score: pred.score,
@@ -43,7 +45,7 @@ export async function GET() {
   return Response.json({
     generated_at: new Date().toISOString(),
     accuracy: accuracy(), // сверка прогнозов постфактум (live)
-    backtest: getMeta("backtest"), // walk-forward бэктест ценового сигнала vs бейзлайн
+    backtest, // walk-forward: направление (edge нет) + волатильность (реальный lift) + per-asset риск
     count: items.length,
     items,
   });

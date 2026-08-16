@@ -8,3 +8,4 @@ data/*.db-*
 .DS_Store
 .vercel
 .env*
+data/history-cache.json

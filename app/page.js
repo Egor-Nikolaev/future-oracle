@@ -8,6 +8,12 @@ const DIR = {
   flat: { label: "Боковик", cls: "flat" },
 };
 
+const RISK = {
+  high: { label: "высокий", cls: "down" },
+  medium: { label: "средний", cls: "gold" },
+  low: { label: "низкий", cls: "up" },
+};
+
 // SVG-иконки направления (не emoji — по гайдлайну дизайн-системы)
 function DirIcon({ dir }) {
   if (dir === "up")
@@ -102,13 +108,20 @@ export default function Page() {
           <span className={"dot" + (refreshing ? " spin" : "")} />
           {refreshing ? "Обновляю…" : "Обновить данные"}
         </button>
-        {bt && (
+        {bt?.direction && (
           <span
-            className={"acc-pill" + (bt.accuracy >= bt.baseline ? " ok" : " warn")}
-            title={`Walk-forward бэктест ценового сигнала на ${bt.days}д (${bt.n} прогнозов). Сравнение с наивным бейзлайном «всегда самый частый класс».`}
+            className="acc-pill warn"
+            title={`Walk-forward бэктест на ${bt.days}д, out-of-sample (${bt.direction.n} дней). Направление краткосрочно ≈ случайно.`}
           >
-            Бэктест сигнала:&nbsp;<b>{Math.round(bt.accuracy * 100)}%</b>&nbsp;vs бейзлайн {Math.round(bt.baseline * 100)}%
-            {bt.accuracy < bt.baseline ? " (edge нет)" : " (edge +" + Math.round(bt.edge * 100) + "%)"}
+            Направление:&nbsp;<b>{Math.round(bt.direction.accuracy * 100)}%</b>&nbsp;vs база {Math.round(bt.direction.baseline * 100)}% (edge нет)
+          </span>
+        )}
+        {bt?.volatility?.lift && (
+          <span
+            className="acc-pill ok"
+            title={`Реальный edge: в дни высокой волатильности крупные движения (>3%) случаются в ${Math.round(bt.volatility.high_risk_rate * 100)}% против ${Math.round(bt.volatility.base_rate * 100)}% базовых.`}
+          >
+            Волатильность:&nbsp;<b>{bt.volatility.lift.toFixed(1)}x</b>&nbsp;lift (реальный сигнал)
           </span>
         )}
         {data?.generated_at && <span className="meta">обновлено {fmtTime(data.generated_at)}</span>}
@@ -156,6 +169,15 @@ export default function Page() {
                   <div className="bar"><span style={{ width: it.prediction.confidence + "%" }} /></div>
                   <div className="conf-n">увер. <b>{it.prediction.confidence}%</b></div>
                 </div>
+
+                {it.risk?.risk && RISK[it.risk.risk] && (
+                  <div className="riskrow">
+                    <span className={"risk-badge " + RISK[it.risk.risk].cls}>
+                      риск-режим: <b>{RISK[it.risk.risk].label}</b>
+                    </span>
+                    {it.risk.big_move_expected && <span className="risk-note">ждём крупное движение</span>}
+                  </div>
+                )}
 
                 <div className="signals">
                   <span className="s">моментум <b>{it.prediction.momentum > 0 ? "+" : ""}{it.prediction.momentum}</b></span>
@@ -229,12 +251,16 @@ function Modal({ it, onClose }) {
         )}
 
         <div className="how">
-          Прогноз детерминированно считается из сохранённых данных: моментум (цена 24ч/7д), сентимент
-          новостей (взвешен по свежести), funding (позиционирование плечей) и подтверждение объёмом —
-          взвешенное среднее → направление. Честно: walk-forward бэктест ценового сигнала (вверху) на
-          истории <b>не бьёт наивный бейзлайн</b> — краткосрочное направление близко к случайному.
-          Ценность здесь в прозрачности и проверяемости метода, а не в «высокой точности»; поэтому
-          доходность не обещается.
+          Направление считается из сохранённых данных (моментум, сентимент новостей, funding, объём —
+          взвешенное среднее). <b>Честно: на walk-forward бэктесте направление не бьёт наивный бейзлайн</b>
+          {" "}(edge нет) — краткосрочно оно близко к случайному, поэтому модель по умолчанию молчит
+          («боковик») и зовёт направление только на сильном сигнале.
+          {it.risk?.risk && (
+            <> Где edge реально есть — <b>риск-режим волатильности</b>: в дни высокой недавней волатильности
+            крупные движения случаются в 2+ раза чаще базовой частоты (проверено на истории). Текущий режим
+            этого актива — <b>{RISK[it.risk.risk]?.label}</b>{it.risk.realized_vol != null ? ` (недельная волатильность ${it.risk.realized_vol}%)` : ""}.</>
+          )}
+          {" "}Доходность не обещается.
         </div>
       </div>
     </div>

@@ -66,4 +66,5 @@ if (snapshots.length === 0 || news.length === 0) {
 const seed = { generated_at: new Date().toISOString(), snapshots, news, history, backtest };
 const dest = path.join(process.cwd(), "data", "seed.json");
 writeFileSync(dest, JSON.stringify(seed, null, 2));
-console.log(`seed.json: ${snapshots.length} снимков, ${news.length} новостей, ${history.length} сверённых прогнозов, бэктест ${backtest ? Math.round(backtest.accuracy*100)+"%" : "нет"} → ${dest}`);
+const btTxt = backtest?.volatility?.lift ? `волат ${backtest.volatility.lift.toFixed(2)}x lift` : (backtest ? "есть" : "нет");
+console.log(`seed.json: ${snapshots.length} снимков, ${news.length} новостей, ${history.length} сверённых, бэктест ${btTxt} → ${dest}`);

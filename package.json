@@ -8,7 +8,8 @@
     "build": "next build",
     "start": "next start",
     "ingest": "node scripts/ingest.mjs",
-    "eval": "node scripts/eval.mjs"
+    "eval": "node scripts/eval.mjs",
+    "backtest": "node scripts/backtest.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^11.8.1",
