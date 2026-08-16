@@ -38,7 +38,16 @@ for (const r of rows) {
 }
 const news = Object.values(byGuid);
 
-const seed = { generated_at: new Date().toISOString(), snapshots, news };
+// сверённые прогнозы (бэктест) — чтобы метрика точности была ненулевой и на холодном
+// serverless-инстансе. Это реальные прогоны, а не выдумка.
+const history = db
+  .prepare(`SELECT asset_id, base_price, direction, score, confidence, momentum, sentiment,
+                   news_count, risks_json, drivers_json, created_at, resolved_price, resolved_at,
+                   actual_dir, hit
+            FROM predictions WHERE hit IS NOT NULL ORDER BY id`)
+  .all();
+
+const seed = { generated_at: new Date().toISOString(), snapshots, news, history };
 const dest = path.join(process.cwd(), "data", "seed.json");
 writeFileSync(dest, JSON.stringify(seed, null, 2));
-console.log(`seed.json: ${snapshots.length} снимков, ${news.length} новостей → ${dest}`);
+console.log(`seed.json: ${snapshots.length} снимков, ${news.length} новостей, ${history.length} сверённых прогнозов → ${dest}`);

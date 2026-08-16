@@ -1,69 +1,69 @@
 {
-  "generated_at": "2026-08-15T19:11:51.296Z",
+  "generated_at": "2026-08-16T04:52:02.618Z",
   "snapshots": [
     {
       "asset_id": "bitcoin",
-      "price": 63025,
-      "volume": 11483589813,
-      "chg_24h": 0.1,
-      "chg_7d": -3.2,
-      "fetched_at": "2026-08-15T19:11:24.477Z"
+      "price": 63068,
+      "volume": 9519336603,
+      "chg_24h": 0,
+      "chg_7d": -2.6,
+      "fetched_at": "2026-08-16T04:51:46.882Z"
     },
     {
       "asset_id": "ethereum",
-      "price": 1881.29,
-      "volume": 3035428256,
-      "chg_24h": 0.3,
-      "chg_7d": -2.1,
-      "fetched_at": "2026-08-15T19:11:24.477Z"
+      "price": 1880.92,
+      "volume": 2774015633,
+      "chg_24h": -0.1,
+      "chg_7d": -1.7,
+      "fetched_at": "2026-08-16T04:51:46.882Z"
     },
     {
       "asset_id": "solana",
-      "price": 75.47,
-      "volume": 732793167,
-      "chg_24h": 0.5,
-      "chg_7d": -1,
-      "fetched_at": "2026-08-15T19:11:24.477Z"
+      "price": 75.46,
+      "volume": 600522799,
+      "chg_24h": -0.1,
+      "chg_7d": -0.4,
+      "fetched_at": "2026-08-16T04:51:46.882Z"
     },
     {
       "asset_id": "binancecoin",
-      "price": 609.61,
-      "volume": 430301915,
-      "chg_24h": 0.7,
+      "price": 605.4,
+      "volume": 442842572,
+      "chg_24h": -0.4,
       "chg_7d": 0.9,
-      "fetched_at": "2026-08-15T19:11:24.477Z"
+      "fetched_at": "2026-08-16T04:51:46.882Z"
     },
     {
       "asset_id": "ripple",
-      "price": 1.002,
-      "volume": 640438466,
-      "chg_24h": 0.2,
-      "chg_7d": -4.1,
-      "fetched_at": "2026-08-15T19:11:24.477Z"
+      "price": 1.001,
+      "volume": 400877070,
+      "chg_24h": -0.4,
+      "chg_7d": -3.2,
+      "fetched_at": "2026-08-16T04:51:46.882Z"
     },
     {
       "asset_id": "dogecoin",
-      "price": 0.069777,
-      "volume": 159934150,
-      "chg_24h": -0.1,
-      "chg_7d": -2,
-      "fetched_at": "2026-08-15T19:11:24.477Z"
+      "price": 0.069786,
+      "volume": 161786490,
+      "chg_24h": -0.7,
+      "chg_7d": -0.2,
+      "fetched_at": "2026-08-16T04:51:46.882Z"
     },
     {
       "asset_id": "cardano",
-      "price": 0.177548,
-      "volume": 132116534,
-      "chg_24h": -1.2,
-      "chg_7d": -11.2,
-      "fetched_at": "2026-08-15T19:11:24.477Z"
+      "price": 0.176809,
+      "volume": 121625352,
+      "chg_24h": -2.3,
+      "chg_7d": -10.8,
+      "fetched_at": "2026-08-16T04:51:46.882Z"
     },
     {
       "asset_id": "avalanche-2",
-      "price": 6.49,
-      "volume": 223291094,
-      "chg_24h": 0.9,
-      "chg_7d": -0.7,
-      "fetched_at": "2026-08-15T19:11:24.477Z"
+      "price": 6.34,
+      "volume": 184734498,
+      "chg_24h": -7.1,
+      "chg_7d": -1.9,
+      "fetched_at": "2026-08-16T04:51:46.882Z"
     }
   ],
   "news": [
@@ -73,7 +73,7 @@
       "title": "Bitcoin to $1M by 2030 is ‘mathematically impossible’ says Markus Thielen",
       "url": "https://cointelegraph.com/magazine/bitcoin-1m-by-2030-is-mathematically-impossible-markus-thielen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-15T13:30:00.000Z",
-      "fetched_at": "2026-08-15T19:11:16.510Z",
+      "fetched_at": "2026-08-16T04:51:33.764Z",
       "score": 0,
       "method": "llm",
       "assets": [
@@ -86,7 +86,7 @@
       "title": "Bitcoin could bottom in October, altcoins are ‘basically dead,’ Swan CEO says",
       "url": "https://cointelegraph.com/markets/bitcoin-bottom-october-altcoins-basically-dead-swan-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-15T12:57:58.000Z",
-      "fetched_at": "2026-08-15T19:11:17.196Z",
+      "fetched_at": "2026-08-16T04:51:34.147Z",
       "score": 0,
       "method": "llm",
       "assets": [
@@ -99,7 +99,7 @@
       "title": "Israel’s largest bank taps Galaxy to offer Bitcoin, Ether, Solana trading",
       "url": "https://cointelegraph.com/news/israels-largest-bank-taps-galaxy-to-offer-bitcoin-ether-and-solana-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-14T15:41:49.000Z",
-      "fetched_at": "2026-08-15T19:11:17.422Z",
+      "fetched_at": "2026-08-16T04:51:34.368Z",
       "score": 0.8,
       "method": "llm",
       "assets": [
@@ -114,7 +114,7 @@
       "title": "Crypto Biz: Bitcoin’s $116M self-custody wake-up call",
       "url": "https://cointelegraph.com/news/crypto-biz-bitcoin-self-custody-etf-inflows-strategy-riot-ai?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-14T15:29:13.000Z",
-      "fetched_at": "2026-08-15T19:11:17.977Z",
+      "fetched_at": "2026-08-16T04:51:34.585Z",
       "score": 0,
       "method": "llm",
       "assets": [
@@ -127,7 +127,7 @@
       "title": "Bitcoin price drops to $62.5K as trader warns weekly close may spark more losses",
       "url": "https://cointelegraph.com/markets/bitcoin-price-drops-trader-warns-weekly-close-may-spark-more-losses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-14T14:38:27.000Z",
-      "fetched_at": "2026-08-15T19:11:18.196Z",
+      "fetched_at": "2026-08-16T04:51:35.107Z",
       "score": -1,
       "method": "llm",
       "assets": [
@@ -140,7 +140,7 @@
       "title": "Morgan Stanley’s BlackRock Bitcoin ETF holdings rise 23% in Q2",
       "url": "https://cointelegraph.com/news/morgan-stanley-buys-blackrock-bitcoin-etf-q2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-14T14:22:57.000Z",
-      "fetched_at": "2026-08-15T19:11:18.410Z",
+      "fetched_at": "2026-08-16T04:51:35.317Z",
       "score": 0.8,
       "method": "llm",
       "assets": [
@@ -153,7 +153,7 @@
       "title": "JPMorgan boosts Bitcoin, Ether ETF positions in Q2 filing",
       "url": "https://cointelegraph.com/markets/jpmorgan-crypto-etf-moves-risk-not-bullish-bet-analyst?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-14T14:14:06.000Z",
-      "fetched_at": "2026-08-15T19:11:18.627Z",
+      "fetched_at": "2026-08-16T04:51:35.602Z",
       "score": 0.8,
       "method": "llm",
       "assets": [
@@ -167,7 +167,7 @@
       "title": "Solana’s fee overhaul increases burn and makes resource hogs pay",
       "url": "https://cointelegraph.com/magazine/solana-wants-its-biggest-resource-hogs-to-pay-more?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-14T13:30:00.000Z",
-      "fetched_at": "2026-08-15T19:11:19.023Z",
+      "fetched_at": "2026-08-16T04:51:35.847Z",
       "score": 0.7,
       "method": "llm",
       "assets": [
@@ -180,7 +180,7 @@
       "title": "Bitcoin eyes new August lows as Binance longs face ‘cleanout’",
       "url": "https://cointelegraph.com/markets/bitcoin-liquidation-cleanout-open-interest-falls-btc?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "published_at": "2026-08-14T10:43:57.000Z",
-      "fetched_at": "2026-08-15T19:11:19.906Z",
+      "fetched_at": "2026-08-16T04:51:36.064Z",
       "score": -0.8,
       "method": "llm",
       "assets": [
@@ -193,7 +193,7 @@
       "title": "France Tax Data Leak Could Fuel Scams, Attacks Targeting Bitcoin Holders",
       "url": "https://decrypt.co/375715/france-tax-data-leak-wrench-attacks-bitcoin",
       "published_at": "2026-08-14T21:03:35.000Z",
-      "fetched_at": "2026-08-15T19:11:21.291Z",
+      "fetched_at": "2026-08-16T04:51:36.676Z",
       "score": -0.8,
       "method": "llm",
       "assets": [
@@ -206,7 +206,7 @@
       "title": "SharpLink Will Stake $200M of Ethereum Through Lido's wstETH",
       "url": "https://decrypt.co/375672/sharplink-stake-200m-ethereum-lido-wsteth",
       "published_at": "2026-08-14T19:01:05.000Z",
-      "fetched_at": "2026-08-15T19:11:21.754Z",
+      "fetched_at": "2026-08-16T04:51:37.987Z",
       "score": 0.8,
       "method": "llm",
       "assets": [
@@ -219,7 +219,7 @@
       "title": "Coldcard Bitcoin Thefts Slow, But Losses Could Top $150 Million: Galaxy",
       "url": "https://decrypt.co/375656/coldcard-bitcoin-thefts-slow-losses-top-150-million",
       "published_at": "2026-08-14T17:46:06.000Z",
-      "fetched_at": "2026-08-15T19:11:22.058Z",
+      "fetched_at": "2026-08-16T04:51:38.350Z",
       "score": -0.8,
       "method": "llm",
       "assets": [
@@ -232,7 +232,7 @@
       "title": "Israel’s Largest Bank Will Give Bitcoin Trading Another Try",
       "url": "https://decrypt.co/375665/israel-largest-bank-leumi-bitcoin-trading",
       "published_at": "2026-08-14T17:14:02.000Z",
-      "fetched_at": "2026-08-15T19:11:22.281Z",
+      "fetched_at": "2026-08-16T04:51:38.631Z",
       "score": 0.8,
       "method": "llm",
       "assets": [
@@ -245,7 +245,7 @@
       "title": "Another Bitcoin Miner Sells Off BTC to Fund AI Data Center Pivot",
       "url": "https://decrypt.co/375655/bitcoin-miner-sells-btc-ai-pivot-hyperscale",
       "published_at": "2026-08-14T16:23:20.000Z",
-      "fetched_at": "2026-08-15T19:11:22.483Z",
+      "fetched_at": "2026-08-16T04:51:38.994Z",
       "score": 0,
       "method": "llm",
       "assets": [
@@ -258,7 +258,7 @@
       "title": "'Bitcoin Is Burning': Red Team Turns to Chinese AI to Find Flaws",
       "url": "https://decrypt.co/375609/bitcoin-burning-red-team-chinese-ai-kimi",
       "published_at": "2026-08-13T22:36:07.000Z",
-      "fetched_at": "2026-08-15T19:11:22.721Z",
+      "fetched_at": "2026-08-16T04:51:39.714Z",
       "score": 0,
       "method": "llm",
       "assets": [
@@ -271,7 +271,7 @@
       "title": "Solana Can Be the 'Everything Chain' as Crypto Apps Go Mainstream: 6th Man Ventures Co-Founder",
       "url": "https://decrypt.co/375605/solana-everything-chain-crypto-apps-mainstream",
       "published_at": "2026-08-13T21:16:05.000Z",
-      "fetched_at": "2026-08-15T19:11:23.033Z",
+      "fetched_at": "2026-08-16T04:51:40.396Z",
       "score": 1,
       "method": "llm",
       "assets": [
@@ -284,7 +284,7 @@
       "title": "Bitcoin Companies Want Help From AI Labs to Guard Against Hackers",
       "url": "https://decrypt.co/375564/bitcoin-firms-want-ai-hacking-tools",
       "published_at": "2026-08-13T17:11:04.000Z",
-      "fetched_at": "2026-08-15T19:11:23.242Z",
+      "fetched_at": "2026-08-16T04:51:43.619Z",
       "score": 0,
       "method": "llm",
       "assets": [
@@ -297,12 +297,150 @@
       "title": "Metaplanet Denies Selling $320M in Bitcoin as Firm Launches BitBonds",
       "url": "https://decrypt.co/375562/metaplanet-denies-bitcoin-sale-launches-bitbonds",
       "published_at": "2026-08-13T16:40:49.000Z",
-      "fetched_at": "2026-08-15T19:11:23.561Z",
+      "fetched_at": "2026-08-16T04:51:43.900Z",
       "score": 0.2,
       "method": "llm",
       "assets": [
         "bitcoin"
       ]
+    }
+  ],
+  "history": [
+    {
+      "asset_id": "bitcoin",
+      "base_price": 63068,
+      "direction": "flat",
+      "score": -0.032,
+      "confidence": 8,
+      "momentum": -0.058,
+      "sentiment": 0,
+      "news_count": 15,
+      "risks_json": "[\"Слабый сигнал: рынок близок к боковику, направленность неуверенная.\"]",
+      "drivers_json": "[\"Цена за 24ч: 0%\",\"Цена за 7д: -2.6%\",\"Моментум (сигнал из цифр): -0.058\",\"Сентимент 15 новостей: 0\"]",
+      "created_at": "2026-08-16T04:51:44.203Z",
+      "resolved_price": 63068,
+      "resolved_at": "2026-08-16T04:52:01.423Z",
+      "actual_dir": "flat",
+      "hit": 1
+    },
+    {
+      "asset_id": "ethereum",
+      "base_price": 1880.92,
+      "direction": "up",
+      "score": 0.334,
+      "confidence": 17,
+      "momentum": -0.048,
+      "sentiment": 0.8,
+      "news_count": 3,
+      "risks_json": "[\"Цифры и новости спорят: моментум и сентимент направлены в разные стороны.\"]",
+      "drivers_json": "[\"Цена за 24ч: -0.1%\",\"Цена за 7д: -1.7%\",\"Моментум (сигнал из цифр): -0.048\",\"Сентимент 3 новостей: +0.8\"]",
+      "created_at": "2026-08-16T04:51:44.203Z",
+      "resolved_price": 1880.92,
+      "resolved_at": "2026-08-16T04:52:01.423Z",
+      "actual_dir": "flat",
+      "hit": 0
+    },
+    {
+      "asset_id": "solana",
+      "base_price": 75.46,
+      "direction": "up",
+      "score": 0.364,
+      "confidence": 20,
+      "momentum": -0.019,
+      "sentiment": 0.833,
+      "news_count": 3,
+      "risks_json": "[\"Цифры и новости спорят: моментум и сентимент направлены в разные стороны.\"]",
+      "drivers_json": "[\"Цена за 24ч: -0.1%\",\"Цена за 7д: -0.4%\",\"Моментум (сигнал из цифр): -0.019\",\"Сентимент 3 новостей: +0.83\"]",
+      "created_at": "2026-08-16T04:51:44.203Z",
+      "resolved_price": 75.46,
+      "resolved_at": "2026-08-16T04:52:01.423Z",
+      "actual_dir": "flat",
+      "hit": 0
+    },
+    {
+      "asset_id": "binancecoin",
+      "base_price": 605.4,
+      "direction": "flat",
+      "score": -0.016,
+      "confidence": 5,
+      "momentum": -0.02,
+      "sentiment": null,
+      "news_count": 0,
+      "risks_json": "[\"Нет свежих новостей по активу — прогноз опирается только на цену.\",\"Слабый сигнал: рынок близок к боковику, направленность неуверенная.\"]",
+      "drivers_json": "[\"Цена за 24ч: -0.4%\",\"Цена за 7д: +0.9%\",\"Моментум (сигнал из цифр): -0.02\",\"Сентимент: нет данных (новостей по активу не найдено)\"]",
+      "created_at": "2026-08-16T04:51:44.203Z",
+      "resolved_price": 605.4,
+      "resolved_at": "2026-08-16T04:52:01.423Z",
+      "actual_dir": "flat",
+      "hit": 1
+    },
+    {
+      "asset_id": "ripple",
+      "base_price": 1.001,
+      "direction": "flat",
+      "score": -0.089,
+      "confidence": 5,
+      "momentum": -0.111,
+      "sentiment": null,
+      "news_count": 0,
+      "risks_json": "[\"Нет свежих новостей по активу — прогноз опирается только на цену.\",\"Слабый сигнал: рынок близок к боковику, направленность неуверенная.\"]",
+      "drivers_json": "[\"Цена за 24ч: -0.4%\",\"Цена за 7д: -3.2%\",\"Моментум (сигнал из цифр): -0.111\",\"Сентимент: нет данных (новостей по активу не найдено)\"]",
+      "created_at": "2026-08-16T04:51:44.203Z",
+      "resolved_price": 1.001,
+      "resolved_at": "2026-08-16T04:52:01.423Z",
+      "actual_dir": "flat",
+      "hit": 1
+    },
+    {
+      "asset_id": "dogecoin",
+      "base_price": 0.069786,
+      "direction": "flat",
+      "score": -0.059,
+      "confidence": 5,
+      "momentum": -0.074,
+      "sentiment": null,
+      "news_count": 0,
+      "risks_json": "[\"Нет свежих новостей по активу — прогноз опирается только на цену.\",\"Слабый сигнал: рынок близок к боковику, направленность неуверенная.\"]",
+      "drivers_json": "[\"Цена за 24ч: -0.7%\",\"Цена за 7д: -0.2%\",\"Моментум (сигнал из цифр): -0.074\",\"Сентимент: нет данных (новостей по активу не найдено)\"]",
+      "created_at": "2026-08-16T04:51:44.203Z",
+      "resolved_price": 0.069786,
+      "resolved_at": "2026-08-16T04:52:01.423Z",
+      "actual_dir": "flat",
+      "hit": 1
+    },
+    {
+      "asset_id": "cardano",
+      "base_price": 0.176809,
+      "direction": "down",
+      "score": -0.376,
+      "confidence": 24,
+      "momentum": -0.47,
+      "sentiment": null,
+      "news_count": 0,
+      "risks_json": "[\"Нет свежих новостей по активу — прогноз опирается только на цену.\"]",
+      "drivers_json": "[\"Цена за 24ч: -2.3%\",\"Цена за 7д: -10.8%\",\"Моментум (сигнал из цифр): -0.47\",\"Сентимент: нет данных (новостей по активу не найдено)\"]",
+      "created_at": "2026-08-16T04:51:44.203Z",
+      "resolved_price": 0.176809,
+      "resolved_at": "2026-08-16T04:52:01.423Z",
+      "actual_dir": "flat",
+      "hit": 0
+    },
+    {
+      "asset_id": "avalanche-2",
+      "base_price": 6.34,
+      "direction": "down",
+      "score": -0.514,
+      "confidence": 36,
+      "momentum": -0.642,
+      "sentiment": null,
+      "news_count": 0,
+      "risks_json": "[\"Нет свежих новостей по активу — прогноз опирается только на цену.\"]",
+      "drivers_json": "[\"Цена за 24ч: -7.1%\",\"Цена за 7д: -1.9%\",\"Моментум (сигнал из цифр): -0.642\",\"Сентимент: нет данных (новостей по активу не найдено)\"]",
+      "created_at": "2026-08-16T04:51:44.203Z",
+      "resolved_price": 6.34,
+      "resolved_at": "2026-08-16T04:52:01.423Z",
+      "actual_dir": "flat",
+      "hit": 0
     }
   ]
 }
