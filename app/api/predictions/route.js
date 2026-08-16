@@ -3,7 +3,7 @@ import { ASSETS } from "../../../lib/assets.js";
 import { latestPrediction, latestSnapshot, assetNews, accuracy } from "../../../lib/db.js";
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 30; // запас на первый живой ingest (цены + новости + LLM)
+export const maxDuration = 60; // параллельный сбор 8 коинов (RSS + батч-LLM)
 
 // Список объектов прогноза с карточками. На пустой базе триггерит досеивание.
 export async function GET() {
@@ -31,7 +31,7 @@ export async function GET() {
         drivers: JSON.parse(pred.drivers_json),
         created_at: pred.created_at,
       },
-      news: assetNews(a.id, 6),
+      news: assetNews(a.id, 8),
     });
   }
 

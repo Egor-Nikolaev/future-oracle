@@ -19,11 +19,16 @@ for (const a of ASSETS) {
   for (const s of rows.reverse()) snapshots.push(s);
 }
 
-// новости с сентиментом (уникальные), с привязкой к активам
+// новости с сентиментом, до 12 свежих на актив (seed компактный; живой сбор тянет
+// полный объём NEWS_PER_COIN). Cold-start и офлайн-демо показывают репрезентативную выборку.
 const rows = db
-  .prepare(`SELECT n.guid, n.source, n.title, n.url, n.published_at, n.fetched_at,
-                   s.asset_id, s.score, s.method
-            FROM news_items n JOIN news_sentiment s ON s.news_id = n.id`)
+  .prepare(`SELECT guid, source, title, url, published_at, fetched_at, asset_id, score, method FROM (
+              SELECT n.guid, n.source, n.title, n.url, n.published_at, n.fetched_at,
+                     s.asset_id, s.score, s.method,
+                     ROW_NUMBER() OVER (PARTITION BY s.asset_id
+                       ORDER BY datetime(COALESCE(n.published_at, n.fetched_at)) DESC) AS rn
+              FROM news_items n JOIN news_sentiment s ON s.news_id = n.id
+            ) WHERE rn <= 12`)
   .all();
 
 const byGuid = {};

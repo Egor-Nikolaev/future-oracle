@@ -1,7 +1,7 @@
 import { refreshAll } from "../../../lib/ingest.js";
 
 export const dynamic = "force-dynamic";
-export const maxDuration = 30;
+export const maxDuration = 60; // параллельный сбор 8 коинов (RSS + батч-LLM)
 
 // Ручной живой рефреш: тянет свежие цены и новости, сверяет прошлые прогнозы,
 // строит новые. Вызывается кнопкой «Обновить» и скриптом npm run ingest.
