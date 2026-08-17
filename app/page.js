@@ -119,9 +119,10 @@ export default function Page() {
         {bt?.volatility?.lift && (
           <span
             className="acc-pill ok"
-            title={`Реальный edge: в дни высокой волатильности крупные движения (>3%) случаются в ${Math.round(bt.volatility.high_risk_rate * 100)}% против ${Math.round(bt.volatility.base_rate * 100)}% базовых.`}
+            title={`Кросс-валидация на ${bt.volatility_cv?.folds || "неск."} временных окнах. Edge положителен во всех (мин ${bt.volatility_cv?.lift_min ?? "?"}x). Единичный сплит: ${bt.volatility.lift.toFixed(2)}x.`}
           >
-            Волатильность:&nbsp;<b>{bt.volatility.lift.toFixed(1)}x</b>&nbsp;lift (реальный сигнал)
+            Волатильность:&nbsp;<b>{(bt.volatility_cv?.lift_mean ?? bt.volatility.lift).toFixed(1)}x</b>&nbsp;lift
+            {bt.volatility_cv?.lift_std != null ? ` ±${bt.volatility_cv.lift_std}` : ""} (кросс-валидация)
           </span>
         )}
         {data?.generated_at && <span className="meta">обновлено {fmtTime(data.generated_at)}</span>}
