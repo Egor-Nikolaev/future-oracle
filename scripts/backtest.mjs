@@ -21,10 +21,13 @@ console.log(`   порог |momentum|: ${r.direction.threshold}\n`);
 
 console.log("B) ВОЛАТИЛЬНОСТЬ (крупное движение >3% завтра):");
 console.log(`   базовая частота крупных : ${pct(r.volatility.base_rate)}`);
-console.log(`   в ВЫСОКО-рисковые дни    : ${pct(r.volatility.high_risk_rate)}`);
-console.log(`   в НИЗКО-рисковые дни     : ${pct(r.volatility.low_risk_rate)}`);
-console.log(`   LIFT                     : ${r.volatility.lift ? r.volatility.lift.toFixed(2) + "x" : "—"}  ${r.volatility.lift > 1.3 ? "← реальный сигнал" : ""}`);
-console.log(`   recall (накрыто крупных) : ${pct(r.volatility.recall)}\n`);
+const vs = r.volatility_variants;
+const line = (name, v) => v && console.log(`   ${name.padEnd(22)}: lift ${v.lift ? v.lift.toFixed(2) + "x" : "—"} | precision ${pct(v.high_risk_rate)} | recall ${pct(v.recall)}`);
+line("порог vol7", vs.simple);
+line("логрег (цена)", vs.price_logistic);
+line("логрег (цена+funding)", vs.price_plus_funding);
+console.log(`   ablation funding        : ${r.funding_helps ? "ПОМОГАЕТ (добавили)" : "не помогает (отброшен)"} (покрытие ${pct(r.funding_coverage)})`);
+console.log(`   → в live используется   : ${r.model_used}\n`);
 
 console.log("Вывод: направление краткосрочно ≈ случайно (edge нет), а режим повышенной");
 console.log("волатильности реально предсказывает крупные движения (lift > 1). Поэтому продукт");

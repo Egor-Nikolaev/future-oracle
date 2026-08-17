@@ -175,7 +175,9 @@ export default function Page() {
                     <span className={"risk-badge " + RISK[it.risk.risk].cls}>
                       риск-режим: <b>{RISK[it.risk.risk].label}</b>
                     </span>
-                    {it.risk.big_move_expected && <span className="risk-note">ждём крупное движение</span>}
+                    {it.risk.prob_big_move != null && (
+                      <span className="risk-note">P(крупное движение) {Math.round(it.risk.prob_big_move * 100)}%</span>
+                    )}
                   </div>
                 )}
 
@@ -256,9 +258,10 @@ function Modal({ it, onClose }) {
           {" "}(edge нет) — краткосрочно оно близко к случайному, поэтому модель по умолчанию молчит
           («боковик») и зовёт направление только на сильном сигнале.
           {it.risk?.risk && (
-            <> Где edge реально есть — <b>риск-режим волатильности</b>: в дни высокой недавней волатильности
-            крупные движения случаются в 2+ раза чаще базовой частоты (проверено на истории). Текущий режим
-            этого актива — <b>{RISK[it.risk.risk]?.label}</b>{it.risk.realized_vol != null ? ` (недельная волатильность ${it.risk.realized_vol}%)` : ""}.</>
+            <> Где edge реально есть — <b>риск-режим волатильности</b> (логрег-модель на истории, крупные
+            движения кластеризуются). Текущий режим этого актива — <b>{RISK[it.risk.risk]?.label}</b>
+            {it.risk.prob_big_move != null ? `, вероятность крупного движения ${Math.round(it.risk.prob_big_move * 100)}%` : ""}
+            {it.risk.realized_vol != null ? ` (недельная волатильность ${it.risk.realized_vol}%)` : ""}.</>
           )}
           {" "}Доходность не обещается.
         </div>
