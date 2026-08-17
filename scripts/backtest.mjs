@@ -29,6 +29,13 @@ line("логрег (цена+funding)", vs.price_plus_funding);
 console.log(`   ablation funding        : ${r.funding_helps ? "ПОМОГАЕТ (добавили)" : "не помогает (отброшен)"} (покрытие ${pct(r.funding_coverage)})`);
 const cv = r.volatility_cv;
 if (cv && cv.folds) console.log(`   кросс-валидация (${cv.folds} окон): lift ${cv.lift_mean}x ± ${cv.lift_std} (мин ${cv.lift_min}, макс ${cv.lift_max}) | recall ${pct(cv.recall_mean)}`);
+const ia = r.intraday_ablation;
+if (ia?.available) {
+  console.log(`   интрадей-ablation (90д, n=${ia.n}):`);
+  console.log(`      без интрадей : lift ${ia.without_intraday.lift?.toFixed(2)}x | recall ${pct(ia.without_intraday.recall)}`);
+  console.log(`      с интрадей   : lift ${ia.with_intraday.lift?.toFixed(2)}x | recall ${pct(ia.with_intraday.recall)}`);
+  console.log(`      вердикт      : ${ia.helps ? "ПОМОГАЕТ" : "не помогает"}`);
+} else console.log("   интрадей-ablation: нет данных");
 console.log(`   → в live используется   : ${r.model_used}\n`);
 
 console.log("Вывод: направление краткосрочно ≈ случайно (edge нет), а режим повышенной");
