@@ -1,95 +1,134 @@
 {
-  "generated_at": "2026-08-17T09:13:53.636Z",
+  "generated_at": "2026-08-20T04:49:55.001Z",
   "snapshots": [
     {
       "asset_id": "bitcoin",
-      "price": 63356,
-      "volume": 13916917971,
-      "chg_24h": 0.5,
-      "chg_7d": -2.9,
-      "funding": 0.0000597,
-      "open_interest": 109978.951,
-      "fetched_at": "2026-08-17T09:13:44.875Z"
+      "price": 69329,
+      "volume": 48987485178,
+      "chg_24h": 7.5,
+      "chg_7d": 8.9,
+      "funding": 0.0001,
+      "open_interest": 109239.863,
+      "fetched_at": "2026-08-20T04:49:50.491Z"
     },
     {
       "asset_id": "ethereum",
-      "price": 1894.85,
-      "volume": 5193618205,
-      "chg_24h": 0.7,
-      "chg_7d": -1.7,
-      "funding": 0.0000424,
-      "open_interest": 2381440.542,
-      "fetched_at": "2026-08-17T09:13:44.875Z"
+      "price": 2251.19,
+      "volume": 30833525700,
+      "chg_24h": 18,
+      "chg_7d": 19.7,
+      "funding": 0.0001,
+      "open_interest": 2341689.141,
+      "fetched_at": "2026-08-20T04:49:50.491Z"
     },
     {
       "asset_id": "solana",
-      "price": 75.28,
-      "volume": 1032437282,
-      "chg_24h": -0.3,
-      "chg_7d": -2.4,
-      "funding": 0.00003494,
-      "open_interest": 8529770.27,
-      "fetched_at": "2026-08-17T09:13:44.875Z"
+      "price": 84.61,
+      "volume": 4726650439,
+      "chg_24h": 10,
+      "chg_7d": 11.3,
+      "funding": 0.0001,
+      "open_interest": 8610509.08,
+      "fetched_at": "2026-08-20T04:49:50.491Z"
     },
     {
       "asset_id": "binancecoin",
-      "price": 604.31,
-      "volume": 528049916,
-      "chg_24h": -0.1,
-      "chg_7d": 0.1,
-      "funding": 0,
-      "open_interest": 607913.49,
-      "fetched_at": "2026-08-17T09:13:44.875Z"
+      "price": 625.53,
+      "volume": 1322263808,
+      "chg_24h": 4.1,
+      "chg_7d": 2.6,
+      "funding": 0.00009931,
+      "open_interest": 610040.32,
+      "fetched_at": "2026-08-20T04:49:50.491Z"
     },
     {
       "asset_id": "ripple",
-      "price": 0.998058,
-      "volume": 686322793,
-      "chg_24h": -0.4,
-      "chg_7d": -3.8,
-      "funding": 0.00006004,
-      "open_interest": 411817051.8,
-      "fetched_at": "2026-08-17T09:13:44.875Z"
+      "price": 1.097,
+      "volume": 3090355821,
+      "chg_24h": 9.6,
+      "chg_7d": 8.6,
+      "funding": 0.0001,
+      "open_interest": 353004769.7,
+      "fetched_at": "2026-08-20T04:49:50.491Z"
     },
     {
       "asset_id": "dogecoin",
-      "price": 0.070153,
-      "volume": 250683592,
-      "chg_24h": 0.3,
-      "chg_7d": 0,
+      "price": 0.07468,
+      "volume": 867249500,
+      "chg_24h": 7,
+      "chg_7d": 6.5,
       "funding": 0.0001,
-      "open_interest": 2958544801,
-      "fetched_at": "2026-08-17T09:13:44.875Z"
+      "open_interest": 3066895856,
+      "fetched_at": "2026-08-20T04:49:50.491Z"
     },
     {
       "asset_id": "cardano",
-      "price": 0.174939,
-      "volume": 183248662,
-      "chg_24h": -1.7,
-      "chg_7d": -11.6,
-      "funding": 0.00003361,
-      "open_interest": 484292798,
-      "fetched_at": "2026-08-17T09:13:44.875Z"
+      "price": 0.182962,
+      "volume": 483014036,
+      "chg_24h": 5,
+      "chg_7d": -0.1,
+      "funding": 0.0001,
+      "open_interest": 458748777,
+      "fetched_at": "2026-08-20T04:49:50.491Z"
     },
     {
       "asset_id": "avalanche-2",
-      "price": 6.32,
-      "volume": 119970633,
-      "chg_24h": -0.2,
-      "chg_7d": -3.3,
-      "funding": 0.00000934,
-      "open_interest": 7626584,
-      "fetched_at": "2026-08-17T09:13:44.875Z"
+      "price": 6.74,
+      "volume": 340189405,
+      "chg_24h": 6.5,
+      "chg_7d": 5,
+      "funding": 0.0001,
+      "open_interest": 8236637,
+      "fetched_at": "2026-08-20T04:49:50.491Z"
     }
   ],
   "news": [
+    {
+      "guid": "CBMiY0FVX3lxTFBYYnFic1JiNkFyWnhuZFRtekxNLUgwVnRnWlJpWWh5T0JQSFlPbjg2T0tXNVBUa0ZLMENvWlUxTE9fa2xjYmVrRTkzLS1HVXUzSjVfbV91bmh2UUctRFdaZG1YY9IBY0FVX3lxTFBYYnFic1JiNkFyWnhuZFRtekxNLUgwVnRnWlJpWWh5T0JQSFlPbjg2T0tXNVBUa0ZLMENvWlUxTE9fa2xjYmVrRTkzLS1HVXUzSjVfbV91bmh2UUctRFdaZG1YYw",
+      "source": "Bitget",
+      "title": "AVAX Price Prediction Turns Bullish as Litecoin Holds $44 – Could Apeing’s Upcoming Token Presale Be the Next Big Opportunity?",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYYnFic1JiNkFyWnhuZFRtekxNLUgwVnRnWlJpWWh5T0JQSFlPbjg2T0tXNVBUa0ZLMENvWlUxTE9fa2xjYmVrRTkzLS1HVXUzSjVfbV91bmh2UUctRFdaZG1YY9IBY0FVX3lxTFBYYnFic1JiNkFyWnhuZFRtekxNLUgwVnRnWlJpWWh5T0JQSFlPbjg2T0tXNVBUa0ZLMENvWlUxTE9fa2xjYmVrRTkzLS1HVXUzSjVfbV91bmh2UUctRFdaZG1YYw?oc=5",
+      "published_at": "2026-08-19T02:13:30.000Z",
+      "fetched_at": "2026-08-20T04:49:51.702Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "avalanche-2"
+      ]
+    },
+    {
+      "guid": "CBMiXEFVX3lxTE5TMGxoV0FLeHdEYmtXUUxQTjBEbm1pLVZXWTVJS1ZlMVNuMEY0dERoZmlKSmtsMC11UnRYZEFmN1ZOVjZYS1A5YUZBY0pVei1hTENGdGVYU1FpUTF1",
+      "source": "Bybit",
+      "title": "Convert 1 AVAX (Avalanche) to CHF (Swiss Franc)",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5TMGxoV0FLeHdEYmtXUUxQTjBEbm1pLVZXWTVJS1ZlMVNuMEY0dERoZmlKSmtsMC11UnRYZEFmN1ZOVjZYS1A5YUZBY0pVei1hTENGdGVYU1FpUTF1?oc=5",
+      "published_at": "2026-08-18T10:24:32.000Z",
+      "fetched_at": "2026-08-20T04:49:51.704Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "avalanche-2"
+      ]
+    },
+    {
+      "guid": "CBMidkFVX3lxTE5sejVseEgzNnVURmpjcUtnUmJsc0phQ0ZZM2tkM0FxZEpOSWxTWWMtVnYtQnZZQW9UQmRqdTM1bHJrR3cyZ3hETkNkQUk3WGhHcnA3WFJxQ0EtZUMxamFTbGlkVnRhYzlqbk9GaEJqMWlhZW50Unc",
+      "source": "Bitcoin Foundation",
+      "title": "Avalanche (AVAX) Falling: Can It Recover?",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sejVseEgzNnVURmpjcUtnUmJsc0phQ0ZZM2tkM0FxZEpOSWxTWWMtVnYtQnZZQW9UQmRqdTM1bHJrR3cyZ3hETkNkQUk3WGhHcnA3WFJxQ0EtZUMxamFTbGlkVnRhYzlqbk9GaEJqMWlhZW50Unc?oc=5",
+      "published_at": "2026-08-18T03:17:41.000Z",
+      "fetched_at": "2026-08-20T04:49:51.702Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "avalanche-2"
+      ]
+    },
     {
       "guid": "CBMilgFBVV95cUxPWkpHeWdKaVBVdGRJX0tfbFpHQndVODF6N2pYb1A0cEJ2WEdsUnRnckU4cnR6eXp6ZGsyemU4c0lDVzZ2dGNCNFR1S1dUeHVRN3V6aTVoem1DaUlYTDVETXNHd245YXJIZl9NZ0J6dXBGNEltN2VHTDRfYnl2YU1IWTBtamdxWkxPS1J0WlJuT2l0bzBIYkE",
       "source": "Pluang",
       "title": "Avalanche (AVAX) price drops 2.39% amid broad a...",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWkpHeWdKaVBVdGRJX0tfbFpHQndVODF6N2pYb1A0cEJ2WEdsUnRnckU4cnR6eXp6ZGsyemU4c0lDVzZ2dGNCNFR1S1dUeHVRN3V6aTVoem1DaUlYTDVETXNHd245YXJIZl9NZ0J6dXBGNEltN2VHTDRfYnl2YU1IWTBtamdxWkxPS1J0WlJuT2l0bzBIYkE?oc=5",
       "published_at": "2026-08-16T20:48:05.000Z",
-      "fetched_at": "2026-08-17T09:13:46.686Z",
+      "fetched_at": "2026-08-20T04:49:51.704Z",
       "score": -0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -102,7 +141,7 @@
       "title": "Avalanche’s RWA volume jumps 360% – Can whales push AVAX to $7.20?",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZDRZTGN0N1JZalMtalcxQXpyMVlTUFl0aEdidmEzQjM2eU9ZLVkySE1kUkpxTUFZOWh2dkoxeUYySzYyWFF1NlVxY2JuOEFDLW5sRXp0TWZZclV0cEk1NGRITmhXNE9tRHMtczZiaFZaUVZOc2xNaU95WFdxMUUwMFhNQmszUTAzQngw?oc=5",
       "published_at": "2026-08-16T07:00:14.000Z",
-      "fetched_at": "2026-08-17T09:13:46.691Z",
+      "fetched_at": "2026-08-20T04:49:51.704Z",
       "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -110,25 +149,12 @@
       ]
     },
     {
-      "guid": "CBMiXkFVX3lxTE8wbjFxWmQ2MFZweVJSTFhsSTdfemtudDN5cmNWdm15RWs4MnhqaDVSY2JEZTJMYUZvUE4tdU5ER2UyNzZKU19jYXJhdnFxeVJwSUdjSHNxalh5bWEyUnc",
+      "guid": "CBMiXEFVX3lxTE1GNm1fdDVwNHZMZzZXWk96czBYRllER3JzX2pQMi12QUsydTlPdnBERHhfN2l2TGZ5VXUzSkRsNXJyVXpzWGtSQWtfMmVvdXp5T2lrQTg4U09MeWVX",
       "source": "Bybit",
-      "title": "Convert 0.1 AVAX (Avalanche) to RUB (Russian Ruble)",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8wbjFxWmQ2MFZweVJSTFhsSTdfemtudDN5cmNWdm15RWs4MnhqaDVSY2JEZTJMYUZvUE4tdU5ER2UyNzZKU19jYXJhdnFxeVJwSUdjSHNxalh5bWEyUnc?oc=5",
+      "title": "Convert 10 AVAX (Avalanche) to USD (United States Dollar)",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1GNm1fdDVwNHZMZzZXWk96czBYRllER3JzX2pQMi12QUsydTlPdnBERHhfN2l2TGZ5VXUzSkRsNXJyVXpzWGtSQWtfMmVvdXp5T2lrQTg4U09MeWVX?oc=5",
       "published_at": "2026-08-16T00:00:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.721Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "avalanche-2"
-      ]
-    },
-    {
-      "guid": "CBMiXEFVX3lxTE8yQ083cXRIckJyYUdQOVF0ejI1NFFTQXBfTHY2WWpEV3ZWT21CeV9GZ1BfYXNBanJpWWRaSFZBMktuRTFZSEdtbVpiYXUzNTFkQXYwRk02TmJRUnJp",
-      "source": "Bybit",
-      "title": "Convert 10 AVAX (Avalanche) to SEK (Swedish Krona)",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yQ083cXRIckJyYUdQOVF0ejI1NFFTQXBfTHY2WWpEV3ZWT21CeV9GZ1BfYXNBanJpWWRaSFZBMktuRTFZSEdtbVpiYXUzNTFkQXYwRk02TmJRUnJp?oc=5",
-      "published_at": "2026-08-16T00:00:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.722Z",
+      "fetched_at": "2026-08-20T04:49:51.707Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -141,7 +167,7 @@
       "title": "Avalanche (AVAX) Surges 4.2% on Upgrade, Institutional Adoption",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwNlF1RmFGWWlINlEyTlhCVUtrRlUtMWlCdVNSVWdyLTRQM3Ytbzl6SG1BYkhjWnhXVXFMLVRXZHpqdGctenUxSkJmcl9XakRaN195Y0lubG9LNXp3RnBTUDh2US1NYmFMMmZtNmJMZUQ?oc=5",
       "published_at": "2026-08-15T03:04:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.676Z",
+      "fetched_at": "2026-08-20T04:49:51.702Z",
       "score": 1,
       "method": "rule-based",
       "assets": [
@@ -149,12 +175,12 @@
       ]
     },
     {
-      "guid": "CBMiW0FVX3lxTE5sY0g0c3JpVUVCN3dFRnAzZjdLZ3hCRnppVGRzSnFIN2p1NGlZSThBS1BoWkFvNy05MmxVd2NLMnp1RThxZHZUblVzODFzeElCeVJMVThnVFBIMHc",
+      "guid": "CBMiW0FVX3lxTE9FQTdEaFl0SzVUeDFiZExEUDlnR28wRTF2WVlQX0VmRllmbHlNZHdTX3RqUEZBUnBzTzd3ZE5tN1ZwNnhUVGFQX2Z6a09CVUZsM1lEMzZjMzlhbUE",
       "source": "Bybit",
-      "title": "Convert 5 AVAX (Avalanche) to TRY (Turkish Lira)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sY0g0c3JpVUVCN3dFRnAzZjdLZ3hCRnppVGRzSnFIN2p1NGlZSThBS1BoWkFvNy05MmxVd2NLMnp1RThxZHZUblVzODFzeElCeVJMVThnVFBIMHc?oc=5",
+      "title": "Convert 1 AVAX (Avalanche) to CLP (Chilean Peso)",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9FQTdEaFl0SzVUeDFiZExEUDlnR28wRTF2WVlQX0VmRllmbHlNZHdTX3RqUEZBUnBzTzd3ZE5tN1ZwNnhUVGFQX2Z6a09CVUZsM1lEMzZjMzlhbUE?oc=5",
       "published_at": "2026-08-15T00:00:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.724Z",
+      "fetched_at": "2026-08-20T04:49:51.707Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -162,25 +188,12 @@
       ]
     },
     {
-      "guid": "CBMi4wFBVV95cUxNb3VNc25BQzlGa2ZBLXZiZVpYNW9FTVVtUnMwOHl2NS03Q2ZQRTlQTzdtVDUyUmVGT0xTaGNvZ284eGN5LTROYXJXYTdLTXRLVVpZSnRXRFVkTjlXal8ybktLS29xZ283LWVfYU96cHd0MUpoZWdxbUVZOTNkbVVnNENickhZdzAwVDJIeDNTRGRBTWZ3cnpRUHctUk5OdjVwUGE4NzQ5TURVamhiR1N5S25adW84b0xnVDN6Z1dwdXJyUG9YZFlZN0diWnE3enBZSk1TTF9YUkFWZkRCVU0yUF95Yw",
-      "source": "Brave New Coin",
-      "title": "Avalanche (AVAX) Price Prediction: AVAX Holds $6 Support as Network Activity Grows and Analysts Eye Breakout Towards $15",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNb3VNc25BQzlGa2ZBLXZiZVpYNW9FTVVtUnMwOHl2NS03Q2ZQRTlQTzdtVDUyUmVGT0xTaGNvZ284eGN5LTROYXJXYTdLTXRLVVpZSnRXRFVkTjlXal8ybktLS29xZ283LWVfYU96cHd0MUpoZWdxbUVZOTNkbVVnNENickhZdzAwVDJIeDNTRGRBTWZ3cnpRUHctUk5OdjVwUGE4NzQ5TURVamhiR1N5S25adW84b0xnVDN6Z1dwdXJyUG9YZFlZN0diWnE3enBZSk1TTF9YUkFWZkRCVU0yUF95Yw?oc=5",
-      "published_at": "2026-08-14T21:45:15.000Z",
-      "fetched_at": "2026-08-17T09:13:46.723Z",
-      "score": 0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "avalanche-2"
-      ]
-    },
-    {
-      "guid": "CBMibkFVX3lxTE5Qai1JV3VObzdVTUliYXVVaW9EZUNOb0hwdUFqRG9ITTJqMDZKZVl0ZDhDZXRkelpIYmZyRkoweGtyNUxWS08wZ2t3S0hMbzBoRDRIMlJhYVJGc2VRbGk1MW9TT0xUdEp3U1NjM25B",
+      "guid": "CBMib0FVX3lxTE5ody15QzVHUHFIRm50N0ZFM21JQ2s1V3VfQlRRLXBtYjdLeXJDY2dsWnhLejZDdUFpTjFIVGVJWU9LMHQxVEZSbVlrQXdaNVpUdVpaQUVjRnRBY2I3a3cwUS1vUVNWN0N0RzJxQ05qMA",
       "source": "Bybit",
       "title": "Convert NaN AVAX (Avalanche) to ARS (ARS)",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Qai1JV3VObzdVTUliYXVVaW9EZUNOb0hwdUFqRG9ITTJqMDZKZVl0ZDhDZXRkelpIYmZyRkoweGtyNUxWS08wZ2t3S0hMbzBoRDRIMlJhYVJGc2VRbGk1MW9TT0xUdEp3U1NjM25B?oc=5",
-      "published_at": "2026-08-14T07:42:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.699Z",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ody15QzVHUHFIRm50N0ZFM21JQ2s1V3VfQlRRLXBtYjdLeXJDY2dsWnhLejZDdUFpTjFIVGVJWU9LMHQxVEZSbVlrQXdaNVpUdVpaQUVjRnRBY2I3a3cwUS1vUVNWN0N0RzJxQ05qMA?oc=5",
+      "published_at": "2026-08-14T03:21:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.708Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -188,12 +201,12 @@
       ]
     },
     {
-      "guid": "CBMiX0FVX3lxTE1ua2VMdlE3bDl0ajZDcFo3a0RWdnJEc2dGd1JobXYwR05PZ3I3bm1ORkRtcHI2eXQ5WGE2N0R3SE9DSTVRTGVKSGpOZ25vdUh1b1J1SHE2YjAzdy1JODkw",
-      "source": "Bybit",
-      "title": "Convert 0.01 AVAX (Avalanche) to SOL (Solana)",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1ua2VMdlE3bDl0ajZDcFo3a0RWdnJEc2dGd1JobXYwR05PZ3I3bm1ORkRtcHI2eXQ5WGE2N0R3SE9DSTVRTGVKSGpOZ25vdUh1b1J1SHE2YjAzdy1JODkw?oc=5",
-      "published_at": "2026-08-13T00:00:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.721Z",
+      "guid": "CBMiTkFVX3lxTE8taEJpbkxScW11ZFdPWmgteDJUajgteVgtT3NiMDl5ZnNvTGhjckpfMFhjc21LRjdWMEtUWThtcmZ3SXhxQ2ZWclJpbVdCQQ",
+      "source": "Bit2Me",
+      "title": "Price of Avalanche (AVAX) today in EUR – Quote and market trends",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8taEJpbkxScW11ZFdPWmgteDJUajgteVgtT3NiMDl5ZnNvTGhjckpfMFhjc21LRjdWMEtUWThtcmZ3SXhxQ2ZWclJpbVdCQQ?oc=5",
+      "published_at": "2026-08-10T05:20:27.000Z",
+      "fetched_at": "2026-08-20T04:49:51.703Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -201,12 +214,12 @@
       ]
     },
     {
-      "guid": "CBMiW0FVX3lxTE1kdnplODhSVnc3NVplSFRrMERUb0pGNjNOakxyRG5ZeW5ZTXJnd09zMC1BNW9Ia0hQX1VSbnprRVZaV21NUDJFN0xleC1KWHBERWVHQk5kekcwUnc",
-      "source": "Bybit",
-      "title": "Convert 5 AVAX (Avalanche) to PEN (Sol)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kdnplODhSVnc3NVplSFRrMERUb0pGNjNOakxyRG5ZeW5ZTXJnd09zMC1BNW9Ia0hQX1VSbnprRVZaV21NUDJFN0xleC1KWHBERWVHQk5kekcwUnc?oc=5",
-      "published_at": "2026-08-13T00:00:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.724Z",
+      "guid": "CBMidEFVX3lxTFB3MFVTYmJtbWlJT18zYkxpb0U4R3dPY09TeGJOMFJQb04tU2k0S29lWjhXd0RraFo5OU01UDhFdngyekFjWl9ELWdLRnNPem54aThDVVV3N2NVdjRObWtHaG9ZT1pGMWJVQ2dKc1BjaEcwT2Zm",
+      "source": "Markets Media",
+      "title": "CME to Add Sui and Avalanche Futures",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3MFVTYmJtbWlJT18zYkxpb0U4R3dPY09TeGJOMFJQb04tU2k0S29lWjhXd0RraFo5OU01UDhFdngyekFjWl9ELWdLRnNPem54aThDVVV3N2NVdjRObWtHaG9ZT1pGMWJVQ2dKc1BjaEcwT2Zm?oc=5",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.703Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -214,12 +227,12 @@
       ]
     },
     {
-      "guid": "CBMiW0FVX3lxTE1keXF6WEF5R3BobG5QZEVyeUc1NTJkeDdMLTkzdzlPZ081UWhmUkhFOTZKTWJDRS1sRFlweWVHOUNkRTM4WkU0QjBqS2ROaGhKZWpmQnp1eUFEZ0k",
-      "source": "Bybit",
-      "title": "Convert 1 AVAX (Avalanche) to VND (Vietnamese Dong)",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1keXF6WEF5R3BobG5QZEVyeUc1NTJkeDdMLTkzdzlPZ081UWhmUkhFOTZKTWJDRS1sRFlweWVHOUNkRTM4WkU0QjBqS2ROaGhKZWpmQnp1eUFEZ0k?oc=5",
-      "published_at": "2026-08-13T00:00:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.733Z",
+      "guid": "CBMiswFBVV95cUxOSG5vODJ1d21xQmdsdHBoNXJONGV1OFE0M1h5NUtkb28wdFN1Y3BMRW01TWJ6ekxLZ0NxVlNfYU1zVDl5Q0pHMjk3VHpCUmI0R2NCYjFoMXBWWHcxZjk5amN1dnk5dHhKNDB0SWV0dWNDRFVtZU1BVHZQeU1mRzk5bnZrZWtWVVduSnRPclcwb0U1NlRDOW82ZkNncUJkSW1Xc3JJUVBVV2tDUkZTWFNGTFdERQ",
+      "source": "FXStreet",
+      "title": "Avalanche, Sui to join CME Group futures product suite",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSG5vODJ1d21xQmdsdHBoNXJONGV1OFE0M1h5NUtkb28wdFN1Y3BMRW01TWJ6ekxLZ0NxVlNfYU1zVDl5Q0pHMjk3VHpCUmI0R2NCYjFoMXBWWHcxZjk5amN1dnk5dHhKNDB0SWV0dWNDRFVtZU1BVHZQeU1mRzk5bnZrZWtWVVduSnRPclcwb0U1NlRDOW82ZkNncUJkSW1Xc3JJUVBVV2tDUkZTWFNGTFdERQ?oc=5",
+      "published_at": "2026-08-04T07:00:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.706Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -227,25 +240,12 @@
       ]
     },
     {
-      "guid": "CBMipgFBVV95cUxPYklsWlpCMGE5WWpZNGpVelI0VXVUUjR2dG5QNDdTRS05QXJqRWdKVWROazlmRFRnWWsyaXJ4SzJ5bGduV1lFS0x5blNIaWpDdEVScDdvU0xfWjBQWFU0RDRKQ2g1ckpmNTJmY1NBVmt6alFaeUtoRVJYeThLcFhKb1NJN0hxMWtqQzRMandHUjdPTzJvR1VmVTQzLWtHS2ZjYlRJaVpB",
-      "source": "avax.network",
-      "title": "From Gross Chain Product to Gross Chain Income: Where the Value Goes",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYklsWlpCMGE5WWpZNGpVelI0VXVUUjR2dG5QNDdTRS05QXJqRWdKVWROazlmRFRnWWsyaXJ4SzJ5bGduV1lFS0x5blNIaWpDdEVScDdvU0xfWjBQWFU0RDRKQ2g1ckpmNTJmY1NBVmt6alFaeUtoRVJYeThLcFhKb1NJN0hxMWtqQzRMandHUjdPTzJvR1VmVTQzLWtHS2ZjYlRJaVpB?oc=5",
-      "published_at": "2026-08-12T12:53:59.000Z",
-      "fetched_at": "2026-08-17T09:13:46.692Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "avalanche-2"
-      ]
-    },
-    {
-      "guid": "CBMiYEFVX3lxTFBKcnJhZC1EQ19QcFlpZW16anVkMUZyMWlSWmpjYnVDTmhMQjd3MDF6RHAxWXFpR2lXRDlGbUlBWlZkWVBCWDNoLTNLNWJtSlJQaS1IOVl3WlF4WlRKa0kyUw",
-      "source": "Yellow.com",
-      "title": "CZ Moves $965K To Giggle Academy As Binance Founder Shifts Focus To Education",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKcnJhZC1EQ19QcFlpZW16anVkMUZyMWlSWmpjYnVDTmhMQjd3MDF6RHAxWXFpR2lXRDlGbUlBWlZkWVBCWDNoLTNLNWJtSlJQaS1IOVl3WlF4WlRKa0kyUw?oc=5",
-      "published_at": "2026-08-16T21:46:02.000Z",
-      "fetched_at": "2026-08-17T09:13:47.378Z",
+      "guid": "CBMivwFBVV95cUxOZFhNbFdlLVJmX2MtcXdXUmtsV2Y2dnNBaEh3c2hITUVCN1lvcFd2RlBndEtkaU9sX3EzNkVLRGxRVXFIOVN3WXluWTNyQTFmTHlDRk82aVZjc3VPZHdFZXpOR0pGWHRBZ094SWpmOWpySnpnbHYzZDVEeFVrZldhcE5qNkdiR3ZoTy13bzRRNkUyZjdVUENBTXVxOXBtYkRsYmNDbzNqeTl2aGdMN0xyUFc2bVhsSWRNSDMzTEZQWQ",
+      "source": "TradingView",
+      "title": "Binance Delisting Alert: Litecoin, SUI, BNB Pairs Among 7 Set to Go",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZFhNbFdlLVJmX2MtcXdXUmtsV2Y2dnNBaEh3c2hITUVCN1lvcFd2RlBndEtkaU9sX3EzNkVLRGxRVXFIOVN3WXluWTNyQTFmTHlDRk82aVZjc3VPZHdFZXpOR0pGWHRBZ094SWpmOWpySnpnbHYzZDVEeFVrZldhcE5qNkdiR3ZoTy13bzRRNkUyZjdVUENBTXVxOXBtYkRsYmNDbzNqeTl2aGdMN0xyUFc2bVhsSWRNSDMzTEZQWQ?oc=5",
+      "published_at": "2026-08-19T13:55:05.000Z",
+      "fetched_at": "2026-08-20T04:49:51.577Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -253,12 +253,12 @@
       ]
     },
     {
-      "guid": "CBMitAFBVV95cUxPU2NBX2tmWEJoMmI1WS1hekpIRmQwdW9uRW1HaWJyeGFJM3N4M1FqenNmN3lqejFmWWlFMXBxaW1HTXNHY3RHdGdoQ25HYzhQbG9oeGd6NjFCWmd3QXhHZEYyWm95bmtBSy00VnM1UnRxOEUxbG9Gek9Gb2ljcUgtVXRvTENVYVdFZ25JWHZ1cnVmUUVXUkRjaUU3Ynd0SnZmQ2V4Ul9qNjNteHBNbkF5TGVmdjbSAboBQVVfeXFMTmNOdU9ZdktVOWg1cTlFSHJwb3RiVkRrMzBJR0hwZnFYSDMyNjVFWVM3dlNEQlViLUVaMTRMYUthRmU4TWpZNnY1MkpXUGlMbkhma2F0aFE3cWdmcGVPVHhSY2V6VVprZnJPT0I0U0p1X3FmQnl4b3pndnd0RXYxbmVqMVBHcHB1SXRBdy1EQTdyUlN0akNaZ1hqQ1ROeG1LV3FqQmlHYVBBWHJpeEVpZUlxQ29wWE14WHJR",
-      "source": "The Coin Republic",
+      "guid": "CBMirAFBVV95cUxQTlJ6UnVfSDVDalBJTXlZQ283dktfNzVmZ3RUbFNrSUlJNUR6QS1vZG1XU2ZRRDVqOXdiNzE1TmpFVld5VG8zTnd2aWZ1UjRodE9tbnk2b0RDcVFoWXpQTHduNl9PR1duMWZNeHVpNFRGQ1h4MXFjQjhKVnJrOUlCbE16VXNOR3FzSmFfNl92cEtYX2hrYzZCVlcxNXQ0T3FLaVdHdWlsMGE1M1FR",
+      "source": "CryptoRank",
       "title": "BNB Chain to Launch Pasteur Hardfork as Binance Blocks 16 Crypto Firms",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU2NBX2tmWEJoMmI1WS1hekpIRmQwdW9uRW1HaWJyeGFJM3N4M1FqenNmN3lqejFmWWlFMXBxaW1HTXNHY3RHdGdoQ25HYzhQbG9oeGd6NjFCWmd3QXhHZEYyWm95bmtBSy00VnM1UnRxOEUxbG9Gek9Gb2ljcUgtVXRvTENVYVdFZ25JWHZ1cnVmUUVXUkRjaUU3Ynd0SnZmQ2V4Ul9qNjNteHBNbkF5TGVmdjbSAboBQVVfeXFMTmNOdU9ZdktVOWg1cTlFSHJwb3RiVkRrMzBJR0hwZnFYSDMyNjVFWVM3dlNEQlViLUVaMTRMYUthRmU4TWpZNnY1MkpXUGlMbkhma2F0aFE3cWdmcGVPVHhSY2V6VVprZnJPT0I0U0p1X3FmQnl4b3pndnd0RXYxbmVqMVBHcHB1SXRBdy1EQTdyUlN0akNaZ1hqQ1ROeG1LV3FqQmlHYVBBWHJpeEVpZUlxQ29wWE14WHJR?oc=5",
-      "published_at": "2026-08-16T00:30:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.392Z",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTlJ6UnVfSDVDalBJTXlZQ283dktfNzVmZ3RUbFNrSUlJNUR6QS1vZG1XU2ZRRDVqOXdiNzE1TmpFVld5VG8zTnd2aWZ1UjRodE9tbnk2b0RDcVFoWXpQTHduNl9PR1duMWZNeHVpNFRGQ1h4MXFjQjhKVnJrOUlCbE16VXNOR3FzSmFfNl92cEtYX2hrYzZCVlcxNXQ0T3FLaVdHdWlsMGE1M1FR?oc=5",
+      "published_at": "2026-08-16T03:01:30.000Z",
+      "fetched_at": "2026-08-20T04:49:51.578Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -271,7 +271,7 @@
       "title": "Convert 1 PEN (Sol) to BNB (Binance Coin)",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5LazRfN1piUU50RFBzaGlDTlFiSzlCb3daSVJiZUNTSkdtak12a1otZGdVQzBXbWNlSldCS3U2Uy1BbnNvWi1EOEJQX2ZveGVvV0FURFE4b29RQQ?oc=5",
       "published_at": "2026-08-16T00:00:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.381Z",
+      "fetched_at": "2026-08-20T04:49:51.580Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -284,7 +284,7 @@
       "title": "Binance Coin Tops $610 Ahead Of BNB Chain Pasteur Hard Fork",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMFV2bkJWdGsyTHdZSmE3Y2JwMnBkazZ6eDF2YjJTdGVoR3YwQ0ZQSTBuYThHVDBhQjFqTzBXTS1DZkdmUWY3ck56TjE1dWI1dUFRdldFdkVua3ZVNWdKZ01TSGJhbi05aGZBNzd6ZlB5bjJjRGwtR2pVU1JOa3pTZDVXRFN1cDZSSzFyaTBB?oc=5",
       "published_at": "2026-08-15T20:39:05.000Z",
-      "fetched_at": "2026-08-17T09:13:47.381Z",
+      "fetched_at": "2026-08-20T04:49:51.579Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -297,8 +297,21 @@
       "title": "BNB's Wild Ride: Legal Win Sparks 6,000% Trading Surge",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNkNuSUJLSjh1SWVRcDVselVIMmU4Y1pkSVVueTdua2VmTW1Ub1gtOXctNHFpaVFhREwyRTJYVlBVRjY3Uk1NUFB1YjQzVlQ0b0hUUGFVNkhXdFk0Mk9WQ19mYWdaU2xJNlJLUHBseFpuLTZZcTlYSFFGbV93YnA3akFLdkFXWDRWR3RqY21najJjZHpBNlpfUXFB?oc=5",
       "published_at": "2026-08-15T06:25:52.000Z",
-      "fetched_at": "2026-08-17T09:13:47.388Z",
+      "fetched_at": "2026-08-20T04:49:51.581Z",
       "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "binancecoin"
+      ]
+    },
+    {
+      "guid": "CBMiqgFBVV95cUxPV29QVkpSRUhKdGRlenJlcC1IOHFlZHU2S1piaUNxSWVPQTR6bUVuOXVndFlYMkpGRHZuODhOVnN1cG1mU2JhMExlSGdoVWUzNzRqUnZQWTRpTjRoRkRqQS1XVktWZkl2cjRvdTZ0MXh0M2pLd3J6bHo3bFdMdWxsUVFkN0FoZlZSUEljR1MxUlRBZmgycUV1dTMyY1h3UUM3Z3VIaGxPNklzUQ",
+      "source": "Yellow.com",
+      "title": "Exchange Token BNB Rises 1.7% But Falls Behind Market Amid Binance Scrutiny",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV29QVkpSRUhKdGRlenJlcC1IOHFlZHU2S1piaUNxSWVPQTR6bUVuOXVndFlYMkpGRHZuODhOVnN1cG1mU2JhMExlSGdoVWUzNzRqUnZQWTRpTjRoRkRqQS1XVktWZkl2cjRvdTZ0MXh0M2pLd3J6bHo3bFdMdWxsUVFkN0FoZlZSUEljR1MxUlRBZmgycUV1dTMyY1h3UUM3Z3VIaGxPNklzUQ?oc=5",
+      "published_at": "2026-08-14T21:25:47.000Z",
+      "fetched_at": "2026-08-20T04:49:51.579Z",
+      "score": 0,
       "method": "rule-based",
       "assets": [
         "binancecoin"
@@ -310,7 +323,7 @@
       "title": "BNB Price Drops 0.51% As Cryptocurrency Tests $850 Support Level",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVWhOOWp6SkliQm1sVjhTRHRXemRHanJ1VXFPUHdFaHprLWszVUZwNk55WnVGby1wbXlncEczek9zTmtpbzB4QjJBZk5DcW5fNWZobktXTHpqOGE5UlFPc1JFMjJBYURYZi1udlVKYlBfWWhRS3RVZl92OHFzX3J4YU4zWGNucEp6TzdCQXRnejZNcEtNRFI2cTUzQklWY2NKZUlOdFh3?oc=5",
       "published_at": "2026-08-14T20:58:34.000Z",
-      "fetched_at": "2026-08-17T09:13:47.383Z",
+      "fetched_at": "2026-08-20T04:49:51.580Z",
       "score": -0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -323,7 +336,7 @@
       "title": "BNB News: Binance Launches Pump.fun-Style Token Launch Model for Wallet Users",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU2VtSzhha1A2N0x1WWNIMVB5ZjdFTG1yVlpSZHpZQ1dLR2p0LVJnS2Y1WmY1X0RVMmJmbFZYUUE4MTFCTXQyc3pkbFJ3dUcwdGZETlh0LWlkZlR3OS11cktNZ2FRbFI0cXd2cWxKOEQtcWNPRTVEOE0wMDZOekgzM1hHWDZQTUV4eFBYaVhOcFl1SEZqd0Y4TmtQb3dZaDlFeU1tTldjWDl6SjF3a1VQTmdNb0x6VjNy?oc=5",
       "published_at": "2026-08-14T20:25:12.000Z",
-      "fetched_at": "2026-08-17T09:13:47.380Z",
+      "fetched_at": "2026-08-20T04:49:51.579Z",
       "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -336,7 +349,7 @@
       "title": "BNB Loses 25% In Weeks As Critical $600 Test Looms",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMFdEdUc2X2pHWXhXcjduMjI3MmE3b0E1dTBVb1RYZV9MaWZ3Qmw4djhJOWtySWNGY05hQnJQdFAyYXczTGZvN0NrZlFSUnY3Z0xXUVFiYnFXQmk5WDFjY2c0cWtad2t6YVBtaVFWb1BYekN2MTVCdkVDQUMycGdIYnZXX3l0dHNmaFdPUVBlTkJlWm50bkJNZ196OA?oc=5",
       "published_at": "2026-08-14T19:28:23.000Z",
-      "fetched_at": "2026-08-17T09:13:47.384Z",
+      "fetched_at": "2026-08-20T04:49:51.581Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -344,25 +357,12 @@
       ]
     },
     {
-      "guid": "CBMirwFBVV95cUxNeU55RV9rbFZjRFp5bXhZS3FWbFhLSDhFRTlia3VXcHZwWGJmTURxcXJXUFh2dEVoUV9PMGpjVWJCSHMtc0NmZ1czVklRcU1zUzdRZzZiU3dRdnNmYUZRaVMwd1kxU2JUbEVNOUxVM1AyOGdGcWluY1RicEdidG1aR2FHb1B1T1lVYXV6REVQTUFMSE1YZHZGLWt0cG9aV21kOUFsdFZIamlyQ2hva0Rn",
+      "guid": "CBMi1AFBVV95cUxNWDRqcGs5WHlVVU5heFhWQXhoLU5jZkloUGEtVVlLQmpncDVOWTh1Y3EyTTY1bWpwQXhidTE4VzZnREhrenB3QUs2aDdfc05iWktlNEIyd01MNXVNQ0tnTlZiRkVmWTJWVXI3VnBUZkNOdHJfTktxdmszTExKNFBEelJDZGdYMTB2TkhYOWhmMHBMYzNJbktzVjhGSDcxTXdKb1kzR1lCS0NIOENPWnpXcFVtSVI0TzE3VDBNeEF5bTlsM0lJQnBBT0pfbXB6eWtCR3VCSg",
       "source": "Yellow.com",
-      "title": "Exchange Token BNB Rises 1.7% But Falls Behind Market Amid Binance Scrutiny",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeU55RV9rbFZjRFp5bXhZS3FWbFhLSDhFRTlia3VXcHZwWGJmTURxcXJXUFh2dEVoUV9PMGpjVWJCSHMtc0NmZ1czVklRcU1zUzdRZzZiU3dRdnNmYUZRaVMwd1kxU2JUbEVNOUxVM1AyOGdGcWluY1RicEdidG1aR2FHb1B1T1lVYXV6REVQTUFMSE1YZHZGLWt0cG9aV21kOUFsdFZIamlyQ2hva0Rn?oc=5",
-      "published_at": "2026-08-14T13:08:37.000Z",
-      "fetched_at": "2026-08-17T09:13:47.382Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "binancecoin"
-      ]
-    },
-    {
-      "guid": "CBMiigFBVV95cUxON2tLYUsyemVBRWlXVDJUV3YxVVZuVmRQTXRrZ3ZvOG1wY3Y2ZkJBZHRBWmVoRmZUcDRJVnBzOHVFUEJjYzBBMDdUMG1IMTR5MkpNdjJsSHZYS2pPMENkci1FZFo3WFFBYUQ3WHBmSnc2WlZEejBNZGx3WGFjSXRnZF9ZY2tiYUNJMnc",
-      "source": "CryptoPotato",
-      "title": "Crypto Price Analysis August-14: ETH, XRP, ADA, BNB, and HYPE",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON2tLYUsyemVBRWlXVDJUV3YxVVZuVmRQTXRrZ3ZvOG1wY3Y2ZkJBZHRBWmVoRmZUcDRJVnBzOHVFUEJjYzBBMDdUMG1IMTR5MkpNdjJsSHZYS2pPMENkci1FZFo3WFFBYUQ3WHBmSnc2WlZEejBNZGx3WGFjSXRnZF9ZY2tiYUNJMnc?oc=5",
-      "published_at": "2026-08-14T11:16:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.380Z",
+      "title": "CEX Listing Wars Escalate as Former Binance CEO Challenges Coinbase to List More BNB Projects",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWDRqcGs5WHlVVU5heFhWQXhoLU5jZkloUGEtVVlLQmpncDVOWTh1Y3EyTTY1bWpwQXhidTE4VzZnREhrenB3QUs2aDdfc05iWktlNEIyd01MNXVNQ0tnTlZiRkVmWTJWVXI3VnBUZkNOdHJfTktxdmszTExKNFBEelJDZGdYMTB2TkhYOWhmMHBMYzNJbktzVjhGSDcxTXdKb1kzR1lCS0NIOENPWnpXcFVtSVI0TzE3VDBNeEF5bTlsM0lJQnBBT0pfbXB6eWtCR3VCSg?oc=5",
+      "published_at": "2026-08-14T09:18:10.000Z",
+      "fetched_at": "2026-08-20T04:49:51.582Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -375,7 +375,7 @@
       "title": "BNB News: BNB Hits 804 All-Time High as CZ Celebrates Milestone",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZzZCcGlheklSU3FVQmhmcFV2eXI3TEJNMFpFQzZVdGRnaC1Ma1ZLUkRkWDFmRGlDcU9pYTBkUTdHa3VaWUFMNGdDdGFsMThPNFh0amdZTXZJVVpGaDdvMER6V2FDNjhjSV83NkV0NFVGMWxOb2k1VGlNUGE5QjFvYTk0Q2E5SE9idnYxd2tiSmJyUGxmOVQ0UlVkQmxwYnVJa3FGQmZrbk1LVERXcDB6Tk1oUQ?oc=5",
       "published_at": "2026-08-14T00:51:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.382Z",
+      "fetched_at": "2026-08-20T04:49:51.580Z",
       "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -388,7 +388,7 @@
       "title": "BNB Hits $955 All-Time High, Market Cap Surges Past $133 Billion",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT0dTLUVMMVNDZVBwcHRFQ1p3MzZaejA1WEVkdVBVWG4xUlNhMGtCTk1ScGc4cDFXd2hUMUhWR09LRHA1bjJXV3JHd3BqV1dCbEI1TjNXTW9DMmVzWmhsS1hJRWlUd1pDR1dhYmZHTjZSRjRCdEJPaVJsMHRBQ0JUUlV1MTVQOWNoTV9iV2VSb3hibFpPM0FGZEtqTE5hbEF1R0FjUi1RSlVaLUpL?oc=5",
       "published_at": "2026-08-13T04:00:13.000Z",
-      "fetched_at": "2026-08-17T09:13:47.386Z",
+      "fetched_at": "2026-08-20T04:49:51.583Z",
       "score": 0.6666666666666666,
       "method": "rule-based",
       "assets": [
@@ -396,190 +396,171 @@
       ]
     },
     {
-      "guid": "CBMitwFBVV95cUxNcThKdkdVSl9Kd1k3RDlZMXEydUdjekRPWmtWRHpRQzNFZmlpNXBXVXgzd2xXWnRkVUEtbkVmaXFUQ1VTQ2ZILXJ0a2RPX01OUnIzNEJIanFoenlfcE1YdnEzZFRkX3gzZFlDNjRybEF3d0tua2RFOXVObFZKVzJQa0RRRmNEdWhzbXI0VG16YWdZbnNKNGRmT2pfWkhmcjA4YWE2cXFTZ2ltSm5OZkRaYVFEdmpsb1k",
-      "source": "CoinDesk",
-      "title": "Good news for bitcoin: Goldman says September Fed rate hike is 'very unlikely.'",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcThKdkdVSl9Kd1k3RDlZMXEydUdjekRPWmtWRHpRQzNFZmlpNXBXVXgzd2xXWnRkVUEtbkVmaXFUQ1VTQ2ZILXJ0a2RPX01OUnIzNEJIanFoenlfcE1YdnEzZFRkX3gzZFlDNjRybEF3d0tua2RFOXVObFZKVzJQa0RRRmNEdWhzbXI0VG16YWdZbnNKNGRmT2pfWkhmcjA4YWE2cXFTZ2ltSm5OZkRaYVFEdmpsb1k?oc=5",
-      "published_at": "2026-08-17T08:17:44.000Z",
-      "fetched_at": "2026-08-17T09:13:47.466Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin"
-      ]
-    },
-    {
-      "guid": "CBMigAJBVV95cUxPT0E4MENZUkJvVUhvSkZURHlqcEZ3cVlmVjlNbnhQZlhPazNKRzdLUV9YQjdGS3c0MjJ1U0dHQ2tDNUlXdmtUUkhqNzJrUVpzQUFadlNtQ2hNRHQ3TVozYmE2eHk2XzlXblgtYnBQbEcyTmN2dkZCMDVqNERuOFlrSEVNVlJ6N1o1eWNaZWtIMnRXdjhxeVRZd29yV3N5YjJRbk5FckVidC0tamJldXhOcWJIeVRwYmUwWDU3VlgzTWxyNTVVdTRKeGxrNHpXc0tlaG5RV0ZRSTBxeElLdms1OVF3TjlhWl9vb0dNVlBKN2x1aElSUGRaMFlHYjFlQXdt",
-      "source": "Benzinga",
-      "title": "Crypto Billionaire Changpeng Zhao Estimates 2-4 Million Bitcoin Gone Forever, Calls BTC a 'Deflationary Asset'",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPT0E4MENZUkJvVUhvSkZURHlqcEZ3cVlmVjlNbnhQZlhPazNKRzdLUV9YQjdGS3c0MjJ1U0dHQ2tDNUlXdmtUUkhqNzJrUVpzQUFadlNtQ2hNRHQ3TVozYmE2eHk2XzlXblgtYnBQbEcyTmN2dkZCMDVqNERuOFlrSEVNVlJ6N1o1eWNaZWtIMnRXdjhxeVRZd29yV3N5YjJRbk5FckVidC0tamJldXhOcWJIeVRwYmUwWDU3VlgzTWxyNTVVdTRKeGxrNHpXc0tlaG5RV0ZRSTBxeElLdms1OVF3TjlhWl9vb0dNVlBKN2x1aElSUGRaMFlHYjFlQXdt?oc=5",
-      "published_at": "2026-08-17T08:13:19.000Z",
-      "fetched_at": "2026-08-17T09:13:47.466Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin"
-      ]
-    },
-    {
-      "guid": "CBMimwFBVV95cUxOWllfQmNxdXpMaDd3Ry1LMGRtZjdXeFdtLVdVc2lKczFIQm1lUWk3dVdreU5GeTNPdG9zQlpVaGRKQU5QRkRzOWNTdDR5YTZ2MV83SG9BWE92OXJnMjYzdG5DbEk5dHpjZE81UVQ4T3B2TUYwOWo3X212ZVQtT3RHdUlEekZNQy1hOS1pblRfUmxzV3k4MVhidFo2Yw",
-      "source": "Yahoo Finance",
-      "title": "Benjamin Cowen Says Bitcoin 69-73 Days From Bottom, But Does BTC Still Follow Cycles?",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOWllfQmNxdXpMaDd3Ry1LMGRtZjdXeFdtLVdVc2lKczFIQm1lUWk3dVdreU5GeTNPdG9zQlpVaGRKQU5QRkRzOWNTdDR5YTZ2MV83SG9BWE92OXJnMjYzdG5DbEk5dHpjZE81UVQ4T3B2TUYwOWo3X212ZVQtT3RHdUlEekZNQy1hOS1pblRfUmxzV3k4MVhidFo2Yw?oc=5",
-      "published_at": "2026-08-17T07:03:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.466Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin"
-      ]
-    },
-    {
-      "guid": "CBMimgFBVV95cUxPR1NNY1RSSFJTWXF3WDl1R1p4bXFsVEc1WVZBVUdOTXFjbFRkb2RiZnROZk5abUwxN215TWllZ0RZVG5wcDliQUFlWjhvWUo5V045Wmg2M0ZuQlFoTVo0dkluOHZKTm9ldnFGUGN1WmQ1WlpwbTR2RWhCcTlGRkE3dEdvTXBwQTBobGNvWmQtaXcxQjlGZG9faTB3",
-      "source": "Yahoo Finance",
-      "title": "Bitcoin Just Took a $390 Million Hit: A JPMorgan Warning From April Explains Why",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPR1NNY1RSSFJTWXF3WDl1R1p4bXFsVEc1WVZBVUdOTXFjbFRkb2RiZnROZk5abUwxN215TWllZ0RZVG5wcDliQUFlWjhvWUo5V045Wmg2M0ZuQlFoTVo0dkluOHZKTm9ldnFGUGN1WmQ1WlpwbTR2RWhCcTlGRkE3dEdvTXBwQTBobGNvWmQtaXcxQjlGZG9faTB3?oc=5",
-      "published_at": "2026-08-17T06:55:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.467Z",
-      "score": -0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin"
-      ]
-    },
-    {
-      "guid": "CBMivgFBVV95cUxPbUFxRUpoR0lQSEVFYXZCanEwUGROTWszTFBhWnNrSFlxaXJIYUVKVzdTTXpQR3VVeGxvdnBJSFFhQTRac3JrYzRBRW1JZ0dCNU05ZTFEU3BvRmdSTGJnR1ItdXAyQ3JOSU9WM3lZZkZ3Y2t3U3ByekljSjNfckJ1ckRPNzhOUmRvLU90WWNQT3JuZEdzZm9KTWhvNGlmZHlTZk9iQ3pRNHRnU0VWQVkwQng0RjhXeUF0QWJrZVhR",
-      "source": "Investing.com",
-      "title": "Bitcoin steadies at $63.5k; Iran tensions, U.S. regulations in focus",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbUFxRUpoR0lQSEVFYXZCanEwUGROTWszTFBhWnNrSFlxaXJIYUVKVzdTTXpQR3VVeGxvdnBJSFFhQTRac3JrYzRBRW1JZ0dCNU05ZTFEU3BvRmdSTGJnR1ItdXAyQ3JOSU9WM3lZZkZ3Y2t3U3ByekljSjNfckJ1ckRPNzhOUmRvLU90WWNQT3JuZEdzZm9KTWhvNGlmZHlTZk9iQ3pRNHRnU0VWQVkwQng0RjhXeUF0QWJrZVhR?oc=5",
-      "published_at": "2026-08-17T06:50:48.000Z",
-      "fetched_at": "2026-08-17T09:13:47.466Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin"
-      ]
-    },
-    {
-      "guid": "CBMiwAFBVV95cUxPVGN6TDdXWHdoQXk3SDJ3b3FsSWxnOUkwZEhsaG9sUVd4UkJPN0pRZzZ3V3Yta1V4d1JjbDdOSVNOWmVLVFNvZUVJWFpDd09kTHFHUzYtUVBNNHJYWVg0TXVjUE00ZkJUWExWc0tiUmR2c0djemNpOHVNT0RVWl91TVZrM29VdU0tRUtPN21adnF3QUZndnVGQWNXTUpiV2JPcldENzN5eXZTdFJMWUdIZGx2QnAxWWZzLWpRbW1PNUE",
-      "source": "Benzinga",
-      "title": "Dogecoin About to Go 'Parabolic' With Potential 145% Rally: Popular Crypto Analyst Identifies Key Level t",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVGN6TDdXWHdoQXk3SDJ3b3FsSWxnOUkwZEhsaG9sUVd4UkJPN0pRZzZ3V3Yta1V4d1JjbDdOSVNOWmVLVFNvZUVJWFpDd09kTHFHUzYtUVBNNHJYWVg0TXVjUE00ZkJUWExWc0tiUmR2c0djemNpOHVNT0RVWl91TVZrM29VdU0tRUtPN21adnF3QUZndnVGQWNXTUpiV2JPcldENzN5eXZTdFJMWUdIZGx2QnAxWWZzLWpRbW1PNUE?oc=5",
-      "published_at": "2026-08-17T05:59:29.000Z",
-      "fetched_at": "2026-08-17T09:13:46.892Z",
+      "guid": "CBMixAFBVV95cUxNTFhpZkJHRklKaU5wU0xLZHBwRF9RcXU1NWxHWlBLcl9odUxnRWxGZXRNV0N5SUFQVjJlWXpfTjJ6S1pLVnJhYlpCLTBEeXlFc0hnLUN4LXBwT3Q4MjViZkMxN0JYYnRmT1JyQXN2SVgxOHNfSi1nZmhPbk1pb0VXVWdrTzVOZEtKTjRnS1RZQXRJNTd6djZUb1FDSmxsOUplcDUzRWhKclN2d2RSemZzMXh3OXVuaEdFamtrMm84YXZORDVv",
+      "source": "investingLive",
+      "title": "Bitcoin nears $70K, but Ethereum’s eight-hour breakout reveals the bigger crypto shift",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTFhpZkJHRklKaU5wU0xLZHBwRF9RcXU1NWxHWlBLcl9odUxnRWxGZXRNV0N5SUFQVjJlWXpfTjJ6S1pLVnJhYlpCLTBEeXlFc0hnLUN4LXBwT3Q4MjViZkMxN0JYYnRmT1JyQXN2SVgxOHNfSi1nZmhPbk1pb0VXVWdrTzVOZEtKTjRnS1RZQXRJNTd6djZUb1FDSmxsOUplcDUzRWhKclN2d2RSemZzMXh3OXVuaEdFamtrMm84YXZORDVv?oc=5",
+      "published_at": "2026-08-20T03:25:05.000Z",
+      "fetched_at": "2026-08-20T04:49:51.675Z",
       "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
         "bitcoin",
-        "dogecoin"
-      ]
-    },
-    {
-      "guid": "CBMiwgFBVV95cUxOZzFRbzctMk5rYlh3Mk5LaTBJM1JuSlhEbF9NMlAwMFNfc2NPeGlHYTZuYXpRYmFVMllZUmZyM2dhX1hEWlBHWllJS2Y5bk9zcmlwRGxOa19Dd2E2RVk5TjgxeHFoVEl0azhqTG1hNlJsYnJsdmdXa1d3VFdnWktmaDRlWlA1NmlKbmpZdlBfQ1dYWmZKU0s0UnNBcXdCblN4cE10MnFxTk1XMTB4VDd1dVpHRUtSRFlTSWxlelU3Q0h1Zw",
-      "source": "Benzinga",
-      "title": "Ross Gerber Questions Bitcoin's Everyday Use Despite 'Endless Promise' Of Its Utility: Tesla Investor Say",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZzFRbzctMk5rYlh3Mk5LaTBJM1JuSlhEbF9NMlAwMFNfc2NPeGlHYTZuYXpRYmFVMllZUmZyM2dhX1hEWlBHWllJS2Y5bk9zcmlwRGxOa19Dd2E2RVk5TjgxeHFoVEl0azhqTG1hNlJsYnJsdmdXa1d3VFdnWktmaDRlWlA1NmlKbmpZdlBfQ1dYWmZKU0s0UnNBcXdCblN4cE10MnFxTk1XMTB4VDd1dVpHRUtSRFlTSWxlelU3Q0h1Zw?oc=5",
-      "published_at": "2026-08-17T04:45:56.000Z",
-      "fetched_at": "2026-08-17T09:13:47.466Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin"
-      ]
-    },
-    {
-      "guid": "CBMitwFBVV95cUxOWFpWX29xMGtfU3haZXRiQ3dnNVdyMHNralFyWm5mMFVLQ3J2WVdZbGVPUFNpQzdWMkhVb01VTjJxa1dzY3Y4WkVRam1EOGZBeGZIczM2MVc2Um1maHlzM21heE9taVJfaThncVVnN19sRFZwT3Vkak9BSV9pWmtyMU9WZG5pY01WZVNRVWJoTF8zZktPTDF6amRlT3RXYUp5dEJHdWdPTTI4RHY0UGo2SXc1MEdpMWc",
-      "source": "CoinDesk",
-      "title": "BTC, ETH price news: Bitcoin tops $64,000 on Monday as traders await FOMC minutes",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWFpWX29xMGtfU3haZXRiQ3dnNVdyMHNralFyWm5mMFVLQ3J2WVdZbGVPUFNpQzdWMkhVb01VTjJxa1dzY3Y4WkVRam1EOGZBeGZIczM2MVc2Um1maHlzM21heE9taVJfaThncVVnN19sRFZwT3Vkak9BSV9pWmtyMU9WZG5pY01WZVNRVWJoTF8zZktPTDF6amRlT3RXYUp5dEJHdWdPTTI4RHY0UGo2SXc1MEdpMWc?oc=5",
-      "published_at": "2026-08-17T04:14:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.110Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin",
-        "ethereum",
-        "solana"
-      ]
-    },
-    {
-      "guid": "CBMigwJBVV95cUxOaFJva1UwT0tyS284Wl9wNXJVNFJ0YXJ1ckhpYmhYc3JfWm9wcTJMWXUzWFRQZjdrenpKMFBGRmFpSVdQRHNwcDlqRXhtWUVzMXIyQ3VsYkpodHF5ajdaanVSLU85a3ROeFZoZTdELVVLNW5UQkJFWmkwNjBONTBLUkJ5NTVQRTh5bDdOSy1vaFRCWWN2SVBxRFFRbk9JTlZaZy1xWUVINlpZeUNXZFR2ZmJSN2VKRVltaFVtU25FN1JNeU1yT2NzMlZ0N2t4LVc3cFFhVVQ0dlFGWnJ1WmFmQmpTaTJNX3VLbkpneWhnejdXRmQyMVJVUEh5UjRlWnl4ZlBB",
-      "source": "FXStreet",
-      "title": "Top 3 Price Prediction: Bitcoin, Ethereum, Ripple – BTC holds critical support, ETH awaits directional move, XRP weakens",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOaFJva1UwT0tyS284Wl9wNXJVNFJ0YXJ1ckhpYmhYc3JfWm9wcTJMWXUzWFRQZjdrenpKMFBGRmFpSVdQRHNwcDlqRXhtWUVzMXIyQ3VsYkpodHF5ajdaanVSLU85a3ROeFZoZTdELVVLNW5UQkJFWmkwNjBONTBLUkJ5NTVQRTh5bDdOSy1vaFRCWWN2SVBxRFFRbk9JTlZaZy1xWUVINlpZeUNXZFR2ZmJSN2VKRVltaFVtU25FN1JNeU1yT2NzMlZ0N2t4LVc3cFFhVVQ0dlFGWnJ1WmFmQmpTaTJNX3VLbkpneWhnejdXRmQyMVJVUEh5UjRlWnl4ZlBB?oc=5",
-      "published_at": "2026-08-17T03:17:31.000Z",
-      "fetched_at": "2026-08-17T09:13:47.113Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin",
-        "ethereum",
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMitgFBVV95cUxQSXJnTFVCQkU2UWtqbnhOWUVSZTFmTEM1cFg3eEdGR25EZ1B2ZUNYYXJkajByWVNKMFZXb09TbWRNQ25JalR5eU5ZTW5wZ0dWa3pfSUtPekpSNFppd09rVEVRdVdJZ25QM1dCSDd2a3ppQUFmVlRDQVpwOWNST012bHR5V21vMXF3VlpWcjk1Y05Va1FHQko1NXpqMlhpSnU2Q0JnQjYxd3Q5TWZUOUFZNjR5NzlBUQ",
-      "source": "Benzinga",
-      "title": "Bitcoin, Ethereum, Dogecoin Gain, XRP Dips as Crypto Remains in 'Fear'—Analyst Says BTC in 'End Stage' of",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSXJnTFVCQkU2UWtqbnhOWUVSZTFmTEM1cFg3eEdGR25EZ1B2ZUNYYXJkajByWVNKMFZXb09TbWRNQ25JalR5eU5ZTW5wZ0dWa3pfSUtPekpSNFppd09rVEVRdVdJZ25QM1dCSDd2a3ppQUFmVlRDQVpwOWNST012bHR5V21vMXF3VlpWcjk1Y05Va1FHQko1NXpqMlhpSnU2Q0JnQjYxd3Q5TWZUOUFZNjR5NzlBUQ?oc=5",
-      "published_at": "2026-08-17T02:23:32.000Z",
-      "fetched_at": "2026-08-17T09:13:46.970Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin",
-        "dogecoin",
-        "ethereum",
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMingFBVV95cUxOdWRVWm5WMVgxckg3YVZ3cmlDeDRvVGF5Njlrc3Uyd1dHdE5ERC1sZDRtaGZrcGJMZXU5NnJEY0dFUG5QdWFCSV9HTlkwOVhNSnhkVWhqQ3pkaUEtVVNVVXhEV0NXNjQxUHpfd0JEN2l2VHBSZEFRbHNxRlhHMEVBSy1kM0VlRnVJREl3RkgtRHRQNFBVcG4wajFNcVg0dw",
-      "source": "Yahoo Finance",
-      "title": "Why Strategy (MSTR) Shares Are Trading Lower Today",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdWRVWm5WMVgxckg3YVZ3cmlDeDRvVGF5Njlrc3Uyd1dHdE5ERC1sZDRtaGZrcGJMZXU5NnJEY0dFUG5QdWFCSV9HTlkwOVhNSnhkVWhqQ3pkaUEtVVNVVXhEV0NXNjQxUHpfd0JEN2l2VHBSZEFRbHNxRlhHMEVBSy1kM0VlRnVJREl3RkgtRHRQNFBVcG4wajFNcVg0dw?oc=5",
-      "published_at": "2026-08-17T02:13:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.468Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin"
-      ]
-    },
-    {
-      "guid": "CBMizwFBVV95cUxQbXpnc1B1QnY4cWI0WHpKUUtKcW8tYUpYT0M0enRTeG9feUdjbDRhaTJlcGlKQnFUcUFVcHI0MUF4RV83elZoVWkzY0NpYkgtSFAzT1hLcTRya0dvLUJjMUp2TG5VSjFWeVVpY016djd3ejQydzZhLXlOVkFqZFlqM1I2ZkRkSHZpV2tQbE1jMTdKZEFjaGpEMlF6RTZ3N1M3Y0FQenhNclQyTWNtRkFTQjh1VnhQTVg4M3ZGeGFONUEyZFZabGtZdUdZMHFaQ1U",
-      "source": "Investing.com",
-      "title": "Bitcoin hovers around $63k as Strategy’s Saylor calls it ‘digital monetary energy’",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbXpnc1B1QnY4cWI0WHpKUUtKcW8tYUpYT0M0enRTeG9feUdjbDRhaTJlcGlKQnFUcUFVcHI0MUF4RV83elZoVWkzY0NpYkgtSFAzT1hLcTRya0dvLUJjMUp2TG5VSjFWeVVpY016djd3ejQydzZhLXlOVkFqZFlqM1I2ZkRkSHZpV2tQbE1jMTdKZEFjaGpEMlF6RTZ3N1M3Y0FQenhNclQyTWNtRkFTQjh1VnhQTVg4M3ZGeGFONUEyZFZabGtZdUdZMHFaQ1U?oc=5",
-      "published_at": "2026-08-16T22:43:56.000Z",
-      "fetched_at": "2026-08-17T09:13:47.467Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "bitcoin"
-      ]
-    },
-    {
-      "guid": "CBMi1gFBVV95cUxNZ1NyRmpQZ1pLa3BEQUxRNjJDbXFkVTlMNTZ6TElwZjliY0pqaUFGaWhMdk5iY1hGWmJtX2trXzU4WGlqOGJJbWVRUmNkU3NFY1ZzQzQ4QklkSHViVFVLbHQtU3ZMREhCdGd1QXVnN0xUY1o3YkNPQXJRWW5mZjB3SG5RUEx2SVRFUVphRGp5RTd2eGZhWWJUSW1ZamdlQUtZd3VXVUVXb3l1QVlBZnRCZFdhNnFodDFVZWdudjdJbFJ4SkRfSm80UE4wWFlEbllPOVN6QmpR",
-      "source": "FXStreet",
-      "title": "Cryptocurrencies Price Prediction: Cardano, Bitcoin & Ethereum – Asian Wrap 17 August",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZ1NyRmpQZ1pLa3BEQUxRNjJDbXFkVTlMNTZ6TElwZjliY0pqaUFGaWhMdk5iY1hGWmJtX2trXzU4WGlqOGJJbWVRUmNkU3NFY1ZzQzQ4QklkSHViVFVLbHQtU3ZMREhCdGd1QXVnN0xUY1o3YkNPQXJRWW5mZjB3SG5RUEx2SVRFUVphRGp5RTd2eGZhWWJUSW1ZamdlQUtZd3VXVUVXb3l1QVlBZnRCZFdhNnFodDFVZWdudjdJbFJ4SkRfSm80UE4wWFlEbllPOVN6QmpR?oc=5",
-      "published_at": "2026-08-17T05:38:19.000Z",
-      "fetched_at": "2026-08-17T09:13:47.127Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "cardano",
         "ethereum"
       ]
     },
     {
-      "guid": "CBMixAFBVV95cUxNdlRhd0J5Yk5tNVJZbm5iY2xhWHRBMXhXN1FjUHgzc0RHSy1HNXdvRXgxTGV3eldJdVQ5VUxRUzJQVFcxSVhJcFpaUnREUjZuV2ZPa29VbkY1RkFBMHU5dlhJRVo1dzVDOWJwNzhiRDVqdno1cmUwZDlXekZseElVUjBaTFlYeG5pQjBWay1VWDJ2MDcydWt3QWtfMGkzSkVkbTRpLVRQYTc0TlpBQWlTU1pGY0xzN3RTSHR5bThyT19zWWpZ",
-      "source": "FXStreet",
-      "title": "Where is Cardano heading?",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdlRhd0J5Yk5tNVJZbm5iY2xhWHRBMXhXN1FjUHgzc0RHSy1HNXdvRXgxTGV3eldJdVQ5VUxRUzJQVFcxSVhJcFpaUnREUjZuV2ZPa29VbkY1RkFBMHU5dlhJRVo1dzVDOWJwNzhiRDVqdno1cmUwZDlXekZseElVUjBaTFlYeG5pQjBWay1VWDJ2MDcydWt3QWtfMGkzSkVkbTRpLVRQYTc0TlpBQWlTU1pGY0xzN3RTSHR5bThyT19zWWpZ?oc=5",
-      "published_at": "2026-08-17T04:56:43.000Z",
-      "fetched_at": "2026-08-17T09:13:47.250Z",
+      "guid": "CBMisgFBVV95cUxQb3hUWXN1c3psMGljOWdoWU9ZWjFucDZpYjVaVG5saVRqNkp5dWVQYm5Vekdic0xQUkhXT3hpcFJ3X2JfS2pycVFNREVwQ0hBOXRyN18xZHNmNmd4bFBZNXNrQUNJYUp4QXI2Y1daWVRnQloyc3p4QUhmZ2FOZG8xSG05eWRZMXVVRjdYNXJ2aGhDZi1DTk44SjB2NFN6YXQ1OFFTanlzTXJ4VUd4eXY3MlZR",
+      "source": "Benzinga",
+      "title": "Trump Says US is the 'Hottest Country' and CLARITY Act Will Keep it Ahead Of China — Bitcoin Purchase 'Be",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb3hUWXN1c3psMGljOWdoWU9ZWjFucDZpYjVaVG5saVRqNkp5dWVQYm5Vekdic0xQUkhXT3hpcFJ3X2JfS2pycVFNREVwQ0hBOXRyN18xZHNmNmd4bFBZNXNrQUNJYUp4QXI2Y1daWVRnQloyc3p4QUhmZ2FOZG8xSG05eWRZMXVVRjdYNXJ2aGhDZi1DTk44SjB2NFN6YXQ1OFFTanlzTXJ4VUd4eXY3MlZR?oc=5",
+      "published_at": "2026-08-20T03:18:57.000Z",
+      "fetched_at": "2026-08-20T04:49:51.609Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin",
+        "ripple"
+      ]
+    },
+    {
+      "guid": "CBMitAFBVV95cUxPcV9YYkdrbS11RWhBRlo3VVkwVFB1Vk5TRGt3TnNvUG1mNk93MS1OYkJxMXdmYWlzbXpDd18wU2tBUHJtMUFUNWY3b0x3MmVIc2FRU1ptNEZQSDFlQzdxTXFlOEdqSkxUOWsxb2N0ZXZUUFVrY1paY2paSDBMbmU4WEJoSUd6bEVmMklXNnFqSW1sVHY2VnhrYUxfYVhQeTdUeU42cG5oUERJdHQ2XzRWTWJGSEI",
+      "source": "Bitcoin News",
+      "title": "Trump Hosts Top Crypto CEOs at White House as US Weighs Bitcoin Buy",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcV9YYkdrbS11RWhBRlo3VVkwVFB1Vk5TRGt3TnNvUG1mNk93MS1OYkJxMXdmYWlzbXpDd18wU2tBUHJtMUFUNWY3b0x3MmVIc2FRU1ptNEZQSDFlQzdxTXFlOEdqSkxUOWsxb2N0ZXZUUFVrY1paY2paSDBMbmU4WEJoSUd6bEVmMklXNnFqSW1sVHY2VnhrYUxfYVhQeTdUeU42cG5oUERJdHQ2XzRWTWJGSEI?oc=5",
+      "published_at": "2026-08-20T03:05:26.000Z",
+      "fetched_at": "2026-08-20T04:49:51.670Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "CBMingFBVV95cUxObksyZEE5eG5CZDZDc1dfX1BDeHB1S2Y2d3B0X0QtTVoxSGVBeS16YjZ4Y2JBVFBGeFA0cDd1VmRmZXp6R2ZYeUQzekhDVmphOHRpdUlEa3RJSmRpMnZGYzAwY2ZLVEZlVUxib3g5WnkyUnpkV3BXczhva2xTaVU2NWR5ME9kSEtYRmJMeUJ5TjY1MGN2YVNpbDRWRHlhUQ",
+      "source": "Yahoo Finance",
+      "title": "MSTR Stock Climbs As Bitcoin Surges Past $69K For First Time Since June: Trump Urges Congress To Pass CLARITY Act",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObksyZEE5eG5CZDZDc1dfX1BDeHB1S2Y2d3B0X0QtTVoxSGVBeS16YjZ4Y2JBVFBGeFA0cDd1VmRmZXp6R2ZYeUQzekhDVmphOHRpdUlEa3RJSmRpMnZGYzAwY2ZLVEZlVUxib3g5WnkyUnpkV3BXczhva2xTaVU2NWR5ME9kSEtYRmJMeUJ5TjY1MGN2YVNpbDRWRHlhUQ?oc=5",
+      "published_at": "2026-08-20T02:01:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.673Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "CBMirAFBVV95cUxPenFwWE5PVkF1bDduNkJVRldWRVNZanA5R3hDZnlHamJVS1pINExKTlFNRkZFZGZRWnQyT0U2MUo1OUFZUXhyZUR2RlFPWERQRWZDbVJKZ2NlSzNBaG8tbHRERjdhdEx5bkU0eEI5dDhsYUgwNkxscExoYWdvYnozVFVKaEhRWE8zWi16bnhzb2dLUHBsUms1TzRaV1ViWk1oSWhsU2stVEZHRHl5",
+      "source": "Yahoo Finance",
+      "title": "Standard Chartered makes new Bitcoin prediction on Treasury news",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPenFwWE5PVkF1bDduNkJVRldWRVNZanA5R3hDZnlHamJVS1pINExKTlFNRkZFZGZRWnQyT0U2MUo1OUFZUXhyZUR2RlFPWERQRWZDbVJKZ2NlSzNBaG8tbHRERjdhdEx5bkU0eEI5dDhsYUgwNkxscExoYWdvYnozVFVKaEhRWE8zWi16bnhzb2dLUHBsUms1TzRaV1ViWk1oSWhsU2stVEZHRHl5?oc=5",
+      "published_at": "2026-08-19T23:40:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.671Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "CBMipAFBVV95cUxNemlTMExuY2tZX2p1RnE4WUFVV0QzdERuV1p1X2k2SlhnVEFQY2I5YnZXYzhjSVE2LTVXOERFejd0ZmtMMW1mMncwNVZfRlpoVWltazdXY0VfRVVHb2FxcUtWU3F1bjBrMnZ5NUtBbF8wRXp2aU9TLVV3TllkSUhIWHg3RUI4cWhUdFAxcjBqcFV5LWxlWWxOVHFkY29jd05RYmpwSQ",
+      "source": "Yahoo Finance",
+      "title": "Bitcoin posts surprise rally as currency nears $70,000 for the first time since June",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNemlTMExuY2tZX2p1RnE4WUFVV0QzdERuV1p1X2k2SlhnVEFQY2I5YnZXYzhjSVE2LTVXOERFejd0ZmtMMW1mMncwNVZfRlpoVWltazdXY0VfRVVHb2FxcUtWU3F1bjBrMnZ5NUtBbF8wRXp2aU9TLVV3TllkSUhIWHg3RUI4cWhUdFAxcjBqcFV5LWxlWWxOVHFkY29jd05RYmpwSQ?oc=5",
+      "published_at": "2026-08-19T22:18:38.000Z",
+      "fetched_at": "2026-08-20T04:49:51.672Z",
+      "score": 0.6666666666666666,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "CBMiogFBVV95cUxNR0tyelY5ajlSSF85eU0xNTB1a3hxcWRyYS1BY2ZhLTZWZGF6dUNuUU0wdmo2VDlCTlduVFpWWUZaQkRoSm0tWHYyUUZRNHpFTkhBNXNxQ0NBNG05Q2tjYTBnWGtCVkRZLWczemQteDhFVjE5NG9WRWQ3OHJkbVZIOUtPNzBSWWRXd21aOFllZnh5dFF3TVBfa0VXV19kMWJzanc",
+      "source": "Yahoo Finance",
+      "title": "Bitcoin's Sharpest Rally in Five Months Flips Markets From Bearish to Coin Flip",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNR0tyelY5ajlSSF85eU0xNTB1a3hxcWRyYS1BY2ZhLTZWZGF6dUNuUU0wdmo2VDlCTlduVFpWWUZaQkRoSm0tWHYyUUZRNHpFTkhBNXNxQ0NBNG05Q2tjYTBnWGtCVkRZLWczemQteDhFVjE5NG9WRWQ3OHJkbVZIOUtPNzBSWWRXd21aOFllZnh5dFF3TVBfa0VXV19kMWJzanc?oc=5",
+      "published_at": "2026-08-19T22:18:01.000Z",
+      "fetched_at": "2026-08-20T04:49:51.671Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "CBMimgFBVV95cUxOTmFfS1NnUVpLa1ZqQjRzTXZ1bmxnV0RFSHF6cFVKWkI4UGpZcVJHMXFPWlNrOWxWZ1E2dzlSdmlrbzRJTkFlSzdlbkIzamduTlJOQ3NTZlM3RW40LXRCQ0pYRnE3RHdObDBid2tVX2dvTlRrT0ZOYW83ODJ6NUR2akRBT0tkNm5Tdm5HbWRnb0NMSnRBUm81Rlp3",
+      "source": "Yahoo Finance",
+      "title": "Bitcoin Reclaims $70,000 First Time Since June and Trump Just Hinted at More",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTmFfS1NnUVpLa1ZqQjRzTXZ1bmxnV0RFSHF6cFVKWkI4UGpZcVJHMXFPWlNrOWxWZ1E2dzlSdmlrbzRJTkFlSzdlbkIzamduTlJOQ3NTZlM3RW40LXRCQ0pYRnE3RHdObDBid2tVX2dvTlRrT0ZOYW83ODJ6NUR2akRBT0tkNm5Tdm5HbWRnb0NMSnRBUm81Rlp3?oc=5",
+      "published_at": "2026-08-19T21:47:38.000Z",
+      "fetched_at": "2026-08-20T04:49:51.672Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "CBMi5wFBVV95cUxPcG05ei1qbVdsV1VNNDlUX0pyVHBRSzVmVjRVLXNSMW1MMnlKelI0MDJzVUNkRlhPcTc2R3MyRFlnLThGYVNxRmJBT1pLUU5nSmMzTnptMXlybHNUS2kxMktwMVJZNS1xdmwxWEszQUhpdHE1dkZkNmtBaDVmLXhvQl91ZVgxQm1pSUVKUU5qSzF3aXoxYnlTeDNTS1NEXzNuR0NyWEM2cUtVMFlidGNOMHJRd1dMYm91S3J1Y2R5Z29ocWc3OWdfWkZ1R0NTUWFJVW5hTVBfcTFPZXdDcE9uNklRRVRrNkE",
+      "source": "Benzinga",
+      "title": "Bitcoin Hits $69,000, Ethereum Goes on 20% Bull Rampage, XRP, SOL Pump 10% on Historic Crypto Day",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPcG05ei1qbVdsV1VNNDlUX0pyVHBRSzVmVjRVLXNSMW1MMnlKelI0MDJzVUNkRlhPcTc2R3MyRFlnLThGYVNxRmJBT1pLUU5nSmMzTnptMXlybHNUS2kxMktwMVJZNS1xdmwxWEszQUhpdHE1dkZkNmtBaDVmLXhvQl91ZVgxQm1pSUVKUU5qSzF3aXoxYnlTeDNTS1NEXzNuR0NyWEM2cUtVMFlidGNOMHJRd1dMYm91S3J1Y2R5Z29ocWc3OWdfWkZ1R0NTUWFJVW5hTVBfcTFPZXdDcE9uNklRRVRrNkE?oc=5",
+      "published_at": "2026-08-19T21:15:12.000Z",
+      "fetched_at": "2026-08-20T04:49:51.609Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin",
+        "ripple"
+      ]
+    },
+    {
+      "guid": "CBMilgFBVV95cUxPZ0E3YmZpN3huX2c4N2h5U0d2dS1LQ2l6dkZWMUJoY2hPV1hBV0ZneWYwalpRaGpkTk9raEttVmN0N3RIUDM5WDdJZ2JZR3BMT1ZwWFR5c2x0Zl81aUJwdTkySW84NW0zTndvYy1rRm1WR0xDUjY1b29ZQ3VReWxJOUpVYW9OUU9hUHdiOEk4UzVfejdyU1E",
+      "source": "Yahoo Finance",
+      "title": "Bitcoin Jumps Above $68,000 For The First Time Since June",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ0E3YmZpN3huX2c4N2h5U0d2dS1LQ2l6dkZWMUJoY2hPV1hBV0ZneWYwalpRaGpkTk9raEttVmN0N3RIUDM5WDdJZ2JZR3BMT1ZwWFR5c2x0Zl81aUJwdTkySW84NW0zTndvYy1rRm1WR0xDUjY1b29ZQ3VReWxJOUpVYW9OUU9hUHdiOEk4UzVfejdyU1E?oc=5",
+      "published_at": "2026-08-19T19:38:03.000Z",
+      "fetched_at": "2026-08-20T04:49:51.673Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "CBMilAFBVV95cUxQcWNrY3V2WldxZEpCQm5UY1F4Nlp3VWdTMy1xVk1aWVhRNXdxSDJ0N3haZUZtVnNkLWVDSDJPQl9LNXB6LXZjRnhlOG9oMXQxaFIxUWx4OTFyWTNMVHpjcFkzenZnLXlHUG1sUGZxX3h3SG9RcUVPYzVjLXR4bTZFVi15aEFkT0ZjS3NYY2NWNkRJaU5T",
+      "source": "Yahoo Finance",
+      "title": "Bitcoin Jumps To $68,000 On News Of Bond Market Intervention",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcWNrY3V2WldxZEpCQm5UY1F4Nlp3VWdTMy1xVk1aWVhRNXdxSDJ0N3haZUZtVnNkLWVDSDJPQl9LNXB6LXZjRnhlOG9oMXQxaFIxUWx4OTFyWTNMVHpjcFkzenZnLXlHUG1sUGZxX3h3SG9RcUVPYzVjLXR4bTZFVi15aEFkT0ZjS3NYY2NWNkRJaU5T?oc=5",
+      "published_at": "2026-08-19T19:07:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.672Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "CBMiowFBVV95cUxQdHRVT2NlUm94azdhSDIxa1UwTEdyRGMxWUFHMHFBYy1xRWpJWXNGLW0tb1NaNk92a3NHdEQzS24xT2k0UWdnYll4N0JqOXlrV29RenFfTDBWLXFQa1dTdGFZYzhRWlNuVks5bHFDa3hja0FMaXJpazlXV1pYUjhCZ2ZjZ3FmeWZZUWxaV1F0RVhtQktBalZnbmZyYXJaUnN2cTlJ",
+      "source": "Yahoo Finance",
+      "title": "Fed Minutes Pressure Bitcoin as Hawkish Rate Risks Return",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdHRVT2NlUm94azdhSDIxa1UwTEdyRGMxWUFHMHFBYy1xRWpJWXNGLW0tb1NaNk92a3NHdEQzS24xT2k0UWdnYll4N0JqOXlrV29RenFfTDBWLXFQa1dTdGFZYzhRWlNuVks5bHFDa3hja0FMaXJpazlXV1pYUjhCZ2ZjZ3FmeWZZUWxaV1F0RVhtQktBalZnbmZyYXJaUnN2cTlJ?oc=5",
+      "published_at": "2026-08-19T18:11:01.000Z",
+      "fetched_at": "2026-08-20T04:49:51.675Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "bitcoin"
+      ]
+    },
+    {
+      "guid": "CBMimgFBVV95cUxOSTJpb0JDeDl6UUlod2FnVmZjVW0tUmVvU1RLNy1zX2t4cFpyLTAtWWFPZm9GaWJwNWdrUVdtbV9KZTdoUlZZV2s4aE5xQ0hYSVd3YzRRSnJhQ2VnVkdoUTRvT3c1U05PT0VNcTM5M0NhRDRFMEQ4THNZUVNHMGhvRHVPTjlRUnpWc2dsTUppcDVKam1ZcGdkUFh3",
+      "source": "CryptoRank",
+      "title": "ADA Price Prediction Eyes $2.60 as Cardano Activity Slows",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSTJpb0JDeDl6UUlod2FnVmZjVW0tUmVvU1RLNy1zX2t4cFpyLTAtWWFPZm9GaWJwNWdrUVdtbV9KZTdoUlZZV2s4aE5xQ0hYSVd3YzRRSnJhQ2VnVkdoUTRvT3c1U05PT0VNcTM5M0NhRDRFMEQ4THNZUVNHMGhvRHVPTjlRUnpWc2dsTUppcDVKam1ZcGdkUFh3?oc=5",
+      "published_at": "2026-08-20T01:51:33.000Z",
+      "fetched_at": "2026-08-20T04:49:51.619Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -587,64 +568,12 @@
       ]
     },
     {
-      "guid": "CBMiZEFVX3lxTE9lNkJkakhBN2tBSHhPYXh0ajJ4RWZiM0p2eVdxNmFvRXhlckZmc2VwZEJ4NzRZcVZvNVpzZHdhZ1BjMVhVSlR3MEFaeGl2NVhCM1BJOTBqSkNaSzhiamxabW02R1A",
-      "source": "Binance",
-      "title": "Ahmad_ChartLens(@Ahmad_khanGurgaij)'s insights",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9lNkJkakhBN2tBSHhPYXh0ajJ4RWZiM0p2eVdxNmFvRXhlckZmc2VwZEJ4NzRZcVZvNVpzZHdhZ1BjMVhVSlR3MEFaeGl2NVhCM1BJOTBqSkNaSzhiamxabW02R1A?oc=5",
-      "published_at": "2026-08-17T03:38:26.000Z",
-      "fetched_at": "2026-08-17T09:13:47.260Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "cardano"
-      ]
-    },
-    {
-      "guid": "CBMiW0FVX3lxTFBySEpjWnZRZ05BZHBQNXRNczAwd2VPWkxpV1BQZ1k2N3JfbGt0WlBDdTNOb0pnZkRMZjduWF90V05SSU8xMWtXTE10SHVxYkp5Q2YyaDJSTlFPZXc",
-      "source": "Cryptonews.net",
-      "title": "Crypto market’s weekly winners and losers – WLD, WLFI, UNI, ADA",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBySEpjWnZRZ05BZHBQNXRNczAwd2VPWkxpV1BQZ1k2N3JfbGt0WlBDdTNOb0pnZkRMZjduWF90V05SSU8xMWtXTE10SHVxYkp5Q2YyaDJSTlFPZXc?oc=5",
-      "published_at": "2026-08-16T22:59:38.000Z",
-      "fetched_at": "2026-08-17T09:13:47.258Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "cardano"
-      ]
-    },
-    {
-      "guid": "CBMif0FVX3lxTE81Qk5WWXkyVlNwQVRGd0pRR0gwc2lMZWdBNjJQYTJkc29TdzNSbjFEVjI3Z3A3YmlENjIxcnV6aU1PYnQ1RmhRakZOUWlfb1luT3dQNDh5REk0YWZUdHNnUE51aVZRdUJvdy1oS3Vidklkc1RCdE9PZlQ2bFhGSG8",
-      "source": "BeInCrypto",
-      "title": "Cardano Founder Launches New Free Tool to Remove Anthropic’s AI Watermark",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81Qk5WWXkyVlNwQVRGd0pRR0gwc2lMZWdBNjJQYTJkc29TdzNSbjFEVjI3Z3A3YmlENjIxcnV6aU1PYnQ1RmhRakZOUWlfb1luT3dQNDh5REk0YWZUdHNnUE51aVZRdUJvdy1oS3Vidklkc1RCdE9PZlQ2bFhGSG8?oc=5",
-      "published_at": "2026-08-16T13:53:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.249Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "cardano"
-      ]
-    },
-    {
-      "guid": "CBMiZ0FVX3lxTE9ELXV4SllXeXdFRzFEVWRaTVNVODBJSHgxRWVTRmZGMnh0eGNuTDBOR19KdDVMZlpNd2ZyalVtdGFXU2ZrOWpXcGFmMjQ4Y0R0cnhKQnZxazcycmpYYWg4R0JEajJQejQ",
-      "source": "Crypto News",
-      "title": "Cardano Dijkstra targets 2026 Leios, 2027 Peras rollout",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ELXV4SllXeXdFRzFEVWRaTVNVODBJSHgxRWVTRmZGMnh0eGNuTDBOR19KdDVMZlpNd2ZyalVtdGFXU2ZrOWpXcGFmMjQ4Y0R0cnhKQnZxazcycmpYYWg4R0JEajJQejQ?oc=5",
-      "published_at": "2026-08-16T11:36:59.000Z",
-      "fetched_at": "2026-08-17T09:13:47.257Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "cardano"
-      ]
-    },
-    {
-      "guid": "CBMisAFBVV95cUxQaFNXLU5vMGEydVlBajEwRzhiT1dyRzZzcmQwWUJFNnJTZ2Z4aUVWeXl2VS1FZFRtN0lRUmdFUE5xcGhwcl8yYVc2VE9ZT2RHVFhLNXhZSFk5ZURYV0t4cTA5M3VVVUE0VHBfbVcyeFMyS09ZN1RPVGpLTGs1QXQxWGVxWkJhZW9NbU1iS2pUajdRTEtKRG5TZzVleVdaWENrbTFORTBBRTZ2S1RfbnpUNQ",
-      "source": "AMBCrypto",
-      "title": "Cardano price prediction hints at strong downtrend, but dip buyers may be ready to strike!",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaFNXLU5vMGEydVlBajEwRzhiT1dyRzZzcmQwWUJFNnJTZ2Z4aUVWeXl2VS1FZFRtN0lRUmdFUE5xcGhwcl8yYVc2VE9ZT2RHVFhLNXhZSFk5ZURYV0t4cTA5M3VVVUE0VHBfbVcyeFMyS09ZN1RPVGpLTGs1QXQxWGVxWkJhZW9NbU1iS2pUajdRTEtKRG5TZzVleVdaWENrbTFORTBBRTZ2S1RfbnpUNQ?oc=5",
-      "published_at": "2026-08-15T22:00:32.000Z",
-      "fetched_at": "2026-08-17T09:13:47.257Z",
+      "guid": "CBMimAFBVV95cUxNMzFOc1hFdU9jaXJWbUhSVXRCN3plVVRJaEdjRlROb0g5YjZPN1dWV1B4c3hkRktqTDFySDVDSUFhcGdjeG55Z25Za3hNNFdZWkd3Z25XR3hOZGk0WmlsUFhtaUVkQzEwaVlBS3R3T3B6X3FTaHd3OUF6Y2RHMmVRRVB0RHlZM0tJeWt5QmZ5MkQ4ZzJxTzZQcA",
+      "source": "Investing.com",
+      "title": "Cardano Climbs 10% In Bullish Trade",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMzFOc1hFdU9jaXJWbUhSVXRCN3plVVRJaEdjRlROb0g5YjZPN1dWV1B4c3hkRktqTDFySDVDSUFhcGdjeG55Z25Za3hNNFdZWkd3Z25XR3hOZGk0WmlsUFhtaUVkQzEwaVlBS3R3T3B6X3FTaHd3OUF6Y2RHMmVRRVB0RHlZM0tJeWt5QmZ5MkQ4ZzJxTzZQcA?oc=5",
+      "published_at": "2026-08-19T21:44:59.000Z",
+      "fetched_at": "2026-08-20T04:49:51.620Z",
       "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -652,38 +581,12 @@
       ]
     },
     {
-      "guid": "CBMifkFVX3lxTFBFTlFuM3ZLQ0tUeWpfVERJT3drVXk2YjRtYktWY3VGY0gyNENfOHVrX01McDd6cFRKeWpCZ0l3RTZ1UXE2VXl2S3R4NG5JMmNsS1VKa2NMY1dTQzV0WE80cU1vZG9HcjdWNUVHLW1xVi1pNjF4OUhxOUZMdDgxdw",
-      "source": "Crypto News",
-      "title": "Grayscale quietly killed three altcoin ETFs two days before Cardano became eligible",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFTlFuM3ZLQ0tUeWpfVERJT3drVXk2YjRtYktWY3VGY0gyNENfOHVrX01McDd6cFRKeWpCZ0l3RTZ1UXE2VXl2S3R4NG5JMmNsS1VKa2NMY1dTQzV0WE80cU1vZG9HcjdWNUVHLW1xVi1pNjF4OUhxOUZMdDgxdw?oc=5",
-      "published_at": "2026-08-15T05:03:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.249Z",
-      "score": 0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "cardano"
-      ]
-    },
-    {
-      "guid": "CBMibkFVX3lxTFBDaHVhWkhkWUF6ZnRpT1AyNDctMHQ0S3h4c2d4Zmx5N0EweFNjQUtDdmVTTzlyaFNJZFFaZlBoaHhNWXpkbjN5TFNURk1UR3kwanpEd09DQlFJSE5uMlNxeEJ4SUYxZFRJNlNRQkdR",
-      "source": "Yellow.com",
-      "title": "Cardano DeFi TVL Jumps 14M ADA While Institutions Stay On Sidelines",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDaHVhWkhkWUF6ZnRpT1AyNDctMHQ0S3h4c2d4Zmx5N0EweFNjQUtDdmVTTzlyaFNJZFFaZlBoaHhNWXpkbjN5TFNURk1UR3kwanpEd09DQlFJSE5uMlNxeEJ4SUYxZFRJNlNRQkdR?oc=5",
-      "published_at": "2026-08-14T15:41:28.000Z",
-      "fetched_at": "2026-08-17T09:13:47.251Z",
-      "score": 0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "cardano"
-      ]
-    },
-    {
-      "guid": "CBMi2gFBVV95cUxPNjgwOVltSFMzVm5xZ1A0ZHlNcHhmMVdQdldHT19JNDJ3Y0tDRzFhb3EyZEQ0aTFUellXWUhkNTRyRGFrcjZIZW1Zdkk4ZmVfTUEzSlR5dUFUUEhOMlJvSHUzb3ZtV2dORjZFZHVtVUZfZmo2NDE1NlFRUU5LVEZYcGYxc0FfM2FmeGdrZWEyVlpqLWdUNTBuUHh5Um1OcTBEdEtiUThrQ1YtSVgxSnBJZFdKZC1VV0dTMDl0cXdYS0hxV3ZjSHhsbWs2MFFUZUFUNWw5d1B6M0hWUQ",
-      "source": "markets.businessinsider.com",
-      "title": "Crypto News: Pepeto Defi Tools Update As the Cardano Price Prediction Reaches for $15",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNjgwOVltSFMzVm5xZ1A0ZHlNcHhmMVdQdldHT19JNDJ3Y0tDRzFhb3EyZEQ0aTFUellXWUhkNTRyRGFrcjZIZW1Zdkk4ZmVfTUEzSlR5dUFUUEhOMlJvSHUzb3ZtV2dORjZFZHVtVUZfZmo2NDE1NlFRUU5LVEZYcGYxc0FfM2FmeGdrZWEyVlpqLWdUNTBuUHh5Um1OcTBEdEtiUThrQ1YtSVgxSnBJZFdKZC1VV0dTMDl0cXdYS0hxV3ZjSHhsbWs2MFFUZUFUNWw5d1B6M0hWUQ?oc=5",
-      "published_at": "2026-08-14T14:31:23.000Z",
-      "fetched_at": "2026-08-17T09:13:47.248Z",
+      "guid": "CBMimwJBVV95cUxNMHVCRmk0X1JOT2oxQS1qcGxHYUlFVU1XWThrLXE5bS1JMWdTY1JjWWVSSGJZNFM5MTRoVmtScWROeGJ3SVBKM2ZKOEthRXlUTTlPX3VBaEhENEVMZVdGb096V0pQT2VfeTh2TVFNZlpZejcwaDFZWXNYNVVaWHVfS2hENzJyMnQwT3RZTWdtNVFoc21jZXhGaFZYT2d6eGV3Um5tMlNodVMwRWI4eTlkN1RFQ3NnazBXd1M0V01OMmo1TlNqekZ1bG1qNXktSzN2UzFQczhESkFVeWRld3EzSnp0QUQ5aFJYQWR3N3d3SXZyeWFfZnRGcDdnYV9Oby1JRC1uRnRZU3ZCWlhHMEFrQ3RaVTBPcUlkckI4",
+      "source": "StreetInsider",
+      "title": "Cardano Price Prediction: ADA Battles for $0.20 as AlphaPepe Whales Rush In Before Today’s Reveal Could End the Presale",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNMHVCRmk0X1JOT2oxQS1qcGxHYUlFVU1XWThrLXE5bS1JMWdTY1JjWWVSSGJZNFM5MTRoVmtScWROeGJ3SVBKM2ZKOEthRXlUTTlPX3VBaEhENEVMZVdGb096V0pQT2VfeTh2TVFNZlpZejcwaDFZWXNYNVVaWHVfS2hENzJyMnQwT3RZTWdtNVFoc21jZXhGaFZYT2d6eGV3Um5tMlNodVMwRWI4eTlkN1RFQ3NnazBXd1M0V01OMmo1TlNqekZ1bG1qNXktSzN2UzFQczhESkFVeWRld3EzSnp0QUQ5aFJYQWR3N3d3SXZyeWFfZnRGcDdnYV9Oby1JRC1uRnRZU3ZCWlhHMEFrQ3RaVTBPcUlkckI4?oc=5",
+      "published_at": "2026-08-19T20:49:58.000Z",
+      "fetched_at": "2026-08-20T04:49:51.623Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -691,25 +594,51 @@
       ]
     },
     {
-      "guid": "CBMiiAFBVV95cUxNa0pmRm9XV2VialpUdkhCZ0tSWWJZLW5DUzJGSzB5eHd4TUJHQXhjaXhxVzBjN1ZiTzJrODlEMUxRRFBWSXh2am5YbXdJWFhEeDhFWGJfalVtcVN0MnhfX1lIOGRrdUM2WGVyUUZ1RVNNb2pBakFsT1pBZFlTbnk4SHVjY3h1WUM5",
+      "guid": "CBMisgFBVV95cUxOZWk5eWtsRzZLTWFUbU1EakpVeTVVa3NvSktPQzhqcmMzY3V3UzVyUTlvMG5GZm9Gdm9xdFFHN0VXcXRIeTh0WmlvMm85U2NVM210YlJ4WTJIZmVPZEJHOFFTUGZFeDZLZnNYMDhqbUpnWnZvQ1g4RHJfRkkwTkdrcVhNRzV1X0JlS2lUT1EtcTExWjlXYzJpRnI3eU0xU0VKQUdmZlRLVGl3VU52UDJVN1Zn",
+      "source": "CryptoRank",
+      "title": "Cardano Price Prediction Eyes Reversal As Bullish Divergence Builds On ADA",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZWk5eWtsRzZLTWFUbU1EakpVeTVVa3NvSktPQzhqcmMzY3V3UzVyUTlvMG5GZm9Gdm9xdFFHN0VXcXRIeTh0WmlvMm85U2NVM210YlJ4WTJIZmVPZEJHOFFTUGZFeDZLZnNYMDhqbUpnWnZvQ1g4RHJfRkkwTkdrcVhNRzV1X0JlS2lUT1EtcTExWjlXYzJpRnI3eU0xU0VKQUdmZlRLVGl3VU52UDJVN1Zn?oc=5",
+      "published_at": "2026-08-19T12:10:05.000Z",
+      "fetched_at": "2026-08-20T04:49:51.622Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "cardano"
+      ]
+    },
+    {
+      "guid": "CBMiwwFBVV95cUxOS1RFX05PSWRYaWlPaVZ5b2FHZkdxQjA4VVpGcWtpb243OFhjOUdQaURaN2VReFlucXlJbVVNSFFNLWxrMjNqTmdHb0o3alBZb3V4SVJRSTl2RVVMVkZDcllqNi1BUHdfbXZkLUhVbkl3ZjNYSURGeVlmUV9fUW9YdmVFX1NKN3dkZ1FFQmxTS0RTcUJqdW1weVFGZVRKSUlOSElXemFLeldTaTladFdDVmlLUDBxaW1XalpneTZvZ3RvcmvSAcgBQVVfeXFMUDdhNEliTXQ2TFRLRUUzaks4bTBkSFRxT2NkNncwaFhra2FJVWZtYkx4NURkMzlINkpjWFJLeERNbDRGZmlSSTVQVGJDOWxaX3RyNmdfc0RWeEZ1UnNYemFPc2QwNzhSaGZSUjQwMEttUFNuUlZQVVU0N29Rd0RCZUd3STR1b0ZMZzFqbW41QlVhUEdMdmJSR042TzMyaWRTVlk0blRwcW83TzFJWEJKc0VTeTlZVk5TRkc0cFktSThRank1ckhEbkI",
+      "source": "Coinpedia",
+      "title": "Cardano Tests $0.175 as On-Chain Activity Continues to Weaken—Can ADA Price Reclaim $0.20",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOS1RFX05PSWRYaWlPaVZ5b2FHZkdxQjA4VVpGcWtpb243OFhjOUdQaURaN2VReFlucXlJbVVNSFFNLWxrMjNqTmdHb0o3alBZb3V4SVJRSTl2RVVMVkZDcllqNi1BUHdfbXZkLUhVbkl3ZjNYSURGeVlmUV9fUW9YdmVFX1NKN3dkZ1FFQmxTS0RTcUJqdW1weVFGZVRKSUlOSElXemFLeldTaTladFdDVmlLUDBxaW1XalpneTZvZ3RvcmvSAcgBQVVfeXFMUDdhNEliTXQ2TFRLRUUzaks4bTBkSFRxT2NkNncwaFhra2FJVWZtYkx4NURkMzlINkpjWFJLeERNbDRGZmlSSTVQVGJDOWxaX3RyNmdfc0RWeEZ1UnNYemFPc2QwNzhSaGZSUjQwMEttUFNuUlZQVVU0N29Rd0RCZUd3STR1b0ZMZzFqbW41QlVhUEdMdmJSR042TzMyaWRTVlk0blRwcW83TzFJWEJKc0VTeTlZVk5TRkc0cFktSThRank1ckhEbkI?oc=5",
+      "published_at": "2026-08-19T10:33:18.000Z",
+      "fetched_at": "2026-08-20T04:49:51.620Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "cardano"
+      ]
+    },
+    {
+      "guid": "CBMikgFBVV95cUxOQkd0NkdhZ1R0X0x1ZGhLMTZ1TGVpYlk5TDNwZ0cwVmhNX0hLcV9yQ2VoZXJYblVGUDByUzdGX2FMQ0ZyTEp2MjJvVXc2X2MyYkUzNG1ic1Uya0o3NVlEUnBNcWpqTDM2VkRFcUFqZGpGT2djQTllR25XWG5hZlQ3bWRRV0EyUm5jWkNUZVJfQm45dw",
+      "source": "Pluang",
+      "title": "Cardano's price shows bullish signals with a ta...",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQkd0NkdhZ1R0X0x1ZGhLMTZ1TGVpYlk5TDNwZ0cwVmhNX0hLcV9yQ2VoZXJYblVGUDByUzdGX2FMQ0ZyTEp2MjJvVXc2X2MyYkUzNG1ic1Uya0o3NVlEUnBNcWpqTDM2VkRFcUFqZGpGT2djQTllR25XWG5hZlQ3bWRRV0EyUm5jWkNUZVJfQm45dw?oc=5",
+      "published_at": "2026-08-19T10:25:39.000Z",
+      "fetched_at": "2026-08-20T04:49:51.625Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "cardano"
+      ]
+    },
+    {
+      "guid": "CBMigAFBVV95cUxNQ2Fhc0VVak1hdjJWLWFJYVRWLVVxNmR0dndnRzlpTm9mYjM1NnZFNXVmbm9JSkk5dHhVY0VjUngxUzVfRk9UN1hVYnMxV093UUpxaTVVTU82Vzh5b3ZvREt6SzJuZGVVaFJpaHQ0TXNFdTJWVjhDeEduWU1VWnRueQ",
       "source": "DailyCoin",
-      "title": "Cardano’s SuperTrend Puts Bulls Back In The Driver’s Seat",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa0pmRm9XV2VialpUdkhCZ0tSWWJZLW5DUzJGSzB5eHd4TUJHQXhjaXhxVzBjN1ZiTzJrODlEMUxRRFBWSXh2am5YbXdJWFhEeDhFWGJfalVtcVN0MnhfX1lIOGRrdUM2WGVyUUZ1RVNNb2pBakFsT1pBZFlTbnk4SHVjY3h1WUM5?oc=5",
-      "published_at": "2026-08-14T14:30:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.257Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "cardano"
-      ]
-    },
-    {
-      "guid": "CBMisAFBVV95cUxPV1Nzb0JjT08wSV9pT0RISWFvT2NjeFdITzU5WnpCZm5ZT1pCbjZyaEIxUGxBQUxlaDVuZE9HUWpjUl9JOWU0X0s1RVdnQmtOTXdSOVZ3aU1YdENSdFRCUDBZbWZ5SlhtQm5Ca1hTbHQxWk8wOGJSdDZIa0dNc0RFdHI5UmpRTC0xVjVOcm5NV091akowaHdYX21yS0pKRk41ckJHeUV2V3dYNDFkbDJTNQ",
-      "source": "CoinGape",
-      "title": "Cardano Price Prediction as TVL Adds 14M ADA Even As Institutional Demand Weakens",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV1Nzb0JjT08wSV9pT0RISWFvT2NjeFdITzU5WnpCZm5ZT1pCbjZyaEIxUGxBQUxlaDVuZE9HUWpjUl9JOWU0X0s1RVdnQmtOTXdSOVZ3aU1YdENSdFRCUDBZbWZ5SlhtQm5Ca1hTbHQxWk8wOGJSdDZIa0dNc0RFdHI5UmpRTC0xVjVOcm5NV091akowaHdYX21yS0pKRk41ckJHeUV2V3dYNDFkbDJTNQ?oc=5",
-      "published_at": "2026-08-14T10:58:54.000Z",
-      "fetched_at": "2026-08-17T09:13:47.244Z",
+      "title": "Cardano TD Sequential Turns Bullish: Here’s The Target",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ2Fhc0VVak1hdjJWLWFJYVRWLVVxNmR0dndnRzlpTm9mYjM1NnZFNXVmbm9JSkk5dHhVY0VjUngxUzVfRk9UN1hVYnMxV093UUpxaTVVTU82Vzh5b3ZvREt6SzJuZGVVaFJpaHQ0TXNFdTJWVjhDeEduWU1VWnRueQ?oc=5",
+      "published_at": "2026-08-19T09:52:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.624Z",
       "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -717,39 +646,182 @@
       ]
     },
     {
-      "guid": "CBMitAFBVV95cUxNeE1YeXVTTkxoXzRLWnNwNE1yYzJjNFpKaWJLQzh3dkROTTc0MlpjaThvVGxHVVFzNHBvUFlMQUNVemQxS0FPMXZFb01KQTBoUm1FdHZoVDRTR0dXRzlzVmFaeUdjWUF0V241NHF6MnFYMWgxcEl2Y25KOXRZdWhlMzJqU1poR2RVSU94b1BhQlMxNFA1akZqQVVNTGU0dlpGN1JBTmg1eGk2MXVpZzJVUzNILVg",
-      "source": "Robinhood",
-      "title": "Dogecoin price on Aug 16, 2026 at 6pm EDT Crypto Prediction Market",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeE1YeXVTTkxoXzRLWnNwNE1yYzJjNFpKaWJLQzh3dkROTTc0MlpjaThvVGxHVVFzNHBvUFlMQUNVemQxS0FPMXZFb01KQTBoUm1FdHZoVDRTR0dXRzlzVmFaeUdjWUF0V241NHF6MnFYMWgxcEl2Y25KOXRZdWhlMzJqU1poR2RVSU94b1BhQlMxNFA1akZqQVVNTGU0dlpGN1JBTmg1eGk2MXVpZzJVUzNILVg?oc=5",
-      "published_at": "2026-08-16T21:06:35.000Z",
-      "fetched_at": "2026-08-17T09:13:46.905Z",
+      "guid": "CBMipgFBVV95cUxPVG92Qjh0SWNkYWQxQ2RHQk5qU2Q1MnFnZ2Vyd1J4c1Q4TnRsd25Hb2ozbm1RV0dpOWVjR3BaYmQ1SVl3Y081Q3ZDa3o1QTdxY1dqWTRCRHV5WnVEZ0t0Q2pRa1h0OEhHWDczWUJ0eV9HWHB2aUZqa01jQmw1TDQ1eFFzdWtKTERyUEJxN3pEemtrWnFTTWY4dTlMMlRJY2RDOG4tNVRB0gHLAUFVX3lxTFBQY3BEMjJSR1MwZEtFcGtiQzJ0WmNkWWgyS3RiOS1BeGtybS1yaVViYmZlOC05TFRXSjEzTEloNnp3M2dzTjc3NlBmMFhnams5TFNyV3JKZXFxVjF2bGtqMjktanpfd2Zacmg5eHA3N2duYk4zWWpwVVNsZkRlbWdVb2dVbjdsNEVYX1gxVmZSQzNrNHZoSjd2TzNlNGpoSEcyWXhOZTN2THd6M2VOcFZvcHpzRXROUm0tdHlCUGRTVzFTUjhHa3hfSzhz",
+      "source": "Coinpedia",
+      "title": "Charles Hoskinson Says Cardano Needs a New Crypto Narrative to Bring in $10T",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVG92Qjh0SWNkYWQxQ2RHQk5qU2Q1MnFnZ2Vyd1J4c1Q4TnRsd25Hb2ozbm1RV0dpOWVjR3BaYmQ1SVl3Y081Q3ZDa3o1QTdxY1dqWTRCRHV5WnVEZ0t0Q2pRa1h0OEhHWDczWUJ0eV9HWHB2aUZqa01jQmw1TDQ1eFFzdWtKTERyUEJxN3pEemtrWnFTTWY4dTlMMlRJY2RDOG4tNVRB0gHLAUFVX3lxTFBQY3BEMjJSR1MwZEtFcGtiQzJ0WmNkWWgyS3RiOS1BeGtybS1yaVViYmZlOC05TFRXSjEzTEloNnp3M2dzTjc3NlBmMFhnams5TFNyV3JKZXFxVjF2bGtqMjktanpfd2Zacmg5eHA3N2duYk4zWWpwVVNsZkRlbWdVb2dVbjdsNEVYX1gxVmZSQzNrNHZoSjd2TzNlNGpoSEcyWXhOZTN2THd6M2VOcFZvcHpzRXROUm0tdHlCUGRTVzFTUjhHa3hfSzhz?oc=5",
+      "published_at": "2026-08-19T04:51:19.000Z",
+      "fetched_at": "2026-08-20T04:49:51.624Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
-        "dogecoin"
+        "cardano"
       ]
     },
     {
-      "guid": "CBMiWkFVX3lxTE9PZXdSN3VJc0hzcTN2dG9renViakhMM1JYVXVSQkRFTzdieDVGMnlrTW1sZGdBZGU2alp4dXNERVpfcjkxMm1mVmxfTUh5M0xjTXZLVzVvNEl3dw",
-      "source": "Cryptonews.net",
-      "title": "Dogecoin's Genesis Block Coinbase Reward Was 88 DOGE: Why It Matters",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9PZXdSN3VJc0hzcTN2dG9renViakhMM1JYVXVSQkRFTzdieDVGMnlrTW1sZGdBZGU2alp4dXNERVpfcjkxMm1mVmxfTUh5M0xjTXZLVzVvNEl3dw?oc=5",
-      "published_at": "2026-08-16T20:59:17.000Z",
-      "fetched_at": "2026-08-17T09:13:46.953Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "dogecoin"
-      ]
-    },
-    {
-      "guid": "CBMijAFBVV95cUxNR2NWVVVNN3JvWWJSVkF5Q3owSnR6ZDBKQjdXVTJmcUEyLXpVUEdhNmNDMHg1LXhXUmZtdzlOMFp3QnZJS2VGcXZxMTBGelY4ZmtfdVNFeGRZNUVYdTVaWFZOTjdrSk1xWmJpVUhyQU9wQWRMaUxiazhmZ1Q5MlRmYXVrWS1nY1FncV9LTA",
+      "guid": "CBMiiwFBVV95cUxPcUF0YnpBaFFIaVRrSm93MjNFbXd3S3BNVFJjUU1POGo2RnhyZFAzZ3d0MHUweVp6VGd5QnFVYV9zOXZzc25GaC1mSHdVLVlZS3FzX3M5NUFkLUNTYjNReFJyTFBEVjJxeUlVWVNETU4wbm5aVkZhd2tTcFd4dXlpUW1TQW9OZWxKYjJV",
       "source": "AMBCrypto",
-      "title": "Dogecoin’s rare setup mirrors 2022 – Can DOGE repeat its 140% rally?",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNR2NWVVVNN3JvWWJSVkF5Q3owSnR6ZDBKQjdXVTJmcUEyLXpVUEdhNmNDMHg1LXhXUmZtdzlOMFp3QnZJS2VGcXZxMTBGelY4ZmtfdVNFeGRZNUVYdTVaWFZOTjdrSk1xWmJpVUhyQU9wQWRMaUxiazhmZ1Q5MlRmYXVrWS1nY1FncV9LTA?oc=5",
-      "published_at": "2026-08-16T09:00:45.000Z",
-      "fetched_at": "2026-08-17T09:13:46.951Z",
+      "title": "ADA price slips to $0.17 as Cardano maps out Dijkstra upgrade",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPcUF0YnpBaFFIaVRrSm93MjNFbXd3S3BNVFJjUU1POGo2RnhyZFAzZ3d0MHUweVp6VGd5QnFVYV9zOXZzc25GaC1mSHdVLVlZS3FzX3M5NUFkLUNTYjNReFJyTFBEVjJxeUlVWVNETU4wbm5aVkZhd2tTcFd4dXlpUW1TQW9OZWxKYjJV?oc=5",
+      "published_at": "2026-08-18T19:21:02.000Z",
+      "fetched_at": "2026-08-20T04:49:51.620Z",
       "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "cardano"
+      ]
+    },
+    {
+      "guid": "CBMiZEFVX3lxTE1SOEtBWU9MZ2tUaEJDU2JpRkFFNldvb1RTM2tCZTVLTnhuOUNwX2lrbzlob2NORTFTVU1xQWpJU1ExcUw4Z1ZNWURmdUFUMG9YQWMtSVJZMnJPaFZpQzRKdzNtOEI",
+      "source": "Binance",
+      "title": "Cardano (ADA) at $0.174: The Academic Blockchain – Still Building",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SOEtBWU9MZ2tUaEJDU2JpRkFFNldvb1RTM2tCZTVLTnhuOUNwX2lrbzlob2NORTFTVU1xQWpJU1ExcUw4Z1ZNWURmdUFUMG9YQWMtSVJZMnJPaFZpQzRKdzNtOEI?oc=5",
+      "published_at": "2026-08-18T19:14:06.000Z",
+      "fetched_at": "2026-08-20T04:49:51.620Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "cardano"
+      ]
+    },
+    {
+      "guid": "CBMickFVX3lxTE1XMF9mY1VJSV9fOUYxdV9OdjRrekswMnI2SEdhQ1hUUXMxMVVCbU8tSG9kNUNKTWp1U1VIbEdOUUFNYzVERWd4S2lHLXByeFlyOHVZQWNQODhvQXpCQklUZWNCUWpMT0MyNXY0aDQ4dXdEdw",
+      "source": "Altcoin Buzz",
+      "title": "Cardano Price After Dijkstra Hard Fork Plans: What's Next?",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1XMF9mY1VJSV9fOUYxdV9OdjRrekswMnI2SEdhQ1hUUXMxMVVCbU8tSG9kNUNKTWp1U1VIbEdOUUFNYzVERWd4S2lHLXByeFlyOHVZQWNQODhvQXpCQklUZWNCUWpMT0MyNXY0aDQ4dXdEdw?oc=5",
+      "published_at": "2026-08-18T14:28:14.000Z",
+      "fetched_at": "2026-08-20T04:49:51.624Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "cardano"
+      ]
+    },
+    {
+      "guid": "CBMiuAFBVV95cUxPWHpTYlhySDdRWjVmLWNCaGI1dm1qdm5RRzZ5RzljWUdfNzRKOENZZnFjemZOTXJhNkZVb3dvRjJmNUFFaHozZC0tdEJBaTA4WUVkZWJWdExaak54bE52dVBLVkY1TVdVTmJ5RTlkenV5allVSHZ4WTNRS2VRVENtWXFXV1RRdXVWdUZ2TUpRU3dOazZ5RUV3eVRpcXBnUmVodE5vM01kZ2ZXVTRGZXFsVkRWZXpHWnR4",
+      "source": "CryptoRank",
+      "title": "Hoskinson Reacts as Buterin Credits Bitcoin, Not Cardano, for Ethereum’s UTXO Push",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWHpTYlhySDdRWjVmLWNCaGI1dm1qdm5RRzZ5RzljWUdfNzRKOENZZnFjemZOTXJhNkZVb3dvRjJmNUFFaHozZC0tdEJBaTA4WUVkZWJWdExaak54bE52dVBLVkY1TVdVTmJ5RTlkenV5allVSHZ4WTNRS2VRVENtWXFXV1RRdXVWdUZ2TUpRU3dOazZ5RUV3eVRpcXBnUmVodE5vM01kZ2ZXVTRGZXFsVkRWZXpHWnR4?oc=5",
+      "published_at": "2026-08-18T14:01:42.000Z",
+      "fetched_at": "2026-08-20T04:49:51.623Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "cardano"
+      ]
+    },
+    {
+      "guid": "CBMitgFBVV95cUxPQ015WUhuOGQ5WFA3SGhpUGFnc2RGTWF2eWtLR0llSE5aNFRKQnFsalEyeHR3NmhYZUo2RHF6b0NsNzYwVWFzQXNlSlR5MmIwY1h5T3MxWVJTeWtKazBHblB1cjdrQnNtaHIyOF9XLVdaTmsxMUpGWENURzN4ZGNidUZOeC1mWFpRZzdRRUo1S0d3WmpQT19nZ3pJN1BCb1E5Ti0yOE9yamNwdHV2QzJaMno4OHkxQQ",
+      "source": "robinhood.com",
+      "title": "Dogecoin price on Aug 20, 2026 at 12am EDT Crypto Prediction Market",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQ015WUhuOGQ5WFA3SGhpUGFnc2RGTWF2eWtLR0llSE5aNFRKQnFsalEyeHR3NmhYZUo2RHF6b0NsNzYwVWFzQXNlSlR5MmIwY1h5T3MxWVJTeWtKazBHblB1cjdrQnNtaHIyOF9XLVdaTmsxMUpGWENURzN4ZGNidUZOeC1mWFpRZzdRRUo1S0d3WmpQT19nZ3pJN1BCb1E5Ti0yOE9yamNwdHV2QzJaMno4OHkxQQ?oc=5",
+      "published_at": "2026-08-20T03:03:26.000Z",
+      "fetched_at": "2026-08-20T04:49:51.849Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "dogecoin"
+      ]
+    },
+    {
+      "guid": "CBMiugFBVV95cUxQem9RTEIyWVp0c0todTRxUVFfU1p0SkU1MEhndVJ2T2RIX092WWVVRnNFa19ZYzJkYU5VN094cVNfMnQ5TVBDcXZPTFQ3Sjc0ck1hZnV3TmROdERhUWRrU0prYlllRFltVlR0TXdYOFNlUEtfZmxSbHFabTlHUE5vQnZoMTJzdWtWNk4zNXJlenFINzl2WnZvaS03ZWJ6b3hCdHlydWNYWktWQm9Fb2hzdDUyTlBaTzk5WUE",
+      "source": "Benzinga",
+      "title": "Bitcoin Near $70,000, Ethereum, XRP, Dogecoin Pop as Crypto Hits 'Greed' Mode: Analyst Says It's Just the",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem9RTEIyWVp0c0todTRxUVFfU1p0SkU1MEhndVJ2T2RIX092WWVVRnNFa19ZYzJkYU5VN094cVNfMnQ5TVBDcXZPTFQ3Sjc0ck1hZnV3TmROdERhUWRrU0prYlllRFltVlR0TXdYOFNlUEtfZmxSbHFabTlHUE5vQnZoMTJzdWtWNk4zNXJlenFINzl2WnZvaS03ZWJ6b3hCdHlydWNYWktWQm9Fb2hzdDUyTlBaTzk5WUE?oc=5",
+      "published_at": "2026-08-20T02:06:01.000Z",
+      "fetched_at": "2026-08-20T04:49:51.850Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "dogecoin"
+      ]
+    },
+    {
+      "guid": "CBMirwFBVV95cUxQRWNlOU11bW1BenJxU0hXdjNLOFo4UlFPQ1ZyNjR0emt0QmxCV0VmUFI4eVNkV3hSWklVSFI2NE40d0UtMm5qOEo3ZTdzRzhDWWwxUWdxcE5ZMEpaakV5NDZzZU1QeVBZc3NNSjlGbXA0ai0zbk1FMkZpSVlqbjJKU3dubXNURm1PUkd3N2lxOUtfeXFyeHc5cXpiOUM4ODFXWXZvR1pzazA2OE4yekY40gGvAUFVX3lxTFBFY2U5TXVtbUF6cnFTSFd2M0s4WjhSUU9DVnI2NHR6a3RCbEJXRWZQUjh5U2RXeFJaSVVIUjY0TjR3RS0ybmo4SjdlN3NHOENZbDFRZ3FwTlkwSlpqRXk0NnNlTVB5UFlzc01KOUZtcDRqLTNuTUUyRmlJWWpuMkpTd25tc1RGbU9SR3c3aXE5S195cXJ4dzlxemI5Qzg4MVdZdm9HWnNrMDY4TjJ6Rjg",
+      "source": "Ventureburn",
+      "title": "Best Crypto To Buy Now For Potential 100x Gains: Moonberg, Shiba Inu, Chainlink, Dogecoin",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRWNlOU11bW1BenJxU0hXdjNLOFo4UlFPQ1ZyNjR0emt0QmxCV0VmUFI4eVNkV3hSWklVSFI2NE40d0UtMm5qOEo3ZTdzRzhDWWwxUWdxcE5ZMEpaakV5NDZzZU1QeVBZc3NNSjlGbXA0ai0zbk1FMkZpSVlqbjJKU3dubXNURm1PUkd3N2lxOUtfeXFyeHc5cXpiOUM4ODFXWXZvR1pzazA2OE4yekY40gGvAUFVX3lxTFBFY2U5TXVtbUF6cnFTSFd2M0s4WjhSUU9DVnI2NHR6a3RCbEJXRWZQUjh5U2RXeFJaSVVIUjY0TjR3RS0ybmo4SjdlN3NHOENZbDFRZ3FwTlkwSlpqRXk0NnNlTVB5UFlzc01KOUZtcDRqLTNuTUUyRmlJWWpuMkpTd25tc1RGbU9SR3c3aXE5S195cXJ4dzlxemI5Qzg4MVdZdm9HWnNrMDY4TjJ6Rjg?oc=5",
+      "published_at": "2026-08-19T17:11:45.000Z",
+      "fetched_at": "2026-08-20T04:49:51.849Z",
+      "score": 0.6666666666666666,
+      "method": "rule-based",
+      "assets": [
+        "dogecoin"
+      ]
+    },
+    {
+      "guid": "CBMi6wFBVV95cUxPN3FQT3JpM1RUZHdDUlRaOG1TUWs2di1hWThxR0E2V2pZa3E4WGZfUXVwbmpZUmkza0FUX2M0OC1GTTB1NTFodGwxUDdNRDgzdEhENnR5RUlZcWxWRGhWV2RrRDFDcVNLUmFuZmxUQTFzbnZoM05LTmE3d3U4RGxMeGRuX1ZuMFpMNTlteURRczRHWHhsMWstSjhpOGFoOGhCQ2o1ZldiZVVRSG9oaE5jWlRORTk1M0p6Qy1WeEFib1Bvb2lXNF9uMXRtN3FzNkJDMTZOSmdQcnh3U1Y4Q2lhSU16REZlbU9FNlBr",
+      "source": "StreetInsider",
+      "title": "4 Cryptos to Buy Now Before the Next Big Move: BlockDAG, Dogecoin, Shiba Inu & MemeCore",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPN3FQT3JpM1RUZHdDUlRaOG1TUWs2di1hWThxR0E2V2pZa3E4WGZfUXVwbmpZUmkza0FUX2M0OC1GTTB1NTFodGwxUDdNRDgzdEhENnR5RUlZcWxWRGhWV2RrRDFDcVNLUmFuZmxUQTFzbnZoM05LTmE3d3U4RGxMeGRuX1ZuMFpMNTlteURRczRHWHhsMWstSjhpOGFoOGhCQ2o1ZldiZVVRSG9oaE5jWlRORTk1M0p6Qy1WeEFib1Bvb2lXNF9uMXRtN3FzNkJDMTZOSmdQcnh3U1Y4Q2lhSU16REZlbU9FNlBr?oc=5",
+      "published_at": "2026-08-19T15:55:50.000Z",
+      "fetched_at": "2026-08-20T04:49:51.850Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "dogecoin"
+      ]
+    },
+    {
+      "guid": "CBMi7AFBVV95cUxNRG1lY2FCVVpkeGJqWUFyektnM3AtdHZucHlfUk5EQ0VhaEVVbmpsTHNMX1hKN1R0V0otU0hFdjcxd1VHaHQwWWdKVXlvVW9CTFBTd1pONHFKVncxbkx4cXlSS3k5eFRfeTRteU84ak1LTGNSQWtTM29lSXk1SllvNXRROXFBa3AzSWdMeEYxSnRoazdldnRkcmFGc2tINC1JT2pDVEEwbHFtMmJ1UWViTGxjRGFSeFh5RW1oSEFxdko3NUhtczhMTmFpdGR0NUFJcU5JNDNINlhpWVVHaTNCb1VXWGpTYi15YzBiTtIB8gFBVV95cUxOS3g3cFBSZEFZTzJiVEZqalFuU3JMRmczQkV4VUFuclV3SDVvWTBsbnFhaTB6NUg0VGg2dkh4dUtJM1RnMHVkcWg2ckJPMV9YcEw0TVlSOHpQUjJFR2tSTmpXbVFKM2VxczRTb1E2UzJndjJYMDQ5Y3pObFZweW1KTGxSRk05NDZWTURnZTVmUEdpTFZIeVo1Zm5jMG1lLU5qNC0yQWFCa2xRQTJQWVQ5VzVhNkY1eTZTbWNvaUFwcTJ6eFhZbXY3U1l6Wm40V1FLVnRoZnE4Rzg2MVE0SUpuUWVHZHluMk1tLVFpZ0JOQ2NaZw",
+      "source": "The Manila Times",
+      "title": "DOGE Price Prediction Drops to $0.07 While Moonberg's Crypto Presale Aims for Stage 3",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNRG1lY2FCVVpkeGJqWUFyektnM3AtdHZucHlfUk5EQ0VhaEVVbmpsTHNMX1hKN1R0V0otU0hFdjcxd1VHaHQwWWdKVXlvVW9CTFBTd1pONHFKVncxbkx4cXlSS3k5eFRfeTRteU84ak1LTGNSQWtTM29lSXk1SllvNXRROXFBa3AzSWdMeEYxSnRoazdldnRkcmFGc2tINC1JT2pDVEEwbHFtMmJ1UWViTGxjRGFSeFh5RW1oSEFxdko3NUhtczhMTmFpdGR0NUFJcU5JNDNINlhpWVVHaTNCb1VXWGpTYi15YzBiTtIB8gFBVV95cUxOS3g3cFBSZEFZTzJiVEZqalFuU3JMRmczQkV4VUFuclV3SDVvWTBsbnFhaTB6NUg0VGg2dkh4dUtJM1RnMHVkcWg2ckJPMV9YcEw0TVlSOHpQUjJFR2tSTmpXbVFKM2VxczRTb1E2UzJndjJYMDQ5Y3pObFZweW1KTGxSRk05NDZWTURnZTVmUEdpTFZIeVo1Zm5jMG1lLU5qNC0yQWFCa2xRQTJQWVQ5VzVhNkY1eTZTbWNvaUFwcTJ6eFhZbXY3U1l6Wm40V1FLVnRoZnE4Rzg2MVE0SUpuUWVHZHluMk1tLVFpZ0JOQ2NaZw?oc=5",
+      "published_at": "2026-08-19T12:15:10.000Z",
+      "fetched_at": "2026-08-20T04:49:51.850Z",
+      "score": -0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "dogecoin"
+      ]
+    },
+    {
+      "guid": "CBMi1AFBVV95cUxQanZtMFBSNTdPbnVPeTloQUotRmZmbjNXRzhycFU5SzZfQ09QUEZoU3VBaC1ZSFI0REhOX29KVHkzV19GcXVRWWx3cmpweVBlb2NmN2N2ZTBCamc5bjlqNXljTWRSNFFfTWFoaWFYY2xHcTJJQTBYOXF5VDd6VjUzSzQtcEE5bVV0Z2I4YlBhRmZhMkYxaHM0SXR6TFAxZ1FXdk1LWWJ2M0ZOa1hLQmtkNmdvZjB4S1hzUUVGMlRTRU5MMHdRU2Jvdm5LeF9OZFNVS1hpXw",
+      "source": "Brave New Coin",
+      "title": "Dogecoin (DOGE) Price Prediction: DOGE Tests Multi-Year Support as Analysts Watch for Breakout Towards $0.20",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQanZtMFBSNTdPbnVPeTloQUotRmZmbjNXRzhycFU5SzZfQ09QUEZoU3VBaC1ZSFI0REhOX29KVHkzV19GcXVRWWx3cmpweVBlb2NmN2N2ZTBCamc5bjlqNXljTWRSNFFfTWFoaWFYY2xHcTJJQTBYOXF5VDd6VjUzSzQtcEE5bVV0Z2I4YlBhRmZhMkYxaHM0SXR6TFAxZ1FXdk1LWWJ2M0ZOa1hLQmtkNmdvZjB4S1hzUUVGMlRTRU5MMHdRU2Jvdm5LeF9OZFNVS1hpXw?oc=5",
+      "published_at": "2026-08-19T06:34:35.000Z",
+      "fetched_at": "2026-08-20T04:49:51.850Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "dogecoin"
+      ]
+    },
+    {
+      "guid": "CBMijgFBVV95cUxNWUsxa1ZaRkNvT3VBUjB2dDNCc1ZrZ0UtVE5aUl9wc3RUREhiWThRSXZBZTFYUy1nTFBPZ2FxZlBWUVVsZEhkSXFhZ25XYmNCQTluNDQyVWw3ZEFHRU44WS0zaFNuWTktdW1DazhhNHBJZ09IQkFxMWFxb0RPblN1QkNyZ2tYMm1YUzhJMm9R",
+      "source": "AMBCrypto",
+      "title": "Dogecoin price looks historically cheap, but there’s one problem",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWUsxa1ZaRkNvT3VBUjB2dDNCc1ZrZ0UtVE5aUl9wc3RUREhiWThRSXZBZTFYUy1nTFBPZ2FxZlBWUVVsZEhkSXFhZ25XYmNCQTluNDQyVWw3ZEFHRU44WS0zaFNuWTktdW1DazhhNHBJZ09IQkFxMWFxb0RPblN1QkNyZ2tYMm1YUzhJMm9R?oc=5",
+      "published_at": "2026-08-18T19:30:08.000Z",
+      "fetched_at": "2026-08-20T04:49:51.850Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "dogecoin"
+      ]
+    },
+    {
+      "guid": "CBMiyAFBVV95cUxOaHBXVE9PVUY1dWRvejBMTzRjQXZpNHBTX3M3RVFvd1ZNY3hYTWRIQjVab3ZMcy1pQTFPOXNnd3FlcWZvdHoteDNYRUN4NWFKYlFGaV9VbkdFTGZjN1U2aDh2NWZQNzloS00xczM5bHN6RElqblYxelM3UVF2SnU4WlRCRmgySlJNYW8xSmJZVG95ekl2RV9VVHRCdDVRZVJER0xVbnJTc19BVExwcWlFMUNqZHhyckRYS2NocklDdWRGSDJXMWljcg",
+      "source": "TradingView",
+      "title": "Bitcoin, Ethereum, XRP, Dogecoin Trade Sideways on Low-Volatility Tuesday",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaHBXVE9PVUY1dWRvejBMTzRjQXZpNHBTX3M3RVFvd1ZNY3hYTWRIQjVab3ZMcy1pQTFPOXNnd3FlcWZvdHoteDNYRUN4NWFKYlFGaV9VbkdFTGZjN1U2aDh2NWZQNzloS00xczM5bHN6RElqblYxelM3UVF2SnU4WlRCRmgySlJNYW8xSmJZVG95ekl2RV9VVHRCdDVRZVJER0xVbnJTc19BVExwcWlFMUNqZHhyckRYS2NocklDdWRGSDJXMWljcg?oc=5",
+      "published_at": "2026-08-18T18:27:20.000Z",
+      "fetched_at": "2026-08-20T04:49:51.850Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "dogecoin"
+      ]
+    },
+    {
+      "guid": "CBMiygFBVV95cUxPUV9hUllyb3A1dG15T1VxRXVpM29XbnNqMm1jVDVaWVpRNXFVamRDcjlGM3g1UTBGNHhGNnEzU2hRblZsSzRnb2VKQmpEZjdMdVBnbC1HSkVzU2kwcFN1Ym1kSFB1Nm80a2toSEM1S3JJQzZGT3NQS3ZOeU51WGkxMC1KSWlBcDZ6dlhXS01YVEZ6WEpnb3l1X0RrbWxaSlFpOGEtbzhrM1puUUF1S2gxOC0zT18xbzVkVFpYaG94Uk1MT2NrbWdQOUNn",
+      "source": "TradingView",
+      "title": "Dogecoin looks weak below $0.07, yet one signal hints the selloff is fading",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUV9hUllyb3A1dG15T1VxRXVpM29XbnNqMm1jVDVaWVpRNXFVamRDcjlGM3g1UTBGNHhGNnEzU2hRblZsSzRnb2VKQmpEZjdMdVBnbC1HSkVzU2kwcFN1Ym1kSFB1Nm80a2toSEM1S3JJQzZGT3NQS3ZOeU51WGkxMC1KSWlBcDZ6dlhXS01YVEZ6WEpnb3l1X0RrbWxaSlFpOGEtbzhrM1puUUF1S2gxOC0zT18xbzVkVFpYaG94Uk1MT2NrbWdQOUNn?oc=5",
+      "published_at": "2026-08-18T08:11:20.000Z",
+      "fetched_at": "2026-08-20T04:49:51.852Z",
+      "score": -0.3333333333333333,
       "method": "rule-based",
       "assets": [
         "dogecoin"
@@ -761,21 +833,8 @@
       "title": "Top 3 Reasons Why Dogecoin Price May Witness a Major Rally Ahead",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUU5zYnVuMHdJc1N4RFhob1Y3TGRMZjRlOXZtbkNyXzhLbUgtMktrS0kzLWNYVnllWDNoakJOQ2VMcWU5VmZoNVBmcEFtWFplNlFuc0QwV2JVYUpFVjJ3enJZQlY5YkNxZWtVd2I5eFNXNVBiSHo0cVFMZmxKTzlIMmFKcVpJWnVMZE5XN0NrSHlmMU1pcEh3VDVvTjVselZnYmowWXNJZVRYWE9l0gGyAUFVX3lxTE5idURvRXpJQnFLMlBIRV9Xa1RDcDBMUk9wdE1OdmlkSUFMNUJVbmpLV2FxWUNvM3kyNlk1TW1IaEVMV1Y1T1lUanJBNHZhMjk1bmp1bllEQ3FTcjlmN0FFckJ6YjZMQWZiUkpJOElGOXI0WXVEYXdZaDFhWm9BWTFBSzdyRHdXekVoV0otdFZ0MExVR1NidzRfSm1tUUZMcHpsc0hSUGQyVXQ5VzliOWhTSHc?oc=5",
       "published_at": "2026-08-16T06:30:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.961Z",
+      "fetched_at": "2026-08-20T04:49:51.851Z",
       "score": 0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "dogecoin"
-      ]
-    },
-    {
-      "guid": "CBMiZ0FVX3lxTE5KS0xvMDF3T05nMkJRb041Qllla2NPTGRjdFJPQVdOTXJlWEItSkFLclBLamRQY3F5V0ozOExWYlM4c0cwZVJhRFlxUVlZb2xFOWIzeDFLTmpLbDB6VlZULVFJRDRRVjg",
-      "source": "Yellow.com",
-      "title": "Dogecoin Falls Below $0.07, Then Long-Term Bull Signals Reappear",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5KS0xvMDF3T05nMkJRb041Qllla2NPTGRjdFJPQVdOTXJlWEItSkFLclBLamRQY3F5V0ozOExWYlM4c0cwZVJhRFlxUVlZb2xFOWIzeDFLTmpLbDB6VlZULVFJRDRRVjg?oc=5",
-      "published_at": "2026-08-16T05:02:55.000Z",
-      "fetched_at": "2026-08-17T09:13:46.970Z",
-      "score": -0.3333333333333333,
       "method": "rule-based",
       "assets": [
         "dogecoin"
@@ -787,46 +846,7 @@
       "title": "Is Dogecoin About to Go Parabolic? These DOGE Signals Suggest So",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ1NnTHJlQm4wZ0xVbjBHN21JdkNkZ3U1dUpNOGFQcUM1cm94Szdsek5zbU44V0VudVRUdnV2N1dscm1RZWtyOXJnWGFEdlBfU3pCN3U1eVVacHEyMUVZek9rMFlXYWF2dFVLb2RrS3V1RVZueEQ5cDBEZmlpQXVwVWhncUxZVFpCTDd1a1R5dzloWGc?oc=5",
       "published_at": "2026-08-16T00:51:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.955Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "dogecoin"
-      ]
-    },
-    {
-      "guid": "CBMitgFBVV95cUxPbW83Z3RHRERhSEkydVRxNVVqbldRSVhoS1FueVBVX1FzYktTTFhXOTZpVTFpd21ueE1acG9wZEJwSXhVXzlTVHhJRUxVZUdVWWJjYXVaSy1tWTJDTGI1X3htalRqdDA2WEFadWlMQm1LenQ4TjRCdnpWV1dmNlRXaU5uTUlnamZ4elVnRHNIbkxNWFJPWEVPZkI2TVBCV3c4bm1uYXVoQ09jSWZJUGxXYTVyc0RJQdIBuwFBVV95cUxNZlptY2hKWmdnaHc1Tm5obm5kUmk4U0Y1ODNPbS1kMGdFUnZXWXEyMURxZFVHdy1NQVBnVlpvTmstOENvY3FPUGRiZHhENERNYWVuN2Z4RXFRWmVQWWJhVTljeDZXUk1DYlZfZUk3STJSWjZwaGFHNDVkZkNFTnktWEVYU2Zja3Q2ZFJvRksxeDB0V2pNVmpNYUZOa2xmdGl3aVh5R2t6TGtScXNMS2JMZW5sM2RUYUt0U09Z",
-      "source": "Coinpedia",
-      "title": "Is It Time to Buy Dogecoin? Major Bullish Signals Point to a Rally Toward $0.10",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbW83Z3RHRERhSEkydVRxNVVqbldRSVhoS1FueVBVX1FzYktTTFhXOTZpVTFpd21ueE1acG9wZEJwSXhVXzlTVHhJRUxVZUdVWWJjYXVaSy1tWTJDTGI1X3htalRqdDA2WEFadWlMQm1LenQ4TjRCdnpWV1dmNlRXaU5uTUlnamZ4elVnRHNIbkxNWFJPWEVPZkI2TVBCV3c4bm1uYXVoQ09jSWZJUGxXYTVyc0RJQdIBuwFBVV95cUxNZlptY2hKWmdnaHc1Tm5obm5kUmk4U0Y1ODNPbS1kMGdFUnZXWXEyMURxZFVHdy1NQVBnVlpvTmstOENvY3FPUGRiZHhENERNYWVuN2Z4RXFRWmVQWWJhVTljeDZXUk1DYlZfZUk3STJSWjZwaGFHNDVkZkNFTnktWEVYU2Zja3Q2ZFJvRksxeDB0V2pNVmpNYUZOa2xmdGl3aVh5R2t6TGtScXNMS2JMZW5sM2RUYUt0U09Z?oc=5",
-      "published_at": "2026-08-15T17:38:00.000Z",
-      "fetched_at": "2026-08-17T09:13:46.962Z",
-      "score": 1,
-      "method": "rule-based",
-      "assets": [
-        "dogecoin"
-      ]
-    },
-    {
-      "guid": "CBMic0FVX3lxTE5BTm1BM0VDd3hqR1V5bGpzQmNZbkRESnhxeGFUQ2stVW82cFhOTHJHeVFWVlhwbVd6Q3RlVVpSNjlYYnRpNGgxTTlOc3NoQmVlOE4tblhxUENGcjB1TjVLUnVPVHMzTVNMRks2a1l5V3h6aEk",
-      "source": "Altcoin Buzz",
-      "title": "Dogecoin price prediction: Can DOGE hold $0.07?",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BTm1BM0VDd3hqR1V5bGpzQmNZbkRESnhxeGFUQ2stVW82cFhOTHJHeVFWVlhwbVd6Q3RlVVpSNjlYYnRpNGgxTTlOc3NoQmVlOE4tblhxUENGcjB1TjVLUnVPVHMzTVNMRks2a1l5V3h6aEk?oc=5",
-      "published_at": "2026-08-15T15:51:32.000Z",
-      "fetched_at": "2026-08-17T09:13:46.913Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "dogecoin"
-      ]
-    },
-    {
-      "guid": "CBMihwFBVV95cUxOcks2NjhYQUdDVmxtcjhiTkhHWEJxN3l0aWpJS0p4eEZhV1dBYTIxZkU3MElkdllpUFo3SWlTSDc5ZkM1U180OVBrZlVJWVlobHlubW8yNHlJR3drSHJhUVlNNVBpQzM3RHpqLVJmMnVTME9WUmFnVGVJY2ZRb3J3TnFDbE10Vkk",
-      "source": "thestreet.com",
-      "title": "After Elon Musk, another billionaire puts Dogecoin in focus",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcks2NjhYQUdDVmxtcjhiTkhHWEJxN3l0aWpJS0p4eEZhV1dBYTIxZkU3MElkdllpUFo3SWlTSDc5ZkM1U180OVBrZlVJWVlobHlubW8yNHlJR3drSHJhUVlNNVBpQzM3RHpqLVJmMnVTME9WUmFnVGVJY2ZRb3J3TnFDbE10Vkk?oc=5",
-      "published_at": "2026-08-13T17:57:29.000Z",
-      "fetched_at": "2026-08-17T09:13:46.987Z",
+      "fetched_at": "2026-08-20T04:49:51.850Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
@@ -839,7 +859,7 @@
       "title": "DOGE price analysis: What next as dogecoin leverage hits 2026 record",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORHo5TWRPUzIzUHgzb1NIcU1VNmdyRkVCMEJIN203b0U2ak1Jc3p2dGszRm9qNlpFV0oxOURTSWZ5UVdoUkJGc1BrSDZib1o2UjRtVDUzaFU5akZxR2R3ZTRBOVNXQmVMTW95dkE5bHR6bWFtUUNick1jelBWTDNuMWRZb2swSkc3TVFSMHRNWjFqOG50WmhvNzJzUDQtUW92anNYWmRWQU5YMXVWODJ5b3hrM05OaWdZZHhF?oc=5",
       "published_at": "2026-08-13T04:06:16.000Z",
-      "fetched_at": "2026-08-17T09:13:46.945Z",
+      "fetched_at": "2026-08-20T04:49:51.850Z",
       "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -847,104 +867,12 @@
       ]
     },
     {
-      "guid": "CBMigwFBVV95cUxQSnJaaldPQTJWZ0FBYUl6RzJjaVg2cmtLdDM3VHlsejJEbE1aekFHbnhDYWsxN0UzejNNTUVQVUVzeXNXa0ktajdVdnd1Y2NuejdqM1Z2d1lhY2RDd2w5bk5fU1J2dWRiNk9aejM3cFBudEJ5LUptblNnSWxmeE8xdzI1VQ",
-      "source": "BeInCrypto",
-      "title": "Vitalik Buterin Wants to Copy Bitcoin Design to Hyperscale Ethereum",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSnJaaldPQTJWZ0FBYUl6RzJjaVg2cmtLdDM3VHlsejJEbE1aekFHbnhDYWsxN0UzejNNTUVQVUVzeXNXa0ktajdVdnd1Y2NuejdqM1Z2d1lhY2RDd2w5bk5fU1J2dWRiNk9aejM3cFBudEJ5LUptblNnSWxmeE8xdzI1VQ?oc=5",
-      "published_at": "2026-08-17T08:10:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.120Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ethereum"
-      ]
-    },
-    {
-      "guid": "CBMiZEFVX3lxTE9zaXJDb19hd3pHVEhwQVhlSzBzcXM3MUxHeVM0YnhMVXN5TXg0SkxDSXVBRld2Vm1PQzgwY0lieVlxcmJIaFVjQlhpbGxXOGdzcS1IM2ZleUxzVmdxOGlDSXJQLWo",
-      "source": "YouHodler",
-      "title": "Bitcoin Miners Chase AI, Ethereum Plans for Quantum Risk, and Tether Gets Its Audit",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9zaXJDb19hd3pHVEhwQVhlSzBzcXM3MUxHeVM0YnhMVXN5TXg0SkxDSXVBRld2Vm1PQzgwY0lieVlxcmJIaFVjQlhpbGxXOGdzcS1IM2ZleUxzVmdxOGlDSXJQLWo?oc=5",
-      "published_at": "2026-08-17T07:51:04.000Z",
-      "fetched_at": "2026-08-17T09:13:47.126Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ethereum"
-      ]
-    },
-    {
-      "guid": "CBMimAFBVV95cUxPLVNKSEc0ZzZpRWVlZHhrcXdHSXdoRElVSktZd0xyUWt1eTlOa3RnNThXSFA0NkZxMWQ2YnUtLWkzWS1feEdFcEhRcGY5TDVwTVJ4YXZaV0xleGU4eERmVXg1aHNSTVpQTTFqY1BCTmNJNW5raGkyb2daYlE0MTJfRFQ3djk5WHAwYWFjcWx5UllyQXp4RHFjWg",
-      "source": "TradingPedia",
-      "title": "Bitcoin Holds Support as Ethereum Stalls, XRP Weakens",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLVNKSEc0ZzZpRWVlZHhrcXdHSXdoRElVSktZd0xyUWt1eTlOa3RnNThXSFA0NkZxMWQ2YnUtLWkzWS1feEdFcEhRcGY5TDVwTVJ4YXZaV0xleGU4eERmVXg1aHNSTVpQTTFqY1BCTmNJNW5raGkyb2daYlE0MTJfRFQ3djk5WHAwYWFjcWx5UllyQXp4RHFjWg?oc=5",
-      "published_at": "2026-08-17T07:32:46.000Z",
-      "fetched_at": "2026-08-17T09:13:47.120Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ethereum",
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMic0FVX3lxTE5IajFIMEpvRzZ3bVVQWFV1QlhLcmFEUTN3ZmVXSThjbDhwd1hBdXU4ZWlPb2hEamo2elpTZEs1bWZBSGhfS3BnZ01ya2NpcUw0U0YydmNEUktDRWEyTXdwVURxVmNnSEtLX2lFN3FKMDZ6eW8",
-      "source": "Yellow.com",
-      "title": "Ethereum Address Misuse Hits 65,340 Cases As Losses Pass $574.8M",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IajFIMEpvRzZ3bVVQWFV1QlhLcmFEUTN3ZmVXSThjbDhwd1hBdXU4ZWlPb2hEamo2elpTZEs1bWZBSGhfS3BnZ01ya2NpcUw0U0YydmNEUktDRWEyTXdwVURxVmNnSEtLX2lFN3FKMDZ6eW8?oc=5",
-      "published_at": "2026-08-17T07:26:26.000Z",
-      "fetched_at": "2026-08-17T09:13:47.121Z",
-      "score": -0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "ethereum"
-      ]
-    },
-    {
-      "guid": "CBMifEFVX3lxTE81dzJIc2l6Ul91eWFzZE9ES2Zwc2xkRXBCU1dON0hxUkZaYjdsSDVRRmRrV2ZwVXhXSTUzWGlZYVA4ZzdfWkxEUEFHcmp0SWRrSlU4Q2cyYmVIcXQ4LTBQXzE3c3JRTG93RGVRYlkxMHFoc3pzcTlCd0tYLTc",
-      "source": "Crypto News",
-      "title": "Ethereum Hegotá plan gets 4 priorities from Ethlabs",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81dzJIc2l6Ul91eWFzZE9ES2Zwc2xkRXBCU1dON0hxUkZaYjdsSDVRRmRrV2ZwVXhXSTUzWGlZYVA4ZzdfWkxEUEFHcmp0SWRrSlU4Q2cyYmVIcXQ4LTBQXzE3c3JRTG93RGVRYlkxMHFoc3pzcTlCd0tYLTc?oc=5",
-      "published_at": "2026-08-17T06:43:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.122Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ethereum"
-      ]
-    },
-    {
-      "guid": "CBMifEFVX3lxTE5VU0xnS0ktUXg5SkJiNzlpOXBwTkxKYXNfTHJSVk92ZzlBU2I3OW9Ba0xvOG9qaTB4dW9SUmhpNnpsMFpUTTM4RV9SSEFkWUJPTk5id2lpOGhiT2dTRl93NXI3Xzh3alJxNUZjWlBNdUVweTdqVVFVdC1lMVk",
-      "source": "Crypto News",
-      "title": "Ethereum’s Vitalik backs Bitcoin-inspired scaling model",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VU0xnS0ktUXg5SkJiNzlpOXBwTkxKYXNfTHJSVk92ZzlBU2I3OW9Ba0xvOG9qaTB4dW9SUmhpNnpsMFpUTTM4RV9SSEFkWUJPTk5id2lpOGhiT2dTRl93NXI3Xzh3alJxNUZjWlBNdUVweTdqVVFVdC1lMVk?oc=5",
-      "published_at": "2026-08-17T04:38:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.126Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ethereum"
-      ]
-    },
-    {
-      "guid": "CBMi3AFBVV95cUxOMndfelV1dU5FQXJlR2ZxVW5XS2VVOEtpUHBZc3hYdzZwY2ZjUlFVVG1oRUhJTlNKZkxVa2tObWF2VkJ0YmU5VC0xcERqcWE0aEhkZzkzV3cxY1VOS1RwWnluVm1BTHJTa0tqdGo1eVc1WU9sYmM4bGxSdGJfQXJoYk5qUjVoX2xKVzFrU2JWaWVEa2JFN2xRZTBVb25yV0RLbkVYcElVaTJ5Ry1GbEh1ZVpZejlxYjhBMWpSRTk0YWJmRTZROXY1eXpzMF8zTzM4V2lGZC1ON2dfUXNx",
-      "source": "TradingView",
-      "title": "Bitcoin ETFs see $390M in outflows as Ethereum ETFs snap five-week inflow streak",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMndfelV1dU5FQXJlR2ZxVW5XS2VVOEtpUHBZc3hYdzZwY2ZjUlFVVG1oRUhJTlNKZkxVa2tObWF2VkJ0YmU5VC0xcERqcWE0aEhkZzkzV3cxY1VOS1RwWnluVm1BTHJTa0tqdGo1eVc1WU9sYmM4bGxSdGJfQXJoYk5qUjVoX2xKVzFrU2JWaWVEa2JFN2xRZTBVb25yV0RLbkVYcElVaTJ5Ry1GbEh1ZVpZejlxYjhBMWpSRTk0YWJmRTZROXY1eXpzMF8zTzM4V2lGZC1ON2dfUXNx?oc=5",
-      "published_at": "2026-08-17T04:19:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.123Z",
-      "score": 0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "ethereum"
-      ]
-    },
-    {
-      "guid": "CBMiiwFBVV95cUxOdVhQZHhYbmd0aHlyVWJ6WmFrTzNYdjRobXhBbXFHckdwWlQ1RXRwLUhHSnBMLTlWZFl5X2cwdGNmNXpWa1k5UEx3aDA2cjd2a0VlN1dwOEZFSC1DSl9KUDZET1p2dl93dncyQXhLRU9zSFdsSXNVb1g4dkQtdmNpVHhKc3ZhSFUxbG13",
-      "source": "CryptoRank",
-      "title": "Ethereum ETFs Outpace Bitcoin in Relative Inflows, DWF Labs Reports",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdVhQZHhYbmd0aHlyVWJ6WmFrTzNYdjRobXhBbXFHckdwWlQ1RXRwLUhHSnBMLTlWZFl5X2cwdGNmNXpWa1k5UEx3aDA2cjd2a0VlN1dwOEZFSC1DSl9KUDZET1p2dl93dncyQXhLRU9zSFdsSXNVb1g4dkQtdmNpVHhKc3ZhSFUxbG13?oc=5",
-      "published_at": "2026-08-17T02:36:53.000Z",
-      "fetched_at": "2026-08-17T09:13:47.128Z",
+      "guid": "CBMieEFVX3lxTFBMTzB0bTg1eXhsQ3ZwbXZWazMzbUR4RmR2TnBfQVhEQWNrLVFnMTQ1UnVud2RsZGV0UC1iWnpWSjJhMXVjbUJqei1RR0tGcDJwVGt6N0gzVXdEU2dRbzJocWIyX1ZLYnFQbmRZM2hQRHM2dnhfcE4zMQ",
+      "source": "Altcoin Buzz",
+      "title": "Ethereum Price Breaks $2,000 for First Time Since June as Rally Gains Momentum",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMTzB0bTg1eXhsQ3ZwbXZWazMzbUR4RmR2TnBfQVhEQWNrLVFnMTQ1UnVud2RsZGV0UC1iWnpWSjJhMXVjbUJqei1RR0tGcDJwVGt6N0gzVXdEU2dRbzJocWIyX1ZLYnFQbmRZM2hQRHM2dnhfcE4zMQ?oc=5",
+      "published_at": "2026-08-20T04:24:58.000Z",
+      "fetched_at": "2026-08-20T04:49:51.768Z",
       "score": 0.6666666666666666,
       "method": "rule-based",
       "assets": [
@@ -952,233 +880,273 @@
       ]
     },
     {
-      "guid": "CBMirgFBVV95cUxNX1F6WVVGRjFtdXhnZFFtMW5xLTZlbXZ2aEpLUTR3ZS1IR3NJenhBYWpVT1lTVWQ2RUh6SmNic0RQMzJVTi01cXlHRUhZRk5VNHBxMGxxY0JDUVBad0pyVW1UdWZNVXlTQUZKU2pycWJtRTc2RUpQd19PYkdKSFlCelY2VHQzQzJUR1kzMTNnNlJnRDMyekxHYW1LbXl5SGZkVkwteHNXN3Q0T0xMZGc",
-      "source": "Robinhood",
-      "title": "XRP price at Aug 17, 2026 at 6am EDT? Crypto Prediction Market",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX1F6WVVGRjFtdXhnZFFtMW5xLTZlbXZ2aEpLUTR3ZS1IR3NJenhBYWpVT1lTVWQ2RUh6SmNic0RQMzJVTi01cXlHRUhZRk5VNHBxMGxxY0JDUVBad0pyVW1UdWZNVXlTQUZKU2pycWJtRTc2RUpQd19PYkdKSFlCelY2VHQzQzJUR1kzMTNnNlJnRDMyekxHYW1LbXl5SGZkVkwteHNXN3Q0T0xMZGc?oc=5",
-      "published_at": "2026-08-17T09:10:05.000Z",
-      "fetched_at": "2026-08-17T09:13:47.348Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMiggFBVV95cUxNdTZwV1k3ZmFKWG1PNERDeUNNM2duWUxLQVpHN1UtY1BSU3BFMm9YN2VGVzdzNF9CWEtBT2dETmN0R3Q1SnRkd0t1c19SLVNtbFY3RHFLVnh3OTNSYTA0RFN2eDVIc0NteFlBek4yX3llaldNSmd5cnlkNEw4OTVENW9n",
-      "source": "99Bitcoins",
-      "title": "XRP News: Ripple Drops to $1 as Bears Take Control",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdTZwV1k3ZmFKWG1PNERDeUNNM2duWUxLQVpHN1UtY1BSU3BFMm9YN2VGVzdzNF9CWEtBT2dETmN0R3Q1SnRkd0t1c19SLVNtbFY3RHFLVnh3OTNSYTA0RFN2eDVIc0NteFlBek4yX3llaldNSmd5cnlkNEw4OTVENW9n?oc=5",
-      "published_at": "2026-08-17T08:36:13.000Z",
-      "fetched_at": "2026-08-17T09:13:47.354Z",
-      "score": -0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMie0FVX3lxTE9WUWRsMXNYOW1MbF9kOVN1NzVQTEhWZlBkalJmVnkxWVpaeC16SHV0ZUZ1ZVdmX3dWZlJJcFJXbFlXWlJ3NlBtYS00b1F1QzZDMUJVaXJjdjA0MWhXVTQtQjVPTlhob01oMEMydm9CVjBlZlU4ZHUtZFlnRQ",
-      "source": "Crypto News",
-      "title": "Ripple mints 10 million RLUSD as supply hits 1.71B",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9WUWRsMXNYOW1MbF9kOVN1NzVQTEhWZlBkalJmVnkxWVpaeC16SHV0ZUZ1ZVdmX3dWZlJJcFJXbFlXWlJ3NlBtYS00b1F1QzZDMUJVaXJjdjA0MWhXVTQtQjVPTlhob01oMEMydm9CVjBlZlU4ZHUtZFlnRQ?oc=5",
-      "published_at": "2026-08-17T08:13:17.000Z",
-      "fetched_at": "2026-08-17T09:13:47.349Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMieEFVX3lxTE9neXVtQUd3MzU2cHpMeUtTaHJ3b3M3NWN6dTN0QnNZcWhvVDhTdTdLN0FITGx0MXM0Zzc1dEJLWkJ5dk1UNlNCYnZ1a2xJLTBGNVAyVi1zTWQ2Q3F4ZWFKTFRPQ3gzTUlWLW9CckNKVDlhOHhxQnFkVg",
-      "source": "The Cryptonomist",
-      "title": "Ripple RLUSD Stablecoin Hits 1.7B Supply Mark",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9neXVtQUd3MzU2cHpMeUtTaHJ3b3M3NWN6dTN0QnNZcWhvVDhTdTdLN0FITGx0MXM0Zzc1dEJLWkJ5dk1UNlNCYnZ1a2xJLTBGNVAyVi1zTWQ2Q3F4ZWFKTFRPQ3gzTUlWLW9CckNKVDlhOHhxQnFkVg?oc=5",
-      "published_at": "2026-08-17T08:01:12.000Z",
-      "fetched_at": "2026-08-17T09:13:47.352Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMivwFBVV95cUxNS3lwbmdSbHp4aTNoTXVKeG00VWxpRTh0dUxBZ1dfM21aVmNmeTBXRS02c2Z3cXlBS2VmX2RLZFl6VjdRb0pjQUVPOFpjeklJNVdheXFVc2loQU9DTkh1VVl5cHZQUlJ4NmdJcWdGSjg0dzhJb0d0ZnZFZmFQb0JMcTliOUtiVWlfTkJ5VlMzaHJpbkZYLTBmRnMxX3hoVFVOYmxvNGZPMkJUUFBKOGRjOXZIbFlqREZtVS11dkcxSQ",
+      "guid": "CBMiugFBVV95cUxPYnc0UWdISlZjZkJ6ZXBDOUlsSC1UVHFrSGZEbldaSXRyRWttRFNLWEFuS083b3JSazRlYVNVQTVjcDRVeUVVYkhaTEEzVlNQR3ZoS1RxYl9HbHFsbHJtSzI1bWdHTndCT3NKbnE3V1lGeC1ZeTFxcS1QZ2ZPdGhhNWMxeDU3MHZnN1hDbXYzZ1Z6amlMTElPY0V6UkVaT3RwQXRPUU5RS0V3c202MFpKOVFhbzltRHpEOFE",
       "source": "CoinDesk",
-      "title": "XRP price analysis: What next for Ripple-linked token as bearish chatter rises",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS3lwbmdSbHp4aTNoTXVKeG00VWxpRTh0dUxBZ1dfM21aVmNmeTBXRS02c2Z3cXlBS2VmX2RLZFl6VjdRb0pjQUVPOFpjeklJNVdheXFVc2loQU9DTkh1VVl5cHZQUlJ4NmdJcWdGSjg0dzhJb0d0ZnZFZmFQb0JMcTliOUtiVWlfTkJ5VlMzaHJpbkZYLTBmRnMxX3hoVFVOYmxvNGZPMkJUUFBKOGRjOXZIbFlqREZtVS11dkcxSQ?oc=5",
-      "published_at": "2026-08-17T04:43:03.000Z",
-      "fetched_at": "2026-08-17T09:13:47.350Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMipgFBVV95cUxOU1JkZWV0T1NRSzhzV1hWNVQ4Y0hSOEprQmJoV2ZlVlF2UVFrNGRwXzBEUC1QcjRwREFEUlBNaVp0b0RRWDE1dHJqTFhnYUZ5Y0pWNUdQdkZyd3Jlbk5EWkJFbVB4STg4dTlsY2NUYy1fUFMzX0ZRdWcwSGdCdndSUkxNcHJSRnJQSlVaZTg3UmxMM2NjTF93Sks4cmdZdFpnaFR1V3B3",
-      "source": "CryptoPotato",
-      "title": "Wall Street Is Quietly Loading Up on Ripple (XRP) ETFs: Here’s Who Holds the Most",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOU1JkZWV0T1NRSzhzV1hWNVQ4Y0hSOEprQmJoV2ZlVlF2UVFrNGRwXzBEUC1QcjRwREFEUlBNaVp0b0RRWDE1dHJqTFhnYUZ5Y0pWNUdQdkZyd3Jlbk5EWkJFbVB4STg4dTlsY2NUYy1fUFMzX0ZRdWcwSGdCdndSUkxNcHJSRnJQSlVaZTg3UmxMM2NjTF93Sks4cmdZdFpnaFR1V3B3?oc=5",
-      "published_at": "2026-08-17T03:52:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.348Z",
-      "score": 0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMiWkFVX3lxTE1lbUlCRmI0WExmbm9vYTVRSi1UM215U19iZm94VHZEdEo1RlhSRnZNY1hQaHFHdlB2YzRSZFI4OGJCdklyRXVLRGtRczV1UEpXb1FwTmJST0piUQ",
-      "source": "Cryptonews.net",
-      "title": "XRP eyes key week as Ripple CEO speaks in Wyoming",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lbUlCRmI0WExmbm9vYTVRSi1UM215U19iZm94VHZEdEo1RlhSRnZNY1hQaHFHdlB2YzRSZFI4OGJCdklyRXVLRGtRczV1UEpXb1FwTmJST0piUQ?oc=5",
-      "published_at": "2026-08-16T22:29:59.000Z",
-      "fetched_at": "2026-08-17T09:13:47.349Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMiaEFVX3lxTE0weXJMRTRlSFFTMWJXY194ZWRpaGVoM29TeXBEMlU0Y09teVlrN0tUR2MyZ0pYRXhIclBDbENQeVl4cE55VDBCVGVqT0VSTmgxZ2pKaXlITW82dGRWZXp6allIcWFCd1B6",
-      "source": "BeInCrypto",
-      "title": "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0weXJMRTRlSFFTMWJXY194ZWRpaGVoM29TeXBEMlU0Y09teVlrN0tUR2MyZ0pYRXhIclBDbENQeVl4cE55VDBCVGVqT0VSTmgxZ2pKaXlITW82dGRWZXp6allIcWFCd1B6?oc=5",
-      "published_at": "2026-08-16T21:03:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.346Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "ripple"
-      ]
-    },
-    {
-      "guid": "CBMi7wFBVV95cUxNVUhiZW5UaUp0X0RvYVpkOHpRRnR1ZlZuZURNQlNfOEN6V1dIN3V6bmhmZUN1ejZXYnlSYUN2OUtTa2d1OTViNkVpUlNiUGlIYmVRNGo5cFV0M280OFJDVGFoZEZLZzBqekpUUENUNVpxUVV6ZVgwSlVXV3kwQkNFbjN4d0g4Q3pHaU8tMzlvUFJxYm1naDM4WlhiLS1oSGxoRWJyRXgxbU1kS0xLLUFKd2lrVnZDdWVFYWlWd2dHdTJUZmxRbjlWX1FmUHZoRUUyaW1XZzdYWDNtcnBjSGtfOExtNWFEZjlIYnljOTlvSQ",
-      "source": "247wallst.com",
-      "title": "XRP ETF Buying Has Dropped 96% Since Launch: Can Inflows Reach Standard Chartered's $8 Billion Forecast?",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVUhiZW5UaUp0X0RvYVpkOHpRRnR1ZlZuZURNQlNfOEN6V1dIN3V6bmhmZUN1ejZXYnlSYUN2OUtTa2d1OTViNkVpUlNiUGlIYmVRNGo5cFV0M280OFJDVGFoZEZLZzBqekpUUENUNVpxUVV6ZVgwSlVXV3kwQkNFbjN4d0g4Q3pHaU8tMzlvUFJxYm1naDM4WlhiLS1oSGxoRWJyRXgxbU1kS0xLLUFKd2lrVnZDdWVFYWlWd2dHdTJUZmxRbjlWX1FmUHZoRUUyaW1XZzdYWDNtcnBjSGtfOExtNWFEZjlIYnljOTlvSQ?oc=5",
-      "published_at": "2026-08-16T18:02:01.000Z",
-      "fetched_at": "2026-08-17T09:13:47.350Z",
+      "title": "BTC, ETH price, Ether jumps 18% to $2,250 as bitcoin tops $69,000 in broad crypto rally",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYnc0UWdISlZjZkJ6ZXBDOUlsSC1UVHFrSGZEbldaSXRyRWttRFNLWEFuS083b3JSazRlYVNVQTVjcDRVeUVVYkhaTEEzVlNQR3ZoS1RxYl9HbHFsbHJtSzI1bWdHTndCT3NKbnE3V1lGeC1ZeTFxcS1QZ2ZPdGhhNWMxeDU3MHZnN1hDbXYzZ1Z6amlMTElPY0V6UkVaT3RwQXRPUU5RS0V3c202MFpKOVFhbzltRHpEOFE?oc=5",
+      "published_at": "2026-08-20T04:10:40.000Z",
+      "fetched_at": "2026-08-20T04:49:51.767Z",
       "score": 0.6666666666666666,
       "method": "rule-based",
       "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMi9AFBVV95cUxOVUEtTkFPWWNEUjRsQTg1S243YndUTWxfdDhEM2J2c1JzNy1GQVBwXzFBcG9adDU1WGVDMGZJUlBmVVhSRkJzaGQ0ZnE0V3RiR3NQcGZOalR0TnY2TDU3MXQ3ZGQza05QeWJ0RUlpeVRIU1gwYU1CMzdGNVJWdnpaZkx6V1A5QVhoZlUwMlM1WURrbWNMZkprUy1HcWZUckFOSHUwYXBwajZUYjFyV1RpaW95UWdRRVBGSjEyMENvTjRXQ21qMnhkbEVFNVpQa1AxNEVhNm4tWHhmbVlDaGkzRUE1dWJnU3N6WC1sTHNKam4xR25u",
+      "source": "markets.businessinsider.com",
+      "title": "Crypto News Today: AlphaPepe Presale Announces Launch Reveal As Ethereum Price Prediction Targets $10,000",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOVUEtTkFPWWNEUjRsQTg1S243YndUTWxfdDhEM2J2c1JzNy1GQVBwXzFBcG9adDU1WGVDMGZJUlBmVVhSRkJzaGQ0ZnE0V3RiR3NQcGZOalR0TnY2TDU3MXQ3ZGQza05QeWJ0RUlpeVRIU1gwYU1CMzdGNVJWdnpaZkx6V1A5QVhoZlUwMlM1WURrbWNMZkprUy1HcWZUckFOSHUwYXBwajZUYjFyV1RpaW95UWdRRVBGSjEyMENvTjRXQ21qMnhkbEVFNVpQa1AxNEVhNm4tWHhmbVlDaGkzRUE1dWJnU3N6WC1sTHNKam4xR25u?oc=5",
+      "published_at": "2026-08-20T03:19:49.000Z",
+      "fetched_at": "2026-08-20T04:49:51.770Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMiW0FVX3lxTE5ZOVNHTEdzQjVLTS1mX05KMm1tekI0blpvQXZSdGYwQ1g5R3lmUlVTcVlZWTNBeVYxMlJJOUF5TDhJaHJzTHl1MU9BVHpsY1Vlbk1tb1dqTUU0ODg",
+      "source": "Cryptonews.net",
+      "title": "ZEC, SOL, and XRP Rally as Ethereum Breaches $2,000",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ZOVNHTEdzQjVLTS1mX05KMm1tekI0blpvQXZSdGYwQ1g5R3lmUlVTcVlZWTNBeVYxMlJJOUF5TDhJaHJzTHl1MU9BVHpsY1Vlbk1tb1dqTUU0ODg?oc=5",
+      "published_at": "2026-08-20T02:06:16.000Z",
+      "fetched_at": "2026-08-20T04:49:51.769Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMitwFBVV95cUxPVEJoTGpGdjM4WVNMU1pDblRhZVgzczNEblA0SUEwSEVxU3I1MmwxZXNCMlowMFMteFNWbXJiVUN1NnIzRG9HWHV1V0tXTHF6ZzF5bHBVVDhJUi1CRVM2OF9Lb2ZMM2VLN1VzQ3lHTks3a0VKRk5BOF94UVJxSWZaQlRKSnAybjROMVFPalJsb19aZ1Zrc3FUN09TUWg1Qkd3S1dzb1A0RUxfSmNCUHNoMUYzNUN0aXc",
+      "source": "robinhood.com",
+      "title": "ETH price range on Aug 19, 2026 at 11pm EDT Crypto Prediction Market",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVEJoTGpGdjM4WVNMU1pDblRhZVgzczNEblA0SUEwSEVxU3I1MmwxZXNCMlowMFMteFNWbXJiVUN1NnIzRG9HWHV1V0tXTHF6ZzF5bHBVVDhJUi1CRVM2OF9Lb2ZMM2VLN1VzQ3lHTks3a0VKRk5BOF94UVJxSWZaQlRKSnAybjROMVFPalJsb19aZ1Zrc3FUN09TUWg1Qkd3S1dzb1A0RUxfSmNCUHNoMUYzNUN0aXc?oc=5",
+      "published_at": "2026-08-20T02:03:21.000Z",
+      "fetched_at": "2026-08-20T04:49:51.775Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMirwFBVV95cUxPSjMwYWFoQVh6YWl5SDUxMUI0aGpuVUQ5WEk5Sm55Nmc3cmtKZ2hkQmNPUjNZUGNJbDRuendZc2lMRkNQR2kxVUEyUERyS1JMX3NTZS1lQjZ4REVJQTAwNFFlT2dOM0NpVlZQb3l1RENKMTJKRkx2VUoxS24wWDNEM3FTdDFyZW1xOERnR0lLSXNwdk5fVy1RbTN2V1k4S3FDRVNDaUJxOXNDNGV2QVRV",
+      "source": "robinhood.com",
+      "title": "ETH price on Aug 19, 2026 at 10pm EDT Crypto Prediction Market",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSjMwYWFoQVh6YWl5SDUxMUI0aGpuVUQ5WEk5Sm55Nmc3cmtKZ2hkQmNPUjNZUGNJbDRuendZc2lMRkNQR2kxVUEyUERyS1JMX3NTZS1lQjZ4REVJQTAwNFFlT2dOM0NpVlZQb3l1RENKMTJKRkx2VUoxS24wWDNEM3FTdDFyZW1xOERnR0lLSXNwdk5fVy1RbTN2V1k4S3FDRVNDaUJxOXNDNGV2QVRV?oc=5",
+      "published_at": "2026-08-20T01:05:03.000Z",
+      "fetched_at": "2026-08-20T04:49:51.770Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMizwFBVV95cUxPYkpIcU8wRlZzVkM5bU5pQnBwbFYwQU1oX2FxcEFZeFR1Ml9la2Iydl9GUW5GdnBQQW5BTENUOVhQMGo1aUc4S19tek9CZ0FselUxaC11c1BtV0NKVG43b0ROVG9rcm9KOWw4aFFVcHMtaU9GTnl0V3VkTmFUVkJJaE4tNEpqNWlIYmlxckh4QVhVYUVGYWhURUNDOHI1SENhSW1ETjcwM2s0dEdmM3FadjcyVzg0d3JJLXpYMjFDSUsxeGZVVnBxaE5aRDFpZW8",
+      "source": "FXStreet",
+      "title": "Ethereum Price Forecast: ETH jumps 18%, sparks over $1 billion in liquidations",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYkpIcU8wRlZzVkM5bU5pQnBwbFYwQU1oX2FxcEFZeFR1Ml9la2Iydl9GUW5GdnBQQW5BTENUOVhQMGo1aUc4S19tek9CZ0FselUxaC11c1BtV0NKVG43b0ROVG9rcm9KOWw4aFFVcHMtaU9GTnl0V3VkTmFUVkJJaE4tNEpqNWlIYmlxckh4QVhVYUVGYWhURUNDOHI1SENhSW1ETjcwM2s0dEdmM3FadjcyVzg0d3JJLXpYMjFDSUsxeGZVVnBxaE5aRDFpZW8?oc=5",
+      "published_at": "2026-08-19T23:58:09.000Z",
+      "fetched_at": "2026-08-20T04:49:51.768Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMiWkFVX3lxTE1UbDlFU3NDUmgzQjVreTltQTB3SnRqcHRCc25UNGdOY1dKYm90VkRyVWdrUHc3RURONE9NOFBONEFpalV3M3E0VlhDQVhiUDk2UHNhOXdFWVhQZw",
+      "source": "Cryptonews.net",
+      "title": "Whale Wallets Open $98M in ETH Shorts on Hyperliquid, Betting on Price Drop",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UbDlFU3NDUmgzQjVreTltQTB3SnRqcHRCc25UNGdOY1dKYm90VkRyVWdrUHc3RURONE9NOFBONEFpalV3M3E0VlhDQVhiUDk2UHNhOXdFWVhQZw?oc=5",
+      "published_at": "2026-08-19T22:40:37.000Z",
+      "fetched_at": "2026-08-20T04:49:51.775Z",
+      "score": -0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMihgFBVV95cUxPekNpamYyc1VqczRxRGRpUXEzejN4VjQ5WTVnaEFNdlk1d0dmYWIzak1PeFdRNVFLeV8xa0drQlE0djFoeVlYSGppWTdIQ1B1Mm82bjFJcXRtSFZZSnJLTDhUdkVNSjZFbk4wV2k3RTRhTXJSRmtpOEhHLTB2WFdsTW1zaVRqZw",
+      "source": "blockchain.news",
+      "title": "Ethereum: Reclaims $2300 With $652M Shorts Liquidated",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPekNpamYyc1VqczRxRGRpUXEzejN4VjQ5WTVnaEFNdlk1d0dmYWIzak1PeFdRNVFLeV8xa0drQlE0djFoeVlYSGppWTdIQ1B1Mm82bjFJcXRtSFZZSnJLTDhUdkVNSjZFbk4wV2k3RTRhTXJSRmtpOEhHLTB2WFdsTW1zaVRqZw?oc=5",
+      "published_at": "2026-08-19T22:00:35.000Z",
+      "fetched_at": "2026-08-20T04:49:51.768Z",
+      "score": -0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMijgFBVV95cUxPSTl3MWIxcVVwQVNicVF5Zm9fbU5POEUyb2NQRkRBWlRYUk8xY3lwUnhLczZtR3ZEY2o4NVdaeVRJcFVoNGVhOGlZZUZVYmlSd0hYX1JtYlZaR254b08yMFdoVVNYWk9XUE9PNXM0aEhYUE81T1Bwa1VFekl0cXlYdmFaZWFrZXNkNl9Oanh3",
+      "source": "MarketForces Africa",
+      "title": "Ethereum Price Soars By 20% On Surprise U.S Treasury Policy",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSTl3MWIxcVVwQVNicVF5Zm9fbU5POEUyb2NQRkRBWlRYUk8xY3lwUnhLczZtR3ZEY2o4NVdaeVRJcFVoNGVhOGlZZUZVYmlSd0hYX1JtYlZaR254b08yMFdoVVNYWk9XUE9PNXM0aEhYUE81T1Bwa1VFekl0cXlYdmFaZWFrZXNkNl9Oanh3?oc=5",
+      "published_at": "2026-08-19T21:40:47.000Z",
+      "fetched_at": "2026-08-20T04:49:51.766Z",
+      "score": 0.6666666666666666,
+      "method": "rule-based",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMimAFBVV95cUxNdVNObmxMSGxwZUtpSk1lLXllVVJQdWl4dFBYeV9oc202anREWXhDcHE4dFk5RGV4TElweFdKVzVXRmRpSkRFZUFtR2RMbVM4NkJFbEJ4cWc0clpXX2c0YmtOOFlsUEJUVmtuNGlkRjhzU1hJSWZzVXhxZ19wVWhsdkd1OU5vMmRYS0ZfM0JzdWt2ZUpDNGQxUw",
+      "source": "Yahoo Finance",
+      "title": "Bitcoin Hits $69,000, Ethereum Goes on 20% Bull Rampage, XRP, SOL Pump 10% on Historic Crypto Day",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdVNObmxMSGxwZUtpSk1lLXllVVJQdWl4dFBYeV9oc202anREWXhDcHE4dFk5RGV4TElweFdKVzVXRmRpSkRFZUFtR2RMbVM4NkJFbEJ4cWc0clpXX2c0YmtOOFlsUEJUVmtuNGlkRjhzU1hJSWZzVXhxZ19wVWhsdkd1OU5vMmRYS0ZfM0JzdWt2ZUpDNGQxUw?oc=5",
+      "published_at": "2026-08-19T21:15:12.000Z",
+      "fetched_at": "2026-08-20T04:49:51.769Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "ethereum"
+      ]
+    },
+    {
+      "guid": "CBMiV0FVX3lxTFBHcUZ6YjcyUDA1NVhqd3d2TXBCRXVmc1JadnpiM09LTzJQMVk1OFNQaG9nNHpUWWZHdzM0Sk1Gd1hTdXp4NHJFbzY5dkZXTjZId1hUbzFCYw",
+      "source": "Cryptonews.net",
+      "title": "240 Million XRP Pulled From Major Exchanges Since Early Summer: Why It Matters",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBHcUZ6YjcyUDA1NVhqd3d2TXBCRXVmc1JadnpiM09LTzJQMVk1OFNQaG9nNHpUWWZHdzM0Sk1Gd1hTdXp4NHJFbzY5dkZXTjZId1hUbzFCYw?oc=5",
+      "published_at": "2026-08-20T04:25:37.000Z",
+      "fetched_at": "2026-08-20T04:49:51.610Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
         "ripple"
       ]
     },
     {
-      "guid": "CBMipAFBVV95cUxPd3NrbExBY3FRdkc0R3VyY3Q4ZUNMWS0yZXhnVXl1eHNoNkNwd01VRXlXbXBXODBOb0tONHh3ckdnZkJ2WmdGbTN4bW4yS2U1VXAybF9uZkdsUmNPclA5ZWpsZEk5TWllX29qb1dNUFI5Q1VzaGhoTVJGNTR1NVRtalJEcTJNd2FfMDhxYkZMc1d2MkxGYmVaVk8xWTR6b25zcVdqTg",
-      "source": "blockhead.co",
-      "title": "Bitwise's Solana ETF May Become the First Tokenized US Fund Shares",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd3NrbExBY3FRdkc0R3VyY3Q4ZUNMWS0yZXhnVXl1eHNoNkNwd01VRXlXbXBXODBOb0tONHh3ckdnZkJ2WmdGbTN4bW4yS2U1VXAybF9uZkdsUmNPclA5ZWpsZEk5TWllX29qb1dNUFI5Q1VzaGhoTVJGNTR1NVRtalJEcTJNd2FfMDhxYkZMc1d2MkxGYmVaVk8xWTR6b25zcVdqTg?oc=5",
-      "published_at": "2026-08-17T07:04:03.000Z",
-      "fetched_at": "2026-08-17T09:13:47.430Z",
-      "score": 0.3333333333333333,
-      "method": "rule-based",
-      "assets": [
-        "solana"
-      ]
-    },
-    {
-      "guid": "CBMijgFBVV95cUxPWUhLdE0yUE1CUGpOY1l5bmNkdTE1SjV3Z251eG1va2xVT1kya1hGUVdHZHBVajJRbGF3MEVVY0VUUWFyZjNuWlRRNktOMWhHYlJpV0JIUDJRSzBlVVpvNHFxbzhGTWNKRG1QXzFLWXNkejlGVUNkTHdkSkxpOTdpMFBHdVQ5c0RaQkFPNlRR",
-      "source": "TradingKey",
-      "title": "Solana (SOLUSD) Volatility Intensified on Aug 17: What You Should Know",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWUhLdE0yUE1CUGpOY1l5bmNkdTE1SjV3Z251eG1va2xVT1kya1hGUVdHZHBVajJRbGF3MEVVY0VUUWFyZjNuWlRRNktOMWhHYlJpV0JIUDJRSzBlVVpvNHFxbzhGTWNKRG1QXzFLWXNkejlGVUNkTHdkSkxpOTdpMFBHdVQ5c0RaQkFPNlRR?oc=5",
-      "published_at": "2026-08-17T06:50:15.000Z",
-      "fetched_at": "2026-08-17T09:13:47.426Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "solana"
-      ]
-    },
-    {
-      "guid": "CBMid0FVX3lxTFB0ejlGaHdNSUFvVHNCR0JVZGpGWENNWGdkRnRmbERyanFBS2VlZGE1eXFBb282UlY3eHo5V3NkVGh1Vmc3cDY4N1h4cjFSRjJGbnhCVEdtSUx5aVpmMjhCRzh0Z3UzbnVPNEpZeF80RGRjN3dUTHJV",
-      "source": "BeInCrypto",
-      "title": "Solana ETF Inflows Surge 70x to Best Week Since May, But There’s a Catch",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB0ejlGaHdNSUFvVHNCR0JVZGpGWENNWGdkRnRmbERyanFBS2VlZGE1eXFBb282UlY3eHo5V3NkVGh1Vmc3cDY4N1h4cjFSRjJGbnhCVEdtSUx5aVpmMjhCRzh0Z3UzbnVPNEpZeF80RGRjN3dUTHJV?oc=5",
-      "published_at": "2026-08-17T05:53:00.000Z",
-      "fetched_at": "2026-08-17T09:13:47.420Z",
-      "score": 1,
-      "method": "rule-based",
-      "assets": [
-        "solana"
-      ]
-    },
-    {
-      "guid": "CBMixAFBVV95cUxPOW8tcGRBdWxnb2NGYjFXWVZHMFlfWDdWbFZyU1VVSEM3VExlNXFNZ0N5T3llSVpVYi11Q29JQ2RaM3RCVmZQMVdyTERQTTlMVURVTmhhTDM2MW52Nm13aC1rTDI2bXRIbDNjbXBFMjJoQjI0TlFjRHdoVzhhVllTN0I1TFA4dVpGaHU4ZjVnVEdGVmZabE9ldXJxaXltazB0NE9hRHM5azFZZ1BJLWJOZVpPUUU1QXhpeWFNYWx5TEUwMmgw",
+      "guid": "CBMi8wFBVV95cUxQczlrd1NtcDJvT2toMUJSU19RYmJjUUw1VFhBcHU1MUxDYVNHa09RYnpKRC11RERvcGF6eFpob2l5ZF8zREtvLWFsTlN3ZGEtNXFpWDBRMHlnVXVLMFEtMkVGRUtiX0VFQW11bUhPTkZ3WnY1SDFkdVE3U0xXWk1QQTU3aTBnUHpEUGZXSHhGSUNXZEUtbXN5a21VNGFUQjh1UWJnTTdJYTQ2OWFTSHJwa04zYTlOX196QkhRSkpwM2tjTDFmNVlwbDR6SVJ1UWJnWHdFbjVIbnNVcHJSNkloMXYwUEFYU2NDVU05NFRicC1pNFE",
       "source": "FXStreet",
-      "title": "Where is Solana heading next?",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOW8tcGRBdWxnb2NGYjFXWVZHMFlfWDdWbFZyU1VVSEM3VExlNXFNZ0N5T3llSVpVYi11Q29JQ2RaM3RCVmZQMVdyTERQTTlMVURVTmhhTDM2MW52Nm13aC1rTDI2bXRIbDNjbXBFMjJoQjI0TlFjRHdoVzhhVllTN0I1TFA4dVpGaHU4ZjVnVEdGVmZabE9ldXJxaXltazB0NE9hRHM5azFZZ1BJLWJOZVpPUUU1QXhpeWFNYWx5TEUwMmgw?oc=5",
-      "published_at": "2026-08-17T05:46:01.000Z",
-      "fetched_at": "2026-08-17T09:13:47.421Z",
-      "score": 0,
+      "title": "XRP and XLM outlook: Why are Ripple and Stellar rallying?",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQczlrd1NtcDJvT2toMUJSU19RYmJjUUw1VFhBcHU1MUxDYVNHa09RYnpKRC11RERvcGF6eFpob2l5ZF8zREtvLWFsTlN3ZGEtNXFpWDBRMHlnVXVLMFEtMkVGRUtiX0VFQW11bUhPTkZ3WnY1SDFkdVE3U0xXWk1QQTU3aTBnUHpEUGZXSHhGSUNXZEUtbXN5a21VNGFUQjh1UWJnTTdJYTQ2OWFTSHJwa04zYTlOX196QkhRSkpwM2tjTDFmNVlwbDR6SVJ1UWJnWHdFbjVIbnNVcHJSNkloMXYwUEFYU2NDVU05NFRicC1pNFE?oc=5",
+      "published_at": "2026-08-20T04:19:45.000Z",
+      "fetched_at": "2026-08-20T04:49:51.607Z",
+      "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
-        "solana"
+        "ripple"
       ]
     },
     {
-      "guid": "CBMi7AFBVV95cUxQUTRwME0zY2pNQzNua2xyeGcxdGxrb1RkcFJZeWFOVVZwVlBCUG5rU1AtaE5DdjBscHFOdUktcktfSDFrMmtJUGZLVVlXa1FKeDZZcGx5RVlrNHBBVkUyZWlvMXJzS2k4RFU3MUJmLUUwTUNvclhvYVVfdTRJNWtXcFk4RWNfdm5lR1RYcXhDUE0wVHRMNHVSUHJSU0FMeEZtWUZmTzN0em0zQmpnZmxnc3psYnpwZkJWZElDTzVaRnFFWkl6WU1Ob1NnUWRjV19ucUUzNlBrdnRFcmNrWmctelJ1ZU85Zk80S1F1aQ",
-      "source": "StreetInsider",
-      "title": "Solana Price Prediction: SOL Breaks $75 But the Real Entry Sits Inside Pepeto Before Listing",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUTRwME0zY2pNQzNua2xyeGcxdGxrb1RkcFJZeWFOVVZwVlBCUG5rU1AtaE5DdjBscHFOdUktcktfSDFrMmtJUGZLVVlXa1FKeDZZcGx5RVlrNHBBVkUyZWlvMXJzS2k4RFU3MUJmLUUwTUNvclhvYVVfdTRJNWtXcFk4RWNfdm5lR1RYcXhDUE0wVHRMNHVSUHJSU0FMeEZtWUZmTzN0em0zQmpnZmxnc3psYnpwZkJWZElDTzVaRnFFWkl6WU1Ob1NnUWRjV19ucUUzNlBrdnRFcmNrWmctelJ1ZU85Zk80S1F1aQ?oc=5",
-      "published_at": "2026-08-17T03:00:22.000Z",
-      "fetched_at": "2026-08-17T09:13:47.434Z",
+      "guid": "CBMirgFBVV95cUxOR1NVdWNDZDhuTGF4a282bWo5MjR2VlB2WjJ3aEFfODVjdlVEOWtfc1hHMVR1NTJ1TUpxbU1tLW9ROEJidXYydXAyZllOa3FuOWZCcmF1S2NDa0o1S0t2VkhXODE1WWlDUjVEVm5yczlScTlIUUpRaGstVHZtQXFMeXIzSm1Ic0NNUVNNZkNYTm00SldpTkZWT29vczNJMzAyWTFSMFczVklDa0xnbUE",
+      "source": "robinhood.com",
+      "title": "XRP price at Aug 20, 2026 at 1am EDT? Crypto Prediction Market",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR1NVdWNDZDhuTGF4a282bWo5MjR2VlB2WjJ3aEFfODVjdlVEOWtfc1hHMVR1NTJ1TUpxbU1tLW9ROEJidXYydXAyZllOa3FuOWZCcmF1S2NDa0o1S0t2VkhXODE1WWlDUjVEVm5yczlScTlIUUpRaGstVHZtQXFMeXIzSm1Ic0NNUVNNZkNYTm00SldpTkZWT29vczNJMzAyWTFSMFczVklDa0xnbUE?oc=5",
+      "published_at": "2026-08-20T04:11:41.000Z",
+      "fetched_at": "2026-08-20T04:49:51.607Z",
       "score": 0,
       "method": "rule-based",
       "assets": [
-        "solana"
+        "ripple"
       ]
     },
     {
-      "guid": "CBMipAFBVV95cUxOZXlCMmVtZGxqdlpwenc5cmR5ZWhMOFRRbWt3Vnc5Tm9GT3JwODlfc3BxX25jUEc3WkR6d3NEMS0xaEI4eE1jVTNsdm9EZDhEbnRkdmdKeTVjenRuWEtyRVkyaGs4ZE16U1pfOF9lUWtqYVkzQkppOWFHTDhBa0NuMGdFRkJLTTFQRjZ4NUVNX1dzeHdUZVVBeHE4aW1LRHlHT3VDRQ",
+      "guid": "CBMiyAFBVV95cUxPMl9Hbm1PblExVkZ4VEhkN1ZfLWp4b3lnZGtxWVFTMGR0c19CT2NCbzNrUFk4V2VuaW5MTnRoZ0w4SDN1ZVMybUhjM21hUTNjYXRFOHUzTlozSnU2S0NlR0toRHp5aHd4OFk5V1BwY1ZjeU1OVUpOc0JUb1BUM1lGRDVFLVliMWZZbGlrem9Mc2JqWHRxY2EwMlh1T2tSeFpHRzVlN1FZNC1adnRrTlVVVDkwakRlX0ZUbGYyV3d1MXdTc3RFRXBzaw",
+      "source": "24/7 Wall St.",
+      "title": "Ripple Borrows $275 Million at 8.25% to Take On Goldman Sachs. Can It Win?",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMl9Hbm1PblExVkZ4VEhkN1ZfLWp4b3lnZGtxWVFTMGR0c19CT2NCbzNrUFk4V2VuaW5MTnRoZ0w4SDN1ZVMybUhjM21hUTNjYXRFOHUzTlozSnU2S0NlR0toRHp5aHd4OFk5V1BwY1ZjeU1OVUpOc0JUb1BUM1lGRDVFLVliMWZZbGlrem9Mc2JqWHRxY2EwMlh1T2tSeFpHRzVlN1FZNC1adnRrTlVVVDkwakRlX0ZUbGYyV3d1MXdTc3RFRXBzaw?oc=5",
+      "published_at": "2026-08-19T20:24:02.000Z",
+      "fetched_at": "2026-08-20T04:49:51.608Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "ripple"
+      ]
+    },
+    {
+      "guid": "CBMiX0FVX3lxTE1Od3NOYy1oSHB4Qkw3VXllOEdEOUJlYWZBMXhzR1AtYXcxY3lOM1lTV3RnUFZNbTNGVkF1Z19CQVNneE5fSWJBSExqUDdCVmpQcjRNcVQ1MXVyVnROamd3",
+      "source": "fool.com",
+      "title": "Why Is XRP (Ripple) Up Today?",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Od3NOYy1oSHB4Qkw3VXllOEdEOUJlYWZBMXhzR1AtYXcxY3lOM1lTV3RnUFZNbTNGVkF1Z19CQVNneE5fSWJBSExqUDdCVmpQcjRNcVQ1MXVyVnROamd3?oc=5",
+      "published_at": "2026-08-19T20:05:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.604Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "ripple"
+      ]
+    },
+    {
+      "guid": "CBMiiAFBVV95cUxQbjFuN2hrN0pWNUZEZXBFdjJqTWJBOWs4bzd4cHpXaTIyeW01amd0Nl9yQXU1QkRZalppVXNLcTFDMVdHa0FaTDhwdTRYMVlDbU9jY19fR19QWEs3Smd5MzlpZ0taSUN5Ty1lN1lLdW9fT0pKWldudURDU0o1TkRUVFg1TklzZmhW",
+      "source": "MarketForces Africa",
+      "title": "XRP Jumps 6% On Ripple Prime Private Placement Optimism",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbjFuN2hrN0pWNUZEZXBFdjJqTWJBOWs4bzd4cHpXaTIyeW01amd0Nl9yQXU1QkRZalppVXNLcTFDMVdHa0FaTDhwdTRYMVlDbU9jY19fR19QWEs3Smd5MzlpZ0taSUN5Ty1lN1lLdW9fT0pKWldudURDU0o1TkRUVFg1TklzZmhW?oc=5",
+      "published_at": "2026-08-19T19:26:38.000Z",
+      "fetched_at": "2026-08-20T04:49:51.605Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "ripple"
+      ]
+    },
+    {
+      "guid": "CBMixgFBVV95cUxNZXMzeldvSlR0dXJUYjNvaGJLUmdyRkdONUMxa1pYbGZZNlZ6MzdCNTdhYkZ4bzI2MGRxQVNuV2JHVllNcHlVcGZSVDNGdzhxaF9aSWUwRGNDSVFYUVVmN3F3d3BoSTlYSHE0LUs2ZHprLUhKVUlHa2g5X0JQVzRSTU9SaVlwa3d1M3ZYTjdoVDF0V3MzYnJ3aTg5b1luWk9VeDFnbS1QWnlnZUE5dU9pWDFBNjB3UC15T0RtcktYYUotdnhWRlE",
+      "source": "CryptoRank",
+      "title": "Senator Cynthia Lummis Presses Democrats on CLARITY Act as XRP Watches From The Sidelines",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZXMzeldvSlR0dXJUYjNvaGJLUmdyRkdONUMxa1pYbGZZNlZ6MzdCNTdhYkZ4bzI2MGRxQVNuV2JHVllNcHlVcGZSVDNGdzhxaF9aSWUwRGNDSVFYUVVmN3F3d3BoSTlYSHE0LUs2ZHprLUhKVUlHa2g5X0JQVzRSTU9SaVlwa3d1M3ZYTjdoVDF0V3MzYnJ3aTg5b1luWk9VeDFnbS1QWnlnZUE5dU9pWDFBNjB3UC15T0RtcktYYUotdnhWRlE?oc=5",
+      "published_at": "2026-08-19T17:34:21.000Z",
+      "fetched_at": "2026-08-20T04:49:51.612Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "ripple"
+      ]
+    },
+    {
+      "guid": "CBMifEFVX3lxTE5pT1NWRFJyNVdqeVpNNnk3TVV1VnFjdGlkbWhveVk2SEtLR0hmdURYVlYwZDk5NFBZVFVMQTRsbm5ZWUR6cWd3M0lvaWFRRGpaU3UyWjYtYm9qUmxHZDdtYWNzVkRNSXk2VTc5QkItbGY1QW9qMGN4ZDNtZ2M",
+      "source": "fool.com",
+      "title": "Better Altcoin Buy: XRP vs. Ethereum",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pT1NWRFJyNVdqeVpNNnk3TVV1VnFjdGlkbWhveVk2SEtLR0hmdURYVlYwZDk5NFBZVFVMQTRsbm5ZWUR6cWd3M0lvaWFRRGpaU3UyWjYtYm9qUmxHZDdtYWNzVkRNSXk2VTc5QkItbGY1QW9qMGN4ZDNtZ2M?oc=5",
+      "published_at": "2026-08-19T17:02:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.608Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "ripple"
+      ]
+    },
+    {
+      "guid": "CBMiiwFBVV95cUxOd2RwTGRqU0RsSVFaekg4VDhycUdPX1ZxZ3FXMU1lSFNGcG9ZTzlmdHlEM2lOQ3kwbTVuOGtVcndGTWFoUWhBdDdINFN2ZGQydUd3WDVDWS1HUHZuVDNiSmJoSDgtdmZTTHVrWnNGVVVtRmdGU3JZN0o1aFk3QTRsMTFYN0QwaTFuM1Bj",
       "source": "Pluang",
-      "title": "Solana adds $378M in tokenized T-bills, surpassing Ethereum, but price tests support near $75.",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZXlCMmVtZGxqdlpwenc5cmR5ZWhMOFRRbWt3Vnc5Tm9GT3JwODlfc3BxX25jUEc3WkR6d3NEMS0xaEI4eE1jVTNsdm9EZDhEbnRkdmdKeTVjenRuWEtyRVkyaGs4ZE16U1pfOF9lUWtqYVkzQkppOWFHTDhBa0NuMGdFRkJLTTFQRjZ4NUVNX1dzeHdUZVVBeHE4aW1LRHlHT3VDRQ?oc=5",
-      "published_at": "2026-08-16T23:17:54.000Z",
-      "fetched_at": "2026-08-17T09:13:47.424Z",
-      "score": 0,
+      "title": "XRP whales buy 642M tokens as Ripple raises $47...",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd2RwTGRqU0RsSVFaekg4VDhycUdPX1ZxZ3FXMU1lSFNGcG9ZTzlmdHlEM2lOQ3kwbTVuOGtVcndGTWFoUWhBdDdINFN2ZGQydUd3WDVDWS1HUHZuVDNiSmJoSDgtdmZTTHVrWnNGVVVtRmdGU3JZN0o1aFk3QTRsMTFYN0QwaTFuM1Bj?oc=5",
+      "published_at": "2026-08-19T16:43:48.000Z",
+      "fetched_at": "2026-08-20T04:49:51.612Z",
+      "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
+        "ripple"
+      ]
+    },
+    {
+      "guid": "CBMi3wFBVV95cUxOeGQ3dXdWTUNYWnh1MTBTTGtycjlWaVE4U1N4OE91U0JacnIyMGdTVHlrSUZIVkx0T2JfUmRLeUpUSFp3WmI1LTk5VmNKYjZUX1U3MUJUR2l4TVlZMzM5WUx5VDRzeEN6RG5ncHhuZkVEUUM3dTZ6QVpzTUsybi0xOEJzN3BEQ0RiUV96cDFLbkVqcG9CQVBnanI5UkxrdlhXcmJJUm5pRmJMNjNyS0xobFlteFFPeWduV0FuSlo4V0t0YzVNbjZHRV9oVWR4a3c3akR1MU1uZ21USHZVUVZ3",
+      "source": "TradingView",
+      "title": "Solana, Ethereum, XRP Outperform Bitcoin In $69K Rally – $1.6B In Crypto Bets Get Wiped Out",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeGQ3dXdWTUNYWnh1MTBTTGtycjlWaVE4U1N4OE91U0JacnIyMGdTVHlrSUZIVkx0T2JfUmRLeUpUSFp3WmI1LTk5VmNKYjZUX1U3MUJUR2l4TVlZMzM5WUx5VDRzeEN6RG5ncHhuZkVEUUM3dTZ6QVpzTUsybi0xOEJzN3BEQ0RiUV96cDFLbkVqcG9CQVBnanI5UkxrdlhXcmJJUm5pRmJMNjNyS0xobFlteFFPeWduV0FuSlo4V0t0YzVNbjZHRV9oVWR4a3c3akR1MU1uZ21USHZVUVZ3?oc=5",
+      "published_at": "2026-08-19T16:17:22.000Z",
+      "fetched_at": "2026-08-20T04:49:51.605Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "ripple",
         "solana"
       ]
     },
     {
-      "guid": "CBMiuwFBVV95cUxNUUhvYnNRanY4RVNQZmxfaGJNMHVBQUs2TlA4X1N4M1R2M2pFOTVTUjRCQzh0MnN3ZVBrRjk2a2E2bFNDZTNyUEcxMjBQZXk1U09ra09Bell1NVhYSmpUTHl2dXd3cVRCdHdOWkpPZW9SeDB1WUtNM2xoVnoxbjg3dU5IaGNISGkwcURmWEVWSEs2cGhPYWJ2UUo0d0NLR0x0RjNNRUtjb2VVTF81dEpFZHczM2piTmxGVjgw",
-      "source": "247wallst.com",
-      "title": "Bitcoin, XRP, Ethereum, and Solana Drop. Will Crypto Recover by the End of 2026?",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUUhvYnNRanY4RVNQZmxfaGJNMHVBQUs2TlA4X1N4M1R2M2pFOTVTUjRCQzh0MnN3ZVBrRjk2a2E2bFNDZTNyUEcxMjBQZXk1U09ra09Bell1NVhYSmpUTHl2dXd3cVRCdHdOWkpPZW9SeDB1WUtNM2xoVnoxbjg3dU5IaGNISGkwcURmWEVWSEs2cGhPYWJ2UUo0d0NLR0x0RjNNRUtjb2VVTF81dEpFZHczM2piTmxGVjgw?oc=5",
-      "published_at": "2026-08-16T21:45:47.000Z",
-      "fetched_at": "2026-08-17T09:13:47.419Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "solana"
-      ]
-    },
-    {
-      "guid": "CBMijwFBVV95cUxPYzZXTG0yOGJaTlpWRjJIVTZFN3JqMGtiZHp1ZGJqaWdUUzY1dTc5Z3NWTGJ6TV82cU1qMlNUR1l4OXB5XzA3clF2OE1KN3ZuWW4tcVp1LUd1enhXZXI3Tm5hWmhONmlhd3dSb2UyYWUyOWVyMVpyM3NDNGg3QWtYUFhzdjRiOEM5cHZlWF85cw",
-      "source": "AMBCrypto",
-      "title": "Solana adds $378M in tokenized T-bills – Is Ethereum losing ground?",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYzZXTG0yOGJaTlpWRjJIVTZFN3JqMGtiZHp1ZGJqaWdUUzY1dTc5Z3NWTGJ6TV82cU1qMlNUR1l4OXB5XzA3clF2OE1KN3ZuWW4tcVp1LUd1enhXZXI3Tm5hWmhONmlhd3dSb2UyYWUyOWVyMVpyM3NDNGg3QWtYUFhzdjRiOEM5cHZlWF85cw?oc=5",
-      "published_at": "2026-08-16T21:00:53.000Z",
-      "fetched_at": "2026-08-17T09:13:47.134Z",
-      "score": 0,
-      "method": "rule-based",
-      "assets": [
-        "solana"
-      ]
-    },
-    {
-      "guid": "CBMi0wFBVV95cUxQNVFLMExSTU5tTmVmYk4tUy1ZSVl4eWJ4WmNZT3U4bHBWLWhxSk55LUZ4Vlk3YmVMa21uLWxUbHdhbi1SU25WM2EtOUFINmI2QmFoamk4Y0hrTFdVZDJBVXNGSzJFTjBJTGZlLWVrWDNPTVhCbDlNZFl6b2E1ejBJbmZNSV9BSUg4RlFqTkZqX2l2Y1Bfd3pzbWFPVTNnLTQ2VWxacjg3c19uQ0lqSTMtak5rMmtqakI3R2FUbVhCOVhQbnFtSDg3VzV5c3JMSkVadDBv",
-      "source": "Brave New Coin",
-      "title": "Solana Price Prediction: SOL Holds $73-$75 Support as Analysts Eye $100-$113 Breakout Despite Rejection Risk",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNVFLMExSTU5tTmVmYk4tUy1ZSVl4eWJ4WmNZT3U4bHBWLWhxSk55LUZ4Vlk3YmVMa21uLWxUbHdhbi1SU25WM2EtOUFINmI2QmFoamk4Y0hrTFdVZDJBVXNGSzJFTjBJTGZlLWVrWDNPTVhCbDlNZFl6b2E1ejBJbmZNSV9BSUg4RlFqTkZqX2l2Y1Bfd3pzbWFPVTNnLTQ2VWxacjg3c19uQ0lqSTMtak5rMmtqakI3R2FUbVhCOVhQbnFtSDg3VzV5c3JMSkVadDBv?oc=5",
-      "published_at": "2026-08-16T20:04:04.000Z",
-      "fetched_at": "2026-08-17T09:13:47.421Z",
+      "guid": "CBMipgJBVV95cUxNaGl4U29pUDNqVU9RQmRlNWFod2JDak1hR0dHQV9BTUJCVnV5R1M1MThJSTUzYm5UZ3h4TWllcWNSMEJuOVI3ZEZVaDNwVHB0dmtKTVNGbmpleDI5ZEVkTGlZWEpNOVk4UkJocnE0SkgtMFFZNzk1MVB0ZGd1YjZabzFMNlJnOW1OaHFEUzdvMUhQdTIxN2dLb25OSUItblJGcXdUcWVFb19MZm5fVDVpZjRiUVlNal9DQ1Zyb2k1MHRRSXFlV0pQa1pKSkhLLU83MWRHSzBZTGNURWZjOU81bzRvbGl6Vk50YWN3c1ZPeTVzNmJ3eXJMTURoSUpKUmVXS2xjSE1QUUthcUE1VEpCTV8xanlnTVZIYTZTM1lrUzVlUkNUMHfSAasCQVVfeXFMTV9FdmlVQk9GNXZEYWxwak9tOVJVa1NWRnhxSnBEbmhMNnR3ZzhZYkdETFhia1dCNll6Rjdyajg0QTRIWTBBVmp0Wk81WGY3SVFSV3J2UVJLYXVQOUhXZzh2THBlbWw5Q2p1ZmNTSUQxUGtMeVlJX2oxUFd0S1F4b1NMRFhVbTFhXzZuTHp1RUpzY2dITDR4dU85UXh4OGh1RU9yQ2k4LWd0MWhabGswTVFIYUtqdDdvU054TGEyaTNlbVNJaUtuYl9wZUM4QWZ3cThhZDAwMnQ4SDRndTZMSjJYOHVia1p3VXBfcS1nVVNMYkN4VGtnYmJkWXpuSUNyMzN0TldHcjZSaWZsRG1za1BxUkF3RXdIY1pYSXZ6MkQxb1FrWTVyOWt2Q0k",
+      "source": "The Manila Times",
+      "title": "Crypto Update: Pepeto Stage Sells Out at Record Speed While the Solana Price Prediction Targets $336 and Meme Coin Season Stars",
+      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNaGl4U29pUDNqVU9RQmRlNWFod2JDak1hR0dHQV9BTUJCVnV5R1M1MThJSTUzYm5UZ3h4TWllcWNSMEJuOVI3ZEZVaDNwVHB0dmtKTVNGbmpleDI5ZEVkTGlZWEpNOVk4UkJocnE0SkgtMFFZNzk1MVB0ZGd1YjZabzFMNlJnOW1OaHFEUzdvMUhQdTIxN2dLb25OSUItblJGcXdUcWVFb19MZm5fVDVpZjRiUVlNal9DQ1Zyb2k1MHRRSXFlV0pQa1pKSkhLLU83MWRHSzBZTGNURWZjOU81bzRvbGl6Vk50YWN3c1ZPeTVzNmJ3eXJMTURoSUpKUmVXS2xjSE1QUUthcUE1VEpCTV8xanlnTVZIYTZTM1lrUzVlUkNUMHfSAasCQVVfeXFMTV9FdmlVQk9GNXZEYWxwak9tOVJVa1NWRnhxSnBEbmhMNnR3ZzhZYkdETFhia1dCNll6Rjdyajg0QTRIWTBBVmp0Wk81WGY3SVFSV3J2UVJLYXVQOUhXZzh2THBlbWw5Q2p1ZmNTSUQxUGtMeVlJX2oxUFd0S1F4b1NMRFhVbTFhXzZuTHp1RUpzY2dITDR4dU85UXh4OGh1RU9yQ2k4LWd0MWhabGswTVFIYUtqdDdvU054TGEyaTNlbVNJaUtuYl9wZUM4QWZ3cThhZDAwMnQ4SDRndTZMSjJYOHVia1p3VXBfcS1nVVNMYkN4VGtnYmJkWXpuSUNyMzN0TldHcjZSaWZsRG1za1BxUkF3RXdIY1pYSXZ6MkQxb1FrWTVyOWt2Q0k?oc=5",
+      "published_at": "2026-08-20T04:26:05.000Z",
+      "fetched_at": "2026-08-20T04:49:51.827Z",
       "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -1186,12 +1154,38 @@
       ]
     },
     {
-      "guid": "CBMi2AFBVV95cUxPSTdVVFItczV4TFR3T09PSXJSMDJGSEhuTjF5X3R0eTg3REpKaFcyRjI5WEE2ODdPLWV3SWQxYThEdmt2a2FLZFR0QWY5VHV5Y1BHZTZfYnB2N1RGRlRsdGdxRVV5TGczLU85UDVUWWpTc3lFVlVvYkVzUlBFRWVLWnJYemJOZ0p5LXJkWVhHOE5ac2sxMUtoQ1NVOExHS0UyQ2g3eUdWdFNNT3M1aFRHOG8yb2JiVWF2b2dFeHBzbFdsS0FCc0ZFWU5oc1FXc3BCeENKUExYd0I",
-      "source": "Benzinga",
-      "title": "Ethereum, Solana Could Turn Scarcer Than Gold By 2031: Here's the Math to Prove It",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSTdVVFItczV4TFR3T09PSXJSMDJGSEhuTjF5X3R0eTg3REpKaFcyRjI5WEE2ODdPLWV3SWQxYThEdmt2a2FLZFR0QWY5VHV5Y1BHZTZfYnB2N1RGRlRsdGdxRVV5TGczLU85UDVUWWpTc3lFVlVvYkVzUlBFRWVLWnJYemJOZ0p5LXJkWVhHOE5ac2sxMUtoQ1NVOExHS0UyQ2g3eUdWdFNNT3M1aFRHOG8yb2JiVWF2b2dFeHBzbFdsS0FCc0ZFWU5oc1FXc3BCeENKUExYd0I?oc=5",
-      "published_at": "2026-08-16T17:32:09.000Z",
-      "fetched_at": "2026-08-17T09:13:47.111Z",
+      "guid": "CBMiyAFBVV95cUxQQVB3OTJPa3lITkQ4NXlPQzl6M19fOVZUWUN4UDZ1ME9LVXVDY2VzWUxYY1dRb0JHekhqYzJXOWY4eGpVTXpIdElyOWZWQzJzRXFwZGR1MTVUUzhmeUdBVzZtQXFOSU9zRWUyMkdubU10NlhjQmIxWnd0UFFRanNkVVhORy1WX0tkdFBpUXBaQnhwVzFlck05UVRqOWlJcTREdlo3RF9GMERwUWUxX0lrYlJnU3VmUFRTWjdlQVpKam5GZzhsVGZtag",
+      "source": "24/7 Wall St.",
+      "title": "Solana surges 10.8% to $85.34, its biggest single-day gain in months",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQVB3OTJPa3lITkQ4NXlPQzl6M19fOVZUWUN4UDZ1ME9LVXVDY2VzWUxYY1dRb0JHekhqYzJXOWY4eGpVTXpIdElyOWZWQzJzRXFwZGR1MTVUUzhmeUdBVzZtQXFOSU9zRWUyMkdubU10NlhjQmIxWnd0UFFRanNkVVhORy1WX0tkdFBpUXBaQnhwVzFlck05UVRqOWlJcTREdlo3RF9GMERwUWUxX0lrYlJnU3VmUFRTWjdlQVpKam5GZzhsVGZtag?oc=5",
+      "published_at": "2026-08-20T03:22:30.000Z",
+      "fetched_at": "2026-08-20T04:49:51.826Z",
+      "score": 0.6666666666666666,
+      "method": "rule-based",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "CBMie0FVX3lxTE4xOFdGX09nYUROOGo5WTVqUlluZzd2SFVqdnVNVDBPaDFDcVl6NHFiVGJOaVVUa2pNQW8yYXdoM2tyYWFXLXpMUTc1R25QMmx0d1hmZXBQSnZocTlyYU5YOG9TT2h1ckFKXzVyMHlpdVFpdUZqbmhMOEtJOA",
+      "source": "blockchain.news",
+      "title": "Solana: 55% Chance to Reclaim $90 by Month End",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4xOFdGX09nYUROOGo5WTVqUlluZzd2SFVqdnVNVDBPaDFDcVl6NHFiVGJOaVVUa2pNQW8yYXdoM2tyYWFXLXpMUTc1R25QMmx0d1hmZXBQSnZocTlyYU5YOG9TT2h1ckFKXzVyMHlpdVFpdUZqbmhMOEtJOA?oc=5",
+      "published_at": "2026-08-20T02:55:41.000Z",
+      "fetched_at": "2026-08-20T04:49:51.825Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "CBMipwFBVV95cUxOYjNCaHo1bXo5c1dyWFBqUWlwMnkzaUdzMTVlcTg4RVhFd0ZZclBaVkRqaWpxR2ptcjVuLW02UU5NMW5VTVp1Z3ppLVB0ZlhWenB0cEF1dXc1Y1d5WllReDdQWE9rTmIydi1pLTFNOWtvVEJIZ2dVQjdBSnEtWVhXVkdOdVdQdlIzc0wxYkRDd1JRVW9rQzlhUmlIUkZJdDM2QXV1Z2tkd9IBrAFBVV95cUxQZEVPV3lSRGtVaC1zUEl6WlFaOVdfb09kMmVENjFWVHdlTUU4UGFvQ1hqMlVXeU14QzJkUGpWUDQwRkRFX0hLMHRpeDk2SWZ5SWFaY3Q2QkxQWFJQY3hoalYtRF9ZeExBdUlCdUhWWW5ZLS11aVRQd0hFOEtvSS05Qi02Y3pVOVJVNVNKZk9sVkw4bzBSclhEQkZHd3FrVHprTU1rTkxwMHo0eUxl",
+      "source": "Coinpedia",
+      "title": "Solana’s 2026 Upgrades Could Give SOL an Edge Over Ethereum, Avalanche and Sui",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYjNCaHo1bXo5c1dyWFBqUWlwMnkzaUdzMTVlcTg4RVhFd0ZZclBaVkRqaWpxR2ptcjVuLW02UU5NMW5VTVp1Z3ppLVB0ZlhWenB0cEF1dXc1Y1d5WllReDdQWE9rTmIydi1pLTFNOWtvVEJIZ2dVQjdBSnEtWVhXVkdOdVdQdlIzc0wxYkRDd1JRVW9rQzlhUmlIUkZJdDM2QXV1Z2tkd9IBrAFBVV95cUxQZEVPV3lSRGtVaC1zUEl6WlFaOVdfb09kMmVENjFWVHdlTUU4UGFvQ1hqMlVXeU14QzJkUGpWUDQwRkRFX0hLMHRpeDk2SWZ5SWFaY3Q2QkxQWFJQY3hoalYtRF9ZeExBdUlCdUhWWW5ZLS11aVRQd0hFOEtvSS05Qi02Y3pVOVJVNVNKZk9sVkw4bzBSclhEQkZHd3FrVHprTU1rTkxwMHo0eUxl?oc=5",
+      "published_at": "2026-08-20T02:19:25.000Z",
+      "fetched_at": "2026-08-20T04:49:51.825Z",
       "score": 0.3333333333333333,
       "method": "rule-based",
       "assets": [
@@ -1199,13 +1193,91 @@
       ]
     },
     {
-      "guid": "CBMi1wFBVV95cUxQYmo1UHB4S3BiemplcFFDM0o5V0ZyZ3VhLXJKczZKRUgtX0FCWTRHbkx2QnpudzlJcy13MDk4VEgxM0Z3b1hJTDZMQkVieVd1VXJNaE1FdzZjWGtPZlc3QlMxYkZfVjRzVE13b3hQU215RWFXY25EWmJONUZiU0FPUlhRN0tFNHZBdXJxUGZGWVJkWGdoYXlNSzZIcWF2VDFJT2pXQjNLN056enNnU0h5Z05idWxobUdnOGNXSUJTTU5FQnFGS19LVHF6aUxtdFdHTXZ5dEJZNA",
-      "source": "Crowdfund Insider",
-      "title": "Bitwise Explores Tokenization of Shares in Solana (SOL) Staking ETF Through Superstate Collab",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQYmo1UHB4S3BiemplcFFDM0o5V0ZyZ3VhLXJKczZKRUgtX0FCWTRHbkx2QnpudzlJcy13MDk4VEgxM0Z3b1hJTDZMQkVieVd1VXJNaE1FdzZjWGtPZlc3QlMxYkZfVjRzVE13b3hQU215RWFXY25EWmJONUZiU0FPUlhRN0tFNHZBdXJxUGZGWVJkWGdoYXlNSzZIcWF2VDFJT2pXQjNLN056enNnU0h5Z05idWxobUdnOGNXSUJTTU5FQnFGS19LVHF6aUxtdFdHTXZ5dEJZNA?oc=5",
-      "published_at": "2026-08-16T16:08:41.000Z",
-      "fetched_at": "2026-08-17T09:13:47.421Z",
+      "guid": "CBMigwFBVV95cUxNT3VnQ0JhR3pBaWROMmd2cFp3M24wTDVFOXNXRWh4eDFoWHVYNkFxR0Z1RXp3cHEzUExabk4zeXNieHgyN3lwbEZnQ3VhYjBQamJaLTVEb2gtOEtTTk8zeTFKVlM0Y3A3TWdIb285VW5KRngySDcxa1dzV1JHRFJxcTB3Yw",
+      "source": "Bitcoin News",
+      "title": "Cash App Adds XRP, SOL and ETH via Moonpay for 59M Users",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNT3VnQ0JhR3pBaWROMmd2cFp3M24wTDVFOXNXRWh4eDFoWHVYNkFxR0Z1RXp3cHEzUExabk4zeXNieHgyN3lwbEZnQ3VhYjBQamJaLTVEb2gtOEtTTk8zeTFKVlM0Y3A3TWdIb285VW5KRngySDcxa1dzV1JHRFJxcTB3Yw?oc=5",
+      "published_at": "2026-08-20T00:29:51.000Z",
+      "fetched_at": "2026-08-20T04:49:51.825Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "CBMiigFBVV95cUxNcUpXbkljV1dvOXV0YXNUV29ieEZyV2lLSnNRcHZUS21Zd05RSjZLa0J6dU5odjFoMWQ3SzFZd2ZIUWM1Zkx1R19kQmNUcGhfTGtjT1M5amdRYTdMLW9PQ0l2MUJCVEVKZ3d0bHpQMGhjbDNNd21jUlZSVWI1VHBMc1FjbThvZHJXT0E",
+      "source": "Pluang",
+      "title": "JitoSOL holders approve key Solana governance p...",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcUpXbkljV1dvOXV0YXNUV29ieEZyV2lLSnNRcHZUS21Zd05RSjZLa0J6dU5odjFoMWQ3SzFZd2ZIUWM1Zkx1R19kQmNUcGhfTGtjT1M5amdRYTdMLW9PQ0l2MUJCVEVKZ3d0bHpQMGhjbDNNd21jUlZSVWI1VHBMc1FjbThvZHJXT0E?oc=5",
+      "published_at": "2026-08-19T23:43:55.000Z",
+      "fetched_at": "2026-08-20T04:49:51.827Z",
       "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "CBMinAFBVV95cUxPR1c1N1JzNmdVTVVoOUkyQ1hjdXdIRVgtUjBUS2JJdmFhZW50eDN2WXdhcmJHcVVsN3BPTlp5cTZ6dlhHZ2RKUEtkc1RHV3ZmeThTLU1UeGEwcG12WkJWQ3NTMWhhcnFsSmtMQ2hucXZudE5mV1RNeHIyNk02c25JNGZnLVRWR2cxU1VtMkMxWTZtS0JWT1JsSE9Fd1o",
+      "source": "Crypto Briefing",
+      "title": "JitoSOL holders reach quorum, vote YES on Solana governance proposals",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR1c1N1JzNmdVTVVoOUkyQ1hjdXdIRVgtUjBUS2JJdmFhZW50eDN2WXdhcmJHcVVsN3BPTlp5cTZ6dlhHZ2RKUEtkc1RHV3ZmeThTLU1UeGEwcG12WkJWQ3NTMWhhcnFsSmtMQ2hucXZudE5mV1RNeHIyNk02c25JNGZnLVRWR2cxU1VtMkMxWTZtS0JWT1JsSE9Fd1o?oc=5",
+      "published_at": "2026-08-19T23:31:02.000Z",
+      "fetched_at": "2026-08-20T04:49:51.825Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "CBMifEFVX3lxTFBCa3VFYmVWbi1jaTM2YnltRU8yMnZLYVhXZXREQllLMV9DeS1HTjdkd21wSlRQd3YzUnhHVUhBQVdtbzEwZHFYbWpUU3VudWN3eFE3dlZ6VzJ3emIwVnpGbTA2aDVzVjk1UXdodkEwQmZfd2NCREZvWGNMWmI",
+      "source": "AOL.com",
+      "title": "Bitcoin Hits $69,000, Ethereum Goes on 20% Bull Rampage, XRP, SOL Pump 10% on Historic Crypto Day",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCa3VFYmVWbi1jaTM2YnltRU8yMnZLYVhXZXREQllLMV9DeS1HTjdkd21wSlRQd3YzUnhHVUhBQVdtbzEwZHFYbWpUU3VudWN3eFE3dlZ6VzJ3emIwVnpGbTA2aDVzVjk1UXdodkEwQmZfd2NCREZvWGNMWmI?oc=5",
+      "published_at": "2026-08-19T23:28:01.000Z",
+      "fetched_at": "2026-08-20T04:49:51.827Z",
+      "score": 0.3333333333333333,
+      "method": "rule-based",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "CBMibkFVX3lxTFBmZmFqdXVwQkhXYmU0bVEwVHQwT05wNjJtWFNNc3FDNGM5MFNyYUx6ejkwS2dvcHRGUDlIRThzeno4ckRKQ09aa3hLNFdwRVppS3BOUU9Ed3dtd0YwRnk1NTF6Rk1WaFlCcDhkRHNR",
+      "source": "BeInCrypto",
+      "title": "3 Altcoins Grayscale Says Could Win From New US Token Rules",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmZmFqdXVwQkhXYmU0bVEwVHQwT05wNjJtWFNNc3FDNGM5MFNyYUx6ejkwS2dvcHRGUDlIRThzeno4ckRKQ09aa3hLNFdwRVppS3BOUU9Ed3dtd0YwRnk1NTF6Rk1WaFlCcDhkRHNR?oc=5",
+      "published_at": "2026-08-19T21:26:00.000Z",
+      "fetched_at": "2026-08-20T04:49:51.825Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "CBMiwwFBVV95cUxOQlhRMWxnVGNpQ3d4RDRRZFJ6Tk15YUNTVW5GS0V3X0JyVFA5TGRTWmNGVjI5RzdTRUYzY3NLRjZGaDNRV1pPdnc2b3NYM1hxRUpnbUkxWGZPM0tqLUpsdTE2RTVRZkNOSEMtWkR3dUdOYThMcTJuX2FDNy1xdEdPd2dvWF9lX09PbzExbVZ5LTVkdXpVVUc2ZzQ2dEoza0lIVm1oM0pBRkN3Z2xqd2FXaUhBYzREaGFZRGQ3QW1YVWo1WDA",
+      "source": "CryptoSlate",
+      "title": "Solana is slashing per-block compute limits so its new 350ms speed boost doesn't overload the network",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQlhRMWxnVGNpQ3d4RDRRZFJ6Tk15YUNTVW5GS0V3X0JyVFA5TGRTWmNGVjI5RzdTRUYzY3NLRjZGaDNRV1pPdnc2b3NYM1hxRUpnbUkxWGZPM0tqLUpsdTE2RTVRZkNOSEMtWkR3dUdOYThMcTJuX2FDNy1xdEdPd2dvWF9lX09PbzExbVZ5LTVkdXpVVUc2ZzQ2dEoza0lIVm1oM0pBRkN3Z2xqd2FXaUhBYzREaGFZRGQ3QW1YVWo1WDA?oc=5",
+      "published_at": "2026-08-19T20:50:27.000Z",
+      "fetched_at": "2026-08-20T04:49:51.826Z",
+      "score": 0,
+      "method": "rule-based",
+      "assets": [
+        "solana"
+      ]
+    },
+    {
+      "guid": "CBMi4wFBVV95cUxON3pmajF5a2Uza2R0cGlQQmtWTVEzQjJNVjEzOUdYZkkyTnNmMFJjaTJOMmRRbzU1QVhqNjljc1Y3LW5LdFBDbVgzOE5zTWFFYkRDaEY2V2VsTDJWQkZRN25QQ3poNFBwNWtiNWlvRUNJdU9oM2EwM2NMZWFXal9FNDFsTElYTHBoTkF4VTU3SDB6VHg5cTlwc0gwalZsQTZISE9jeDJwM3lGSFhudGRhQ2xWTG1CRkJoSHlZRWRHamNtdy10dXU0SnlYQkVjMFF4cVBaeDlLTHo5QThpamlpd3ZNaw",
+      "source": "CoinDesk",
+      "title": "Bitcoin (BTC) rises above $68,000, ether (ETH) jumps as Treasury buybacks boost risk appetite",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxON3pmajF5a2Uza2R0cGlQQmtWTVEzQjJNVjEzOUdYZkkyTnNmMFJjaTJOMmRRbzU1QVhqNjljc1Y3LW5LdFBDbVgzOE5zTWFFYkRDaEY2V2VsTDJWQkZRN25QQ3poNFBwNWtiNWlvRUNJdU9oM2EwM2NMZWFXal9FNDFsTElYTHBoTkF4VTU3SDB6VHg5cTlwc0gwalZsQTZISE9jeDJwM3lGSFhudGRhQ2xWTG1CRkJoSHlZRWRHamNtdy10dXU0SnlYQkVjMFF4cVBaeDlLTHo5QThpamlpd3ZNaw?oc=5",
+      "published_at": "2026-08-19T16:18:04.000Z",
+      "fetched_at": "2026-08-20T04:49:51.670Z",
+      "score": 1,
       "method": "rule-based",
       "assets": [
         "solana"
@@ -1217,335 +1289,218 @@
     "days": 40,
     "direction": {
       "threshold": 0.06,
-      "accuracy": 0.32092198581560283,
-      "baseline": 0.4095744680851064,
-      "edge": -0.08865248226950356,
-      "directional_calls": 925,
-      "precision_on_calls": 0.29621621621621624,
-      "n": 1128,
+      "accuracy": 0.3358208955223881,
+      "baseline": 0.4216417910447761,
+      "edge": -0.08582089552238803,
+      "directional_calls": 881,
+      "precision_on_calls": 0.3087400681044268,
+      "n": 1072,
       "classes": {
-        "up": 309,
-        "flat": 462,
-        "down": 357
+        "up": 286,
+        "flat": 452,
+        "down": 334
       }
     },
     "volatility": {
-      "thr_prob": 0.313,
-      "base_rate": 0.1870567375886525,
-      "high_risk_rate": 0.30319148936170215,
-      "lift": 1.6208530805687205,
-      "recall": 0.5402843601895735,
-      "precision": 0.30319148936170215,
+      "thr_prob": 0.298,
+      "base_rate": 0.18470149253731344,
+      "high_risk_rate": 0.29411764705882354,
+      "lift": 1.5923945335710041,
+      "recall": 0.5303030303030303,
+      "precision": 0.29411764705882354,
       "coef": {
         "w": [
-          0.0004565220599248728,
-          0.012295332040333335,
-          -0.02353919736739554,
-          0.03647120455458899,
-          -0.2623394793644574,
-          -0.06597047677963938,
-          0.22500043673205916
+          -0.006538915050740112,
+          0.18226305426316078,
+          -0.06713073613031921,
+          0.05168269018646019,
+          -0.21447525014405766,
+          -0.02417861501089072,
+          0.199133388008486,
+          -0.17602668160614787,
+          0.026452967169091457
         ],
-        "b": -0.7037479185242166,
+        "b": -0.6855823843484928,
         "mean": [
-          2.5645291973727424,
-          3.233008068199343,
-          3.512254017561369,
-          2.7250452791061877,
-          3.4625,
-          0.7162794340163994,
-          3.5840430055400025
+          2.5956830771210617,
+          3.2689999703764663,
+          3.52439876536162,
+          2.757391714393855,
+          3.413557213930348,
+          0.7220662379987197,
+          3.6022029412411642,
+          0.8927943195036054,
+          0.4210199004975124
         ],
         "sd": [
-          1.9560582867131495,
-          1.6920870729230852,
-          1.431406932755629,
-          2.7459342542057494,
-          3.3092256952920116,
-          0.3970331981603919,
-          1.5015776662278937
+          1.9727417259836089,
+          1.6978445561597575,
+          1.4264435170886132,
+          2.761390718870681,
+          3.1885195621118867,
+          0.3983826791943825,
+          1.5032871692335492,
+          0.32750005045434966,
+          0.8034322855193962
         ]
       },
-      "n": 1128
+      "n": 1072
     },
     "volatility_variants": {
       "simple": {
-        "threshold": 3.48,
-        "base_rate": 0.1870567375886525,
-        "high_risk_rate": 0.4180327868852459,
-        "low_risk_rate": 0.15904572564612326,
-        "lift": 2.234791391500272,
-        "recall": 0.24170616113744076,
-        "high_days": 122,
-        "n": 1128
+        "threshold": 3.52,
+        "base_rate": 0.18470149253731344,
+        "high_risk_rate": 0.40540540540540543,
+        "low_risk_rate": 0.15920915712799166,
+        "lift": 2.194922194922195,
+        "recall": 0.22727272727272727,
+        "high_days": 111,
+        "n": 1072
       },
       "price_logistic": {
-        "thr_prob": 0.313,
-        "base_rate": 0.1870567375886525,
-        "high_risk_rate": 0.30319148936170215,
-        "lift": 1.6208530805687205,
-        "recall": 0.5402843601895735,
-        "precision": 0.30319148936170215,
+        "thr_prob": 0.298,
+        "base_rate": 0.18470149253731344,
+        "high_risk_rate": 0.29411764705882354,
+        "lift": 1.5923945335710041,
+        "recall": 0.5303030303030303,
+        "precision": 0.29411764705882354,
         "coef": {
           "w": [
-            0.0004565220599248728,
-            0.012295332040333335,
-            -0.02353919736739554,
-            0.03647120455458899,
-            -0.2623394793644574,
-            -0.06597047677963938,
-            0.22500043673205916
+            -0.006538915050740112,
+            0.18226305426316078,
+            -0.06713073613031921,
+            0.05168269018646019,
+            -0.21447525014405766,
+            -0.02417861501089072,
+            0.199133388008486,
+            -0.17602668160614787,
+            0.026452967169091457
           ],
-          "b": -0.7037479185242166,
+          "b": -0.6855823843484928,
           "mean": [
-            2.5645291973727424,
-            3.233008068199343,
-            3.512254017561369,
-            2.7250452791061877,
-            3.4625,
-            0.7162794340163994,
-            3.5840430055400025
+            2.5956830771210617,
+            3.2689999703764663,
+            3.52439876536162,
+            2.757391714393855,
+            3.413557213930348,
+            0.7220662379987197,
+            3.6022029412411642,
+            0.8927943195036054,
+            0.4210199004975124
           ],
           "sd": [
-            1.9560582867131495,
-            1.6920870729230852,
-            1.431406932755629,
-            2.7459342542057494,
-            3.3092256952920116,
-            0.3970331981603919,
-            1.5015776662278937
+            1.9727417259836089,
+            1.6978445561597575,
+            1.4264435170886132,
+            2.761390718870681,
+            3.1885195621118867,
+            0.3983826791943825,
+            1.5032871692335492,
+            0.32750005045434966,
+            0.8034322855193962
           ]
         },
-        "n": 1128
+        "n": 1072
       },
       "price_plus_funding": null
     },
     "volatility_cv": {
       "folds": 4,
-      "lift_mean": 1.39,
-      "lift_std": 0.16,
-      "recall_mean": 0.46,
-      "lift_min": 1.16,
-      "lift_max": 1.57
+      "lift_mean": 1.45,
+      "lift_std": 0.18,
+      "recall_mean": 0.48,
+      "lift_min": 1.19,
+      "lift_max": 1.69
+    },
+    "recent": {
+      "days": 10,
+      "n": 80,
+      "direction_hit_rate": 0.475,
+      "big_moves": 11,
+      "big_moves_flagged": 1,
+      "volatility_recall": 0.091,
+      "high_risk_flags": 5
     },
     "intraday_ablation": {
       "available": true,
       "window_days": 90,
-      "n": 244,
+      "n": 192,
       "without_intraday": {
-        "lift": 1.3732752360203342,
-        "recall": 0.45588235294117646
+        "lift": 1.2692307692307694,
+        "recall": 0.4230769230769231
       },
       "with_intraday": {
-        "lift": 1.4618736383442266,
-        "recall": 0.4852941176470588
+        "lift": 1.2692307692307694,
+        "recall": 0.4230769230769231
       },
-      "helps": true,
-      "model": {
-        "coef": {
-          "w": [
-            0.08288797084361364,
-            0.09634357913041099,
-            0.19038223043768884,
-            -0.417671295326603,
-            0.13240023564083572,
-            0.16602093128891388,
-            0.4975312427455117,
-            0.5276920775519998,
-            0.12263990409662205
-          ],
-          "b": -1.8893332973319337,
-          "mean": [
-            1.6055630861474337,
-            2.0746564688852773,
-            2.2673847163553726,
-            1.8056834927388994,
-            6.337912087912088,
-            0.6796980875805505,
-            2.319621561550283,
-            0.45867962277471913,
-            0.4647260523008963
-          ],
-          "sd": [
-            1.0826133423593538,
-            0.9819457092672133,
-            0.8749818306061667,
-            1.6631872148487765,
-            4.821380044212752,
-            0.37031358040620616,
-            0.9496711382567211,
-            0.25875925508075465,
-            0.2589604212895495
-          ]
-        },
-        "thr_prob": 0.334,
-        "lastByCoin": {
-          "bitcoin": [
-            0.5560296236265956,
-            0.6294237261162553,
-            0.6885838603865287,
-            0.25562557659033946,
-            14,
-            0.7050989140889272,
-            0.667977554470428,
-            0.11151596132221796,
-            0.08166977503101268
-          ],
-          "ethereum": [
-            0.2987193818607731,
-            0.8757703487952211,
-            0.8999983859438748,
-            0.3897354011008728,
-            14,
-            0.2987198640113993,
-            0.8046749136778094,
-            0.16392278352462275,
-            0.09089943005854548
-          ],
-          "solana": [
-            0.8755143304592696,
-            0.8674792281587214,
-            1.2558275340083476,
-            1.3071048048129774,
-            8,
-            0.645741665882026,
-            1.2269439469934822,
-            0.2608348233455395,
-            0.15669821808961604
-          ],
-          "binancecoin": [
-            0.6376483024506211,
-            1.1448084934654752,
-            0.9090168505704691,
-            1.1202151664743631,
-            14,
-            0.6319501028056301,
-            0.9667639727382853,
-            0.12435424045508245,
-            0.1540752602406925
-          ],
-          "ripple": [
-            1.168908443562532,
-            1.3275333529973827,
-            1.2677828636301685,
-            0.9488931282450344,
-            14,
-            0.8546008834035154,
-            1.3734258297578343,
-            0.14926507954688142,
-            0.13074987508924926
-          ],
-          "dogecoin": [
-            0.19786821712386468,
-            2.0114491949652504,
-            1.5538372214858893,
-            0.3589646723060264,
-            4,
-            0.11964189374459118,
-            1.6107772743228128,
-            0.20861875859143797,
-            0.13814989911695216
-          ],
-          "cardano": [
-            0.32002508793591106,
-            0.991239363374967,
-            2.0634715428252974,
-            0.9830307270347641,
-            10,
-            0.14792202328577309,
-            1.9377458175194997,
-            0.41722226595873446,
-            0.2811385455845311
-          ],
-          "avalanche-2": [
-            0.7055437331323022,
-            1.1782731069632586,
-            1.3110812238750376,
-            0.022080069103062844,
-            14,
-            0.5000022119171672,
-            1.2651353525406113,
-            0.42171570737384845,
-            1.276153862289326
-          ]
-        },
-        "lastVolByCoin": {
-          "bitcoin": 0.11,
-          "ethereum": 0.16,
-          "solana": 0.26,
-          "binancecoin": 0.12,
-          "ripple": 0.15,
-          "dogecoin": 0.21,
-          "cardano": 0.42,
-          "avalanche-2": 0.42
-        }
-      }
+      "helps": false,
+      "model": null
     },
     "funding_helps": false,
-    "funding_coverage": 0.11,
+    "funding_coverage": 0.12,
     "model_used": "logistic",
     "ablation": {
-      "always_flat": 0.3611111111111111,
-      "momentum_only": 0.35185185185185186
+      "always_flat": 0.3664179104477612,
+      "momentum_only": 0.3533582089552239
     },
     "per_asset": {
       "bitcoin": {
-        "realized_vol": 0.11,
-        "prob_big_move": 0.027,
+        "realized_vol": 2.57,
+        "prob_big_move": 0.142,
         "risk": "low",
         "big_move_expected": false,
-        "source": "intraday"
+        "source": "daily"
       },
       "ethereum": {
-        "realized_vol": 0.16,
-        "prob_big_move": 0.027,
-        "risk": "low",
+        "realized_vol": 6.08,
+        "prob_big_move": 0.261,
+        "risk": "medium",
         "big_move_expected": false,
-        "source": "intraday"
+        "source": "daily"
       },
       "solana": {
-        "realized_vol": 0.26,
-        "prob_big_move": 0.037,
-        "risk": "low",
+        "realized_vol": 3.82,
+        "prob_big_move": 0.213,
+        "risk": "medium",
         "big_move_expected": false,
-        "source": "intraday"
+        "source": "daily"
       },
       "binancecoin": {
-        "realized_vol": 0.12,
-        "prob_big_move": 0.029,
+        "realized_vol": 1.52,
+        "prob_big_move": 0.133,
         "risk": "low",
         "big_move_expected": false,
-        "source": "intraday"
+        "source": "daily"
       },
       "ripple": {
-        "realized_vol": 0.15,
-        "prob_big_move": 0.048,
+        "realized_vol": 3.75,
+        "prob_big_move": 0.177,
         "risk": "low",
         "big_move_expected": false,
-        "source": "intraday"
+        "source": "daily"
       },
       "dogecoin": {
-        "realized_vol": 0.21,
-        "prob_big_move": 0.041,
-        "risk": "low",
+        "realized_vol": 2.42,
+        "prob_big_move": 0.241,
+        "risk": "medium",
         "big_move_expected": false,
-        "source": "intraday"
+        "source": "daily"
       },
       "cardano": {
-        "realized_vol": 0.42,
-        "prob_big_move": 0.08,
-        "risk": "low",
+        "realized_vol": 2.9,
+        "prob_big_move": 0.201,
+        "risk": "medium",
         "big_move_expected": false,
-        "source": "intraday"
+        "source": "daily"
       },
       "avalanche-2": {
-        "realized_vol": 0.42,
-        "prob_big_move": 0.128,
-        "risk": "low",
-        "big_move_expected": false,
-        "source": "intraday"
+        "realized_vol": 3.02,
+        "prob_big_move": 0.306,
+        "risk": "high",
+        "big_move_expected": true,
+        "source": "daily"
       }
     },
-    "computed_at": "2026-08-17T09:13:53.394Z"
+    "computed_at": "2026-08-20T04:49:54.802Z"
   }
 }

@@ -128,6 +128,15 @@ export default function Page() {
         {data?.generated_at && <span className="meta">обновлено {fmtTime(data.generated_at)}</span>}
       </div>
 
+      {bt?.recent && (
+        <div className="selfcheck" title="Модель сверяет себя с фактическим движением цены за последние дни. Честно, без подкрутки.">
+          Самопроверка за {bt.recent.days} дней:{" "}
+          направление угадано <b>{Math.round(bt.recent.direction_hit_rate * 100)}%</b> (≈монетка),{" "}
+          крупных движений поймано заранее <b>{bt.recent.big_moves_flagged}/{bt.recent.big_moves}</b>
+          {bt.recent.big_moves > 0 && bt.recent.volatility_recall === 0 ? " (прорывы из тишины модель проспала, честно)" : ""}
+        </div>
+      )}
+
       {loading && <div className="state"><div className="spinner" />Тяну свежие цены и новости…</div>}
       {error && !loading && (
         <div className="state">Ошибка загрузки: {error}<br /><button className="btn" onClick={load} style={{ marginTop: 14 }}>Повторить</button></div>

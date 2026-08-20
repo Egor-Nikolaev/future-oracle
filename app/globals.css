@@ -82,6 +82,8 @@ body::before {
 .acc-pill.warn { border-color: rgba(239, 68, 68, 0.35); }
 .acc-pill.warn b { color: var(--down); }
 .meta { color: var(--faint); font-size: 12px; }
+.selfcheck { margin: -6px 0 18px; padding: 9px 13px; background: var(--panel); border: 1px solid var(--border-soft); border-left: 3px solid var(--gold); border-radius: 8px; color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+.selfcheck b { color: var(--fg); }
 
 /* grid */
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(324px, 1fr)); gap: 13px; }
